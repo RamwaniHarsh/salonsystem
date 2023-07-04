@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7578D92C-B13D-448E-A130-5A06749956EE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>salonsystem.My.MyApplication</StartupObject>
+    <RootNamespace>salonsystem</RootNamespace>
+    <AssemblyName>salonsystem</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>salonsystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>salonsystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>hairstyle.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\OneDrive\Desktop\Salon\Guna.UI\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\OneDrive\Desktop\Guna_UI_v2.0.0.6\Guna.UI2.WinForms_v2.0.0.6\.net 2.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmForgotPassword.Designer.vb">
+      <DependentUpon>frmForgotPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmForgotPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.vb">
+      <DependentUpon>frmlogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectPrinter.Designer.vb">
+      <DependentUpon>FrmSelectPrinter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectPrinter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Change_Password.Designer.vb">
+      <DependentUpon>Frm_Change_Password.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Change_Password.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.vb">
+      <DependentUpon>main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="masterDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>masterDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="sendSMS.vb" />
+    <Compile Include="UC_AddProducts.Designer.vb">
+      <DependentUpon>UC_AddProducts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_AddProducts.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_AddProductStocks.Designer.vb">
+      <DependentUpon>UC_AddProductStocks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_AddProductStocks.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_AddServices.Designer.vb">
+      <DependentUpon>UC_AddServices.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_AddServices.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_AddSubService.Designer.vb">
+      <DependentUpon>UC_AddSubService.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_AddSubService.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Home.Designer.vb">
+      <DependentUpon>UC_Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Home.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_NewCustomer.Designer.vb">
+      <DependentUpon>UC_NewCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_NewCustomer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_NewEmployee.Designer.vb">
+      <DependentUpon>UC_NewEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_NewEmployee.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_AddProductCategory.Designer.vb">
+      <DependentUpon>UC_AddProductCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_AddProductCategory.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_NewUser.Designer.vb">
+      <DependentUpon>UC_NewUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_NewUser.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Offers.Designer.vb">
+      <DependentUpon>UC_Offers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Offers.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ProductSales.Designer.vb">
+      <DependentUpon>UC_ProductSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ProductSales.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ProductSalesReports.Designer.vb">
+      <DependentUpon>UC_ProductSalesReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ProductSalesReports.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ServiceSalesReport.Designer.vb">
+      <DependentUpon>UC_ServiceSalesReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ServiceSalesReport.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ServicesSales.Designer.vb">
+      <DependentUpon>UC_ServicesSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ServicesSales.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_UpdateProductStock.Designer.vb">
+      <DependentUpon>UC_UpdateProductStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_UpdateProductStock.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_UpdateSubServices.Designer.vb">
+      <DependentUpon>UC_UpdateSubServices.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_UpdateSubServices.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ViewProductStock.Designer.vb">
+      <DependentUpon>UC_ViewProductStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ViewProductStock.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ViewServices.Designer.vb">
+      <DependentUpon>UC_ViewServices.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ViewServices.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_UpdateCustomer.Designer.vb">
+      <DependentUpon>UC_UpdateCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_UpdateCustomer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_UpdateEmplyee.Designer.vb">
+      <DependentUpon>UC_UpdateEmplyee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_UpdateEmplyee.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_UpdateProduct.Designer.vb">
+      <DependentUpon>UC_UpdateProduct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_UpdateProduct.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_UpdateProductCategory.Designer.vb">
+      <DependentUpon>UC_UpdateProductCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_UpdateProductCategory.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_UpdateService.Designer.vb">
+      <DependentUpon>UC_UpdateService.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_UpdateService.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ViewProduct.Designer.vb">
+      <DependentUpon>UC_ViewProduct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ViewProduct.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ViewProductCategory.Designer.vb">
+      <DependentUpon>UC_ViewProductCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ViewProductCategory.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ViewCustomer.Designer.vb">
+      <DependentUpon>UC_ViewCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ViewCustomer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ViewEmployee.Designer.vb">
+      <DependentUpon>UC_ViewEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ViewEmployee.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ViewSubServices.Designer.vb">
+      <DependentUpon>UC_ViewSubServices.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ViewSubServices.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmForgotPassword.resx">
+      <DependentUpon>frmForgotPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectPrinter.resx">
+      <DependentUpon>FrmSelectPrinter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Change_Password.resx">
+      <DependentUpon>Frm_Change_Password.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_AddProducts.resx">
+      <DependentUpon>UC_AddProducts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_AddProductStocks.resx">
+      <DependentUpon>UC_AddProductStocks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_AddServices.resx">
+      <DependentUpon>UC_AddServices.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_AddSubService.resx">
+      <DependentUpon>UC_AddSubService.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Home.resx">
+      <DependentUpon>UC_Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_NewCustomer.resx">
+      <DependentUpon>UC_NewCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_NewEmployee.resx">
+      <DependentUpon>UC_NewEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_AddProductCategory.resx">
+      <DependentUpon>UC_AddProductCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_NewUser.resx">
+      <DependentUpon>UC_NewUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Offers.resx">
+      <DependentUpon>UC_Offers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ProductSales.resx">
+      <DependentUpon>UC_ProductSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ProductSalesReports.resx">
+      <DependentUpon>UC_ProductSalesReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ServiceSalesReport.resx">
+      <DependentUpon>UC_ServiceSalesReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ServicesSales.resx">
+      <DependentUpon>UC_ServicesSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_UpdateProductStock.resx">
+      <DependentUpon>UC_UpdateProductStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_UpdateSubServices.resx">
+      <DependentUpon>UC_UpdateSubServices.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ViewProductStock.resx">
+      <DependentUpon>UC_ViewProductStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ViewServices.resx">
+      <DependentUpon>UC_ViewServices.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_UpdateCustomer.resx">
+      <DependentUpon>UC_UpdateCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_UpdateEmplyee.resx">
+      <DependentUpon>UC_UpdateEmplyee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_UpdateProduct.resx">
+      <DependentUpon>UC_UpdateProduct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_UpdateProductCategory.resx">
+      <DependentUpon>UC_UpdateProductCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_UpdateService.resx">
+      <DependentUpon>UC_UpdateService.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ViewCustomer.resx">
+      <DependentUpon>UC_ViewCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ViewEmployee.resx">
+      <DependentUpon>UC_ViewEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ViewProduct.resx">
+      <DependentUpon>UC_ViewProduct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ViewProductCategory.resx">
+      <DependentUpon>UC_ViewProductCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ViewSubServices.resx">
+      <DependentUpon>UC_ViewSubServices.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="masterDataSet.xsc">
+      <DependentUpon>masterDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="masterDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>masterDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="masterDataSet.xss">
+      <DependentUpon>masterDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataConnection.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataConnection_log.ldf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <DependentUpon>DataConnection.mdf</DependentUpon>
+    </Content>
+    <Content Include="hairstyle.ico" />
+    <None Include="Resources\shape_square-removebg-preview.png" />
+    <None Include="Resources\transparent-scissor-icon-tools-and-utensils-icon-hair-salon-ic-5dd8bb14417c47.5437578415744847562682.png" />
+    <None Include="Resources\menu.png" />
+    <None Include="Resources\nav-icon-blue.png" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\Conact.png" />
+    <None Include="Resources\calendar.png" />
+    <None Include="Resources\diagram.png" />
+    <None Include="Resources\home.png" />
+    <None Include="Resources\Untitled-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

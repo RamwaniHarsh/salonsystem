@@ -1,0 +1,772 @@
+C:\Users\harsh\source\repos\salonsystem\salonsystem\bin\Debug\salonsystem.exe.config
+C:\Users\harsh\source\repos\salonsystem\salonsystem\bin\Debug\salonsystem.exe
+C:\Users\harsh\source\repos\salonsystem\salonsystem\bin\Debug\salonsystem.pdb
+C:\Users\harsh\source\repos\salonsystem\salonsystem\bin\Debug\salonsystem.xml
+C:\Users\harsh\source\repos\salonsystem\salonsystem\obj\Debug\salonsystem.vbprojAssemblyReference.cache
+C:\Users\harsh\source\repos\salonsystem\salonsystem\obj\Debug\salonsystem.frmlogin.resources
+C:\Users\harsh\source\repos\salonsystem\salonsystem\obj\Debug\salonsystem.Resources.resources
+C:\Users\harsh\source\repos\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.GenerateResource.cache
+C:\Users\harsh\source\repos\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CoreCompileInputs.cache
+C:\Users\harsh\source\repos\salonsystem\salonsystem\obj\Debug\salonsystem.exe
+C:\Users\harsh\source\repos\salonsystem\salonsystem\obj\Debug\salonsystem.xml
+C:\Users\harsh\source\repos\salonsystem\salonsystem\obj\Debug\salonsystem.pdb
+C:\Users\harsh\source\repos\salonsystem\salonsystem\obj\Debug\salonsystem.main.resources
+C:\Users\harsh\source\repos\salonsystem\salonsystem\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\harsh\source\repos\salonsystem\salonsystem\bin\Debug\Guna.UI.dll
+C:\Users\harsh\source\repos\salonsystem\salonsystem\bin\Debug\Guna.UI2.dll
+C:\Users\harsh\source\repos\salonsystem\salonsystem\bin\Debug\JTextBox.dll
+C:\Users\harsh\source\repos\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CopyComplete
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\bin\Debug\salonsystem.exe.config
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\bin\Debug\salonsystem.exe
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\bin\Debug\salonsystem.pdb
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\bin\Debug\salonsystem.xml
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\obj\Debug\salonsystem.vbprojAssemblyReference.cache
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\obj\Debug\salonsystem.frmlogin.resources
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\obj\Debug\salonsystem.main.resources
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\obj\Debug\salonsystem.Resources.resources
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.GenerateResource.cache
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CoreCompileInputs.cache
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CopyComplete
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\obj\Debug\salonsystem.exe
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\obj\Debug\salonsystem.xml
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\obj\Debug\salonsystem.pdb
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\bin\Debug\dataconnection.mdf
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\bin\Debug\dataconnection_log.ldf
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\bin\Debug\MetroFramework.Design.dll
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\bin\Debug\MetroFramework.dll
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\harsh\OneDrive\Desktop\Salon\Salon System VB\salonsystem\salonsystem\obj\Debug\salonsystem.Dashboard.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\bin\Debug\DataConnection.mdf
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\bin\Debug\DataConnection_log.ldf
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\bin\Debug\salonsystem.exe.config
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\bin\Debug\salonsystem.exe
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\bin\Debug\salonsystem.pdb
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\bin\Debug\salonsystem.xml
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\bin\Debug\Guna.UI.dll
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\bin\Debug\JTextBox.dll
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\bin\Debug\MetroFramework.Design.dll
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\bin\Debug\MetroFramework.dll
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\obj\Debug\salonsystem.vbprojAssemblyReference.cache
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\obj\Debug\salonsystem.frmlogin.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\obj\Debug\salonsystem.main.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\obj\Debug\salonsystem.Resources.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.GenerateResource.cache
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CoreCompileInputs.cache
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CopyComplete
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\obj\Debug\salonsystem.exe
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\obj\Debug\salonsystem.xml
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\obj\Debug\salonsystem.pdb
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\obj\Debug\salonsystem.UC_Customer.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem\salonsystem\obj\Debug\salonsystem.UC_Home.resources
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\bin\Debug\DataConnection.mdf
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\bin\Debug\DataConnection_log.ldf
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\bin\Debug\salonsystem.exe.config
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\bin\Debug\salonsystem.exe
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\bin\Debug\salonsystem.pdb
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\bin\Debug\salonsystem.xml
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\bin\Debug\MetroFramework.Design.dll
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\bin\Debug\MetroFramework.dll
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.vbprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.frmlogin.resources
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.main.resources
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.Resources.resources
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_Customer.resources
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_Home.resources
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CopyComplete
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.exe
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.xml
+C:\Users\LENOVO\Desktop\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.pdb
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DataConnection.mdf
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DataConnection_log.ldf
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\salonsystem.exe.config
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\salonsystem.exe
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\salonsystem.pdb
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\salonsystem.xml
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\MetroFramework.Design.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\MetroFramework.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\MetroFramework.Fonts.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.vbprojAssemblyReference.cache
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.frmlogin.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.main.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.Resources.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_Home.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.GenerateResource.cache
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CoreCompileInputs.cache
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CopyComplete
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.exe
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.xml
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.pdb
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateCustomer.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.Data.v19.2.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.Images.v19.2.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.Office.v19.2.Core.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.Utils.v19.2.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.XtraBars.v19.2.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.XtraRichEdit.v19.2.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.Data.v19.2.xml
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.Office.v19.2.Core.xml
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.Utils.v19.2.xml
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.XtraBars.v19.2.xml
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.XtraRichEdit.v19.2.xml
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.exe.licenses
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewCustomer.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_NewEmployee.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateEmplyee.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewEmployee.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_NewCustomer.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddProductCategory.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateProductCategory.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewProductCategory.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddProducts.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateProduct.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewProduct.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddServices.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateService.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewServices.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddSubService.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateSubServices.resources
+D:\Harsh\New folder\salonsystem\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewSubServices.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DataConnection.mdf
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DataConnection_log.ldf
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.exe.config
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.exe
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.pdb
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.xml
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\MetroFramework.Design.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\MetroFramework.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Data.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Office.v19.2.Core.xml
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Utils.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraBars.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraRichEdit.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.frmlogin.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.main.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.Resources.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddProducts.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddServices.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddSubService.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_NewCustomer.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_Home.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_NewEmployee.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddProductCategory.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateSubServices.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewServices.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateCustomer.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateEmplyee.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateProduct.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateProductCategory.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateService.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewCustomer.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewEmployee.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewProduct.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewProductCategory.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewSubServices.resources
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.exe.licenses
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CopyComplete
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.exe
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.xml
+C:\Users\LENOVO\source\repos\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.pdb
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.vbprojAssemblyReference.cache
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.frmlogin.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.main.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.Resources.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddProducts.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddServices.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddSubService.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_NewCustomer.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_Home.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_NewEmployee.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddProductCategory.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateSubServices.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewServices.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateCustomer.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateEmplyee.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateProduct.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateProductCategory.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateService.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewCustomer.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewEmployee.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewProduct.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewProductCategory.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewSubServices.resources
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.GenerateResource.cache
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.exe.licenses
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CoreCompileInputs.cache
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.exe
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.xml
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.pdb
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DataConnection.mdf
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DataConnection_log.ldf
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\salonsystem.exe.config
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\salonsystem.exe
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\salonsystem.pdb
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\salonsystem.xml
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.Data.v19.2.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.Images.v19.2.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.Office.v19.2.Core.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.Utils.v19.2.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.XtraBars.v19.2.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.XtraRichEdit.v19.2.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\MetroFramework.Design.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\MetroFramework.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\MetroFramework.Fonts.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.Data.v19.2.xml
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.Office.v19.2.Core.xml
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.Utils.v19.2.xml
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.XtraBars.v19.2.xml
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.XtraRichEdit.v19.2.xml
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\Harsh\Backup\SalonProject\SalonProject\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CopyComplete
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DataConnection.mdf
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DataConnection_log.ldf
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.exe.config
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.exe
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.pdb
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.xml
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\MetroFramework.Design.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\MetroFramework.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\MetroFramework.Fonts.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Data.v19.2.xml
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Office.v19.2.Core.xml
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Utils.v19.2.xml
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraBars.v19.2.xml
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraRichEdit.v19.2.xml
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraRichEdit.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbprojAssemblyReference.cache
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.frmlogin.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.main.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.Resources.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddProducts.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddServices.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddSubService.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_NewCustomer.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_Home.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_NewEmployee.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddProductCategory.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateSubServices.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewServices.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateCustomer.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateEmplyee.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateProduct.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateProductCategory.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateService.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewCustomer.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewEmployee.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewProduct.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewProductCategory.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewSubServices.resources
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.GenerateResource.cache
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.exe.licenses
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CoreCompileInputs.cache
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CopyComplete
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.exe
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.xml
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.pdb
+D:\Harsh\Backup\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ForgotPassword.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DataConnection.mdf
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DataConnection_log.ldf
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.exe.config
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.exe
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.pdb
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.xml
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbprojAssemblyReference.cache
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.frmlogin.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.main.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.Resources.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddProducts.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddProductStocks.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddServices.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddSubService.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_NewCustomer.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_Home.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_NewEmployee.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddProductCategory.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateProductStock.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateSubServices.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewServices.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateCustomer.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateEmplyee.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateProduct.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateProductCategory.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateService.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewCustomer.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewEmployee.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewProduct.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewProductCategory.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewSubServices.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.GenerateResource.cache
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.exe.licenses
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CoreCompileInputs.cache
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CopyComplete
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.exe
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.xml
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.pdb
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.frmForgotPassword.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewProductStock.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ProductSales.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ServicesSales.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DataConnection.mdf
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DataConnection_log.ldf
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.exe.config
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.exe
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.pdb
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.xml
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\MetroFramework.Design.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\MetroFramework.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Data.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Office.v19.2.Core.xml
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Utils.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraBars.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraRichEdit.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.frmForgotPassword.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.frmlogin.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.main.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.Resources.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddProducts.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddProductStocks.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddServices.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddSubService.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_NewCustomer.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_Home.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_NewEmployee.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddProductCategory.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ProductSales.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ServicesSales.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateProductStock.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateSubServices.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewProductStock.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewServices.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateCustomer.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateEmplyee.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateProduct.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateProductCategory.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateService.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewCustomer.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewEmployee.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewProduct.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewProductCategory.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewSubServices.resources
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.exe.licenses
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CopyComplete
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.exe
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.xml
+C:\Users\LENOVO\source\repos\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.pdb
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_NewUser.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.Frm_Change_Password.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ProductSalesReports.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ServiceSalesReport.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_Offers.resources
+C:\Users\harsh\OneDrive\Desktop\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.FrmSelectPrinter.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DataConnection.mdf
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\DataConnection_log.ldf
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.exe.config
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.exe
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.pdb
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\bin\Debug\salonsystem.xml
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.AssemblyReference.cache
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.SuggestedBindingRedirects.cache
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.frmForgotPassword.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.frmlogin.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.FrmSelectPrinter.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.Frm_Change_Password.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.main.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.Resources.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddProducts.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddProductStocks.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddServices.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddSubService.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_Home.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_NewCustomer.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_NewEmployee.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_AddProductCategory.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_NewUser.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_Offers.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ProductSales.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ProductSalesReports.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ServiceSalesReport.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ServicesSales.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateProductStock.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateSubServices.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewProductStock.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewServices.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateCustomer.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateEmplyee.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateProduct.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateProductCategory.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_UpdateService.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewCustomer.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewEmployee.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewProduct.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewProductCategory.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.UC_ViewSubServices.resources
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.GenerateResource.cache
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.exe.licenses
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CoreCompileInputs.cache
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.vbproj.CopyComplete
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.exe
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.xml
+D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\obj\Debug\salonsystem.pdb
