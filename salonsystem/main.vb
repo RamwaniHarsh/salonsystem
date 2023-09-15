@@ -1,6 +1,6 @@
-﻿Imports System.Data.SqlClient
+﻿Imports MySql.Data.MySqlClient
 Public Class main
-    Dim con As New SqlConnection
+    Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
     Private Sub closeusersetting()
         pnlusersettings.Height = 35
     End Sub
@@ -107,11 +107,10 @@ Public Class main
     Private Sub main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim uc As New UC_Home
         addhomeusercontrol(uc)
-        con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True"
-        If con.State = ConnectionState.Open Then
-            con.Close()
+        If conn.State = ConnectionState.Open Then
+            conn.Close()
         Else
-            con.Open()
+            conn.Open()
         End If
         lblcurrdate.Text = Date.Now.ToString("dd/MM/yyyy")
         currtime.Enabled = True
@@ -571,9 +570,6 @@ Public Class main
         servicetsales(uc)
     End Sub
 
-    Private Sub btnDeleteOrderSale_Click(sender As Object, e As EventArgs)
-
-    End Sub
     Private Sub manageuser(ByVal uc As UC_NewUser)
         panelContainer.Controls.Clear()
         uc.Dock = DockStyle.Top
@@ -629,4 +625,5 @@ Public Class main
         FrmSelectPrinter.Show()
         closeusersettings()
     End Sub
+
 End Class

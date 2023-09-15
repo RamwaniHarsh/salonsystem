@@ -1,8 +1,8 @@
-﻿Imports System.Data.SqlClient
+﻿Imports MySql.Data.MySqlClient
 Public Class UC_UpdateProductCategory
     Dim isfound As Integer
-    Dim con As New SqlConnection
-    Dim cmd As New SqlCommand
+    Dim conn As New MySqlConnection
+    Dim cmd As New MySqlCommand
     Private Sub btnadd_Click(sender As Object, e As EventArgs) Handles btnadd.Click
         updatedata()
     End Sub
@@ -13,10 +13,10 @@ Public Class UC_UpdateProductCategory
     End Sub
     Private Sub updatedata()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("Update Product_Category set Category_Name='" & txtcatname.Text & "',Description='" & txtcatdesc.Text & "' where Category_Name = '" & cmbIdProductCat.SelectedItem & "'")
-            cmd.Connection = con
-            con.Open()
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("Update Product_Category set Category_Name='" & txtcatname.Text & "',Description='" & txtcatdesc.Text & "' where Category_Name = '" & cmbIdProductCat.SelectedItem & "'")
+            cmd.Connection = conn
+            conn.Open()
 
             Dim r As Integer
             r = cmd.ExecuteNonQuery()
@@ -26,7 +26,7 @@ Public Class UC_UpdateProductCategory
             Else
                 MsgBox("No Record has been Saved !")
             End If
-            con.Close()
+            conn.Close()
 
         Catch ex As Exception
 
@@ -37,17 +37,17 @@ Public Class UC_UpdateProductCategory
         cmbIdProductCat.Items.Clear()
 
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT Category_Name from Product_Category")
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT Category_Name from Product_Category")
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 cmbIdProductCat.Items.Add(rdr("Category_Name"))
             End While
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
 
     End Sub
@@ -61,13 +61,13 @@ Public Class UC_UpdateProductCategory
         'disableall()
 
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("select * from Product_Category where [Category_Name] = @name")
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("select * from Product_Category where [Category_Name] = @name")
             cmd.Parameters.AddWithValue("name", cmbIdProductCat.Text)
-            cmd.Connection = con
-            con.Open()
+            cmd.Connection = conn
+            conn.Open()
             'disableall()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
 
             If (rdr.Read() = True) Then
                 txtcatname.Text = rdr("Category_Name")
@@ -78,7 +78,7 @@ Public Class UC_UpdateProductCategory
                 isfound = 0
                 cmbIdProductCat.Focus()
             End If
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try

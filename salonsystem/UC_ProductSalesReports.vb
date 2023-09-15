@@ -1,4 +1,4 @@
-﻿Imports System.Data.SqlClient
+﻿Imports MySql.Data.MySqlClient
 
 Public Class UC_ProductSalesReports
     Dim billno As Integer
@@ -69,11 +69,11 @@ Public Class UC_ProductSalesReports
         dgvprintReceipt.Columns(3).Width = 80
     End Sub
     Private Sub getbill()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("SELECT Customer_Name, Mobile_Number from Product_Sales_Master Where Bill_No = '" & txtCusProdReportBillNo.Text & "'")
-        cmd.Connection = con
-        con.Open()
-        Dim rdr As SqlDataReader = cmd.ExecuteReader
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("SELECT Customer_Name, Mobile_Number from Product_Sales_Master Where Bill_No = '" & txtCusProdReportBillNo.Text & "'")
+        cmd.Connection = conn
+        conn.Open()
+        Dim rdr As MySqlDataReader = cmd.ExecuteReader
         While rdr.Read
             lblProdReceiptBillDate.Text = bill_date
             lblProdReceiptBillNo.Text = billno
@@ -102,11 +102,11 @@ Public Class UC_ProductSalesReports
         dgvCusServBillReport.Rows.Clear()
 
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT * from Product_Sales_Details Where Bill_No = '" & txtCusProdReportBillNo.Text & "'")
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT * from Product_Sales_Details Where Bill_No = '" & txtCusProdReportBillNo.Text & "'")
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 billno = rdr("Bill_No")
                 bill_date = rdr("Bill_Date")
@@ -118,7 +118,7 @@ Public Class UC_ProductSalesReports
                 dgvCusServBillReport.Rows.Add(Product_Category, Product_Name, Product_qnt, Product_Price, total)
             End While
 
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message)
 
@@ -132,11 +132,11 @@ Public Class UC_ProductSalesReports
 
         Try
 
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT * from Product_Sales_Master Where Bill_No = '" & txtCusProdReportBillNo.Text & "'")
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT * from Product_Sales_Master Where Bill_No = '" & txtCusProdReportBillNo.Text & "'")
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 lblCusProdBillCusMobile.Text = rdr("Mobile_Number")
                 lblCusProdReportBillDate.Text = rdr("Bill_Date")
@@ -144,7 +144,7 @@ Public Class UC_ProductSalesReports
                 lblCusProdBillCusName.Text = rdr("Customer_Name")
             End While
 
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message)
 
@@ -163,11 +163,4 @@ Public Class UC_ProductSalesReports
         PrintDocument1.Print()
     End Sub
 
-    Private Sub UC_ProductSalesReports_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
-    Private Sub PrintPreviewDialog1_Load(sender As Object, e As EventArgs) Handles PrintPreviewDialog1.Load
-
-    End Sub
 End Class

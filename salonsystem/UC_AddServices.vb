@@ -1,8 +1,8 @@
-﻿Imports System.Data.SqlClient
+﻿Imports MySql.Data.MySqlClient
 Public Class UC_AddServices
     Dim isfound As Integer
-    Dim con As New SqlConnection
-    Dim cmd As New SqlCommand
+    Dim conn As New MySqlConnection
+    Dim cmd As New MySqlCommand
     Dim percentage As Double = 0
     Dim count As Integer = 0
     Dim cus_name As String
@@ -14,10 +14,10 @@ Public Class UC_AddServices
     Dim totalservices As Integer = 0
     Dim service_Name As String
     Private Sub coutcust()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select count(*) from Service_Sales_Master")
-        cmd.Connection = con
-        con.Open()
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select count(*) from Service_Sales_Master")
+        cmd.Connection = conn
+        conn.Open()
         Dim r As Integer
         r = cmd.ExecuteScalar
         totalservices = r
@@ -30,11 +30,11 @@ Public Class UC_AddServices
     End Sub
     Private Sub kacharaseth2()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd1 As SqlCommand = New SqlCommand("SELECT * from Service_Sales_Master", con)
-            cmd1.Connection = con
-            con.Open()
-            Dim rdr1 As SqlDataReader = cmd1.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd1 As MySqlCommand = New MySqlCommand("SELECT * from Service_Sales_Master", conn)
+            cmd1.Connection = conn
+            conn.Open()
+            Dim rdr1 As MySqlDataReader = cmd1.ExecuteReader
             While rdr1.Read
                 Bill_No = rdr1("Bill_No")
                 cus_name = rdr1("Customer_Name")
@@ -42,10 +42,10 @@ Public Class UC_AddServices
 
             End While
 
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
     End Sub
     Private Sub calculatehaircutper()
@@ -75,45 +75,45 @@ Public Class UC_AddServices
     Private Sub kacharaseth()
 
         Try
-            Dim cmd As SqlCommand = New SqlCommand("SELECT * from Service_Sales_Details where Bill_No = '" & Bill_No & "'", con)
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT * from Service_Sales_Details where Bill_No = '" & Bill_No & "'", conn)
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 service_Name = rdr("Service_Name")
                 servicecount()
                 calculatehaircutper()
             End While
 
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
 
     End Sub
     Private Sub gettotalservices()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select count(*) from Service_Sales_Master ")
-        cmd.Connection = con
-        con.Open()
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select count(*) from Service_Sales_Master ")
+        cmd.Connection = conn
+        conn.Open()
         Dim r As Integer
         r = cmd.ExecuteScalar
         count = r
     End Sub
     Private Sub getid()
         Try
-            con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True"
-            If con.State = ConnectionState.Open Then
-                con.Close()
+            conn.ConnectionString = "server=localhost;username=root;password=;database=salonsystem;port=3306"
+            If conn.State = ConnectionState.Open Then
+                conn.Close()
             End If
-            con.Open()
-            Dim cmd As SqlCommand = New SqlCommand("SELECT MAX(Id) + 1 as Id From Services", con)
+            conn.Open()
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT MAX(Id) + 1 as Id From Services", conn)
             lblid.Text = cmd.ExecuteScalar().ToString()
             If lblid.Text = "" Then
                 lblid.Text = 1
             End If
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
@@ -123,12 +123,12 @@ Public Class UC_AddServices
             If txtservicename.Text = "" Then
                 MsgBox("Service Name Must Require", MsgBoxStyle.Critical)
                 txtservicename.Focus()
-                con.Close()
+                conn.Close()
             Else
-                Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-                Dim cmd As SqlCommand = New SqlCommand("insert into Services values ('" & lblid.Text & "','" & txtservicename.Text & " ','" & txtdesc.Text & "')")
-                cmd.Connection = con
-                con.Open()
+                Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+                Dim cmd As MySqlCommand = New MySqlCommand("insert into Services values ('" & lblid.Text & "','" & txtservicename.Text & " ','" & txtdesc.Text & "')")
+                cmd.Connection = conn
+                conn.Open()
                 Dim r As Integer
                 r = cmd.ExecuteNonQuery()
                 If r > 0 Then
@@ -138,7 +138,7 @@ Public Class UC_AddServices
                 Else
                     MsgBox("No record has been saved!")
                 End If
-                con.Close()
+                conn.Close()
             End If
         Catch ex As Exception
             MsgBox(ex.Message)

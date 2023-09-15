@@ -1,25 +1,25 @@
-﻿Imports System.Data.SqlClient
+﻿Imports MySql.Data.MySqlClient
 Imports System.Net
 Public Class UC_Offers
     Dim cname As String
     Dim number As Double
-    Dim Message As String = ""
+    Dim Message As String = "Hi there, "
     Private Sub UC_Offers_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         getData()
     End Sub
     Private Sub getData()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("Select CONCAT(First_Name, ' ' , Last_Name) as Name, Mobile_Number as Contact from Customer", con)
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("Select CONCAT(First_Name, ' ' , Last_Name) as Name, Mobile_Number as Contact from Customer", conn)
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
 
             While rdr.Read
                 cname = rdr("Name")
                 number = rdr("Contact")
                 dgvNewOffers.Rows.Add(cname, number)
             End While
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
@@ -46,9 +46,10 @@ Public Class UC_Offers
                 Dim fullname As String
                 fullname = dgvNewOffers.Rows(row.Index).Cells(0).Value
                 If CheckForInternetConnection() = True Then
-                    Message = "Hey Style Lover ! Get 20% off on all Services thiss Weekend when you visit Milan - The Family Salon this Month, Would you look Like to book Appointment ? Call @ 9978676386"
-                    s.sendOffersSMS(fullname.Substring(0, fullname.IndexOf(" ")), dgvNewOffers.Rows(row.Index).Cells(1).Value, Message)
+                    's.sendOffersSMS(fullname.Substring(0, fullname.IndexOf(" ")), dgvNewOffers.Rows(row.Index).Cells(1).Value, Message)
+                    s.sendSMS()
                     MsgBox("Successs SMS Message : " & s.sent_cnt & vbCrLf & "Failure SMS Message : " & s.failure_cnt, MsgBoxStyle.Information, "Capital - The Family Salon")
+
                 Else
                     MsgBox("ERROR : No Internet Connection")
                     Exit Sub

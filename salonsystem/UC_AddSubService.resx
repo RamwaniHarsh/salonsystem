@@ -117,11 +117,763 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GunaLabel26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="GunaLabel26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 16.2pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 300</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GunaLabel26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 31</value>
+  </data>
+  <data name="GunaLabel26.TabIndex" type="System.Int32, mscorlib">
+    <value>146</value>
+  </data>
+  <data name="GunaLabel26.Text" xml:space="preserve">
+    <value>Rs.</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel26.Name" xml:space="preserve">
+    <value>GunaLabel26</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel26.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel26.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel26.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GunaLabel21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GunaLabel21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 16.2pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 233</value>
+  </data>
+  <data name="GunaLabel21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 31</value>
+  </data>
+  <data name="GunaLabel21.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="GunaLabel21.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel21.Name" xml:space="preserve">
+    <value>GunaLabel21</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel21.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel21.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel21.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GunaLabel23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GunaLabel23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 16.2pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 238</value>
+  </data>
+  <data name="GunaLabel23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 31</value>
+  </data>
+  <data name="GunaLabel23.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="GunaLabel23.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel23.Name" xml:space="preserve">
+    <value>GunaLabel23</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel23.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel23.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel23.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbservicename.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="cmbservicename.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="cmbservicename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 240</value>
+  </data>
+  <data name="cmbservicename.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="cmbservicename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 36</value>
+  </data>
+  <data name="cmbservicename.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="&gt;&gt;cmbservicename.Name" xml:space="preserve">
+    <value>cmbservicename</value>
+  </data>
+  <data name="&gt;&gt;cmbservicename.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbservicename.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;cmbservicename.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GunaLabel28.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GunaLabel28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 16.2pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 233</value>
+  </data>
+  <data name="GunaLabel28.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 31</value>
+  </data>
+  <data name="GunaLabel28.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="GunaLabel28.Text" xml:space="preserve">
+    <value>Service Name </value>
+  </data>
+  <data name="&gt;&gt;GunaLabel28.Name" xml:space="preserve">
+    <value>GunaLabel28</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel28.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel28.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel28.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblid.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 16.2pt, style=Bold</value>
+  </data>
+  <data name="lblid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 97</value>
+  </data>
+  <data name="lblid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 31</value>
+  </data>
+  <data name="lblid.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="lblid.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;lblid.Name" xml:space="preserve">
+    <value>lblid</value>
+  </data>
+  <data name="&gt;&gt;lblid.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;lblid.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblid.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GunaLabel27.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GunaLabel27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 16.2pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 359</value>
+  </data>
+  <data name="GunaLabel27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 31</value>
+  </data>
+  <data name="GunaLabel27.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="GunaLabel27.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel27.Name" xml:space="preserve">
+    <value>GunaLabel27</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel27.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel27.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel27.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="GunaLabel30.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GunaLabel30.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 16.2pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 300</value>
+  </data>
+  <data name="GunaLabel30.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 31</value>
+  </data>
+  <data name="GunaLabel30.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="GunaLabel30.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel30.Name" xml:space="preserve">
+    <value>GunaLabel30</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel30.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel30.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel30.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="GunaLabel24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GunaLabel24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 16.2pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 298</value>
+  </data>
+  <data name="GunaLabel24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 31</value>
+  </data>
+  <data name="GunaLabel24.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="GunaLabel24.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel24.Name" xml:space="preserve">
+    <value>GunaLabel24</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel24.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel24.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel24.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="GunaLabel29.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GunaLabel29.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 16.2pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 164</value>
+  </data>
+  <data name="GunaLabel29.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 31</value>
+  </data>
+  <data name="GunaLabel29.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="GunaLabel29.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel29.Name" xml:space="preserve">
+    <value>GunaLabel29</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel29.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel29.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel29.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="GunaLabel22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GunaLabel22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 16.2pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 169</value>
+  </data>
+  <data name="GunaLabel22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 31</value>
+  </data>
+  <data name="GunaLabel22.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="GunaLabel22.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel22.Name" xml:space="preserve">
+    <value>GunaLabel22</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel22.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel22.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel22.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="GunaLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GunaLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 16.2pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 97</value>
+  </data>
+  <data name="GunaLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 31</value>
+  </data>
+  <data name="GunaLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="GunaLabel1.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel1.Name" xml:space="preserve">
+    <value>GunaLabel1</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel1.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel1.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="GunaLabel20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GunaLabel20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Algerian, 24pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 14</value>
+  </data>
+  <data name="GunaLabel20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 35</value>
+  </data>
+  <data name="GunaLabel20.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="GunaLabel20.Text" xml:space="preserve">
+    <value>Add Sub Service</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel20.Name" xml:space="preserve">
+    <value>GunaLabel20</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel20.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel20.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel20.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Guna2Separator6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 58</value>
+  </data>
+  <data name="Guna2Separator6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Guna2Separator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>626, 8</value>
+  </data>
+  <data name="Guna2Separator6.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="&gt;&gt;Guna2Separator6.Name" xml:space="preserve">
+    <value>Guna2Separator6</value>
+  </data>
+  <data name="&gt;&gt;Guna2Separator6.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Separator, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2Separator6.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Guna2Separator6.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnclear.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Algerian, 18pt, style=Bold</value>
+  </data>
+  <data name="btnclear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 528</value>
+  </data>
+  <data name="btnclear.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnclear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 54</value>
+  </data>
+  <data name="btnclear.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnclear.Text" xml:space="preserve">
+    <value>Clear Data</value>
+  </data>
+  <data name="&gt;&gt;btnclear.Name" xml:space="preserve">
+    <value>btnclear</value>
+  </data>
+  <data name="&gt;&gt;btnclear.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaButton, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;btnclear.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnclear.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnadd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Algerian, 18pt, style=Bold</value>
+  </data>
+  <data name="btnadd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 528</value>
+  </data>
+  <data name="btnadd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnadd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 54</value>
+  </data>
+  <data name="btnadd.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnadd.Text" xml:space="preserve">
+    <value>Add Sub service</value>
+  </data>
+  <data name="&gt;&gt;btnadd.Name" xml:space="preserve">
+    <value>btnadd</value>
+  </data>
+  <data name="&gt;&gt;btnadd.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaButton, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;btnadd.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnadd.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="txtDescription.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Sans Unicode, 12pt, style=Bold</value>
+  </data>
+  <data name="txtDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 359</value>
+  </data>
+  <data name="txtDescription.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 144</value>
+  </data>
+  <data name="txtDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.Name" xml:space="preserve">
+    <value>txtDescription</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaTextBox, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="txtsubservicename.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Sans Unicode, 12pt, style=Bold</value>
+  </data>
+  <data name="txtsubservicename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 169</value>
+  </data>
+  <data name="txtsubservicename.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtsubservicename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 35</value>
+  </data>
+  <data name="txtsubservicename.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtsubservicename.Name" xml:space="preserve">
+    <value>txtsubservicename</value>
+  </data>
+  <data name="&gt;&gt;txtsubservicename.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaTextBox, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;txtsubservicename.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;txtsubservicename.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="txtPrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Sans Unicode, 12pt, style=Bold</value>
+  </data>
+  <data name="txtPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 300</value>
+  </data>
+  <data name="txtPrice.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 35</value>
+  </data>
+  <data name="txtPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtPrice.Name" xml:space="preserve">
+    <value>txtPrice</value>
+  </data>
+  <data name="&gt;&gt;txtPrice.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaTextBox, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;txtPrice.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;txtPrice.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="GunaLabel25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GunaLabel25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 16.2pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 298</value>
+  </data>
+  <data name="GunaLabel25.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 31</value>
+  </data>
+  <data name="GunaLabel25.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="GunaLabel25.Text" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel25.Name" xml:space="preserve">
+    <value>GunaLabel25</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel25.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel25.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel25.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lbladdress.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbladdress.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 16.2pt, style=Bold</value>
+  </data>
+  <data name="lbladdress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 359</value>
+  </data>
+  <data name="lbladdress.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lbladdress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 31</value>
+  </data>
+  <data name="lbladdress.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="lbladdress.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="&gt;&gt;lbladdress.Name" xml:space="preserve">
+    <value>lbladdress</value>
+  </data>
+  <data name="&gt;&gt;lbladdress.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;lbladdress.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;lbladdress.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblfname.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblfname.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 16.2pt, style=Bold</value>
+  </data>
+  <data name="lblfname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 164</value>
+  </data>
+  <data name="lblfname.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblfname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 31</value>
+  </data>
+  <data name="lblfname.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="lblfname.Text" xml:space="preserve">
+    <value>Sub Service Name </value>
+  </data>
+  <data name="&gt;&gt;lblfname.Name" xml:space="preserve">
+    <value>lblfname</value>
+  </data>
+  <data name="&gt;&gt;lblfname.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;lblfname.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblfname.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblcustomer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblcustomer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 16.2pt, style=Bold</value>
+  </data>
+  <data name="lblcustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 97</value>
+  </data>
+  <data name="lblcustomer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblcustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="lblcustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="lblcustomer.Text" xml:space="preserve">
+    <value>Sub Services ID </value>
+  </data>
+  <data name="&gt;&gt;lblcustomer.Name" xml:space="preserve">
+    <value>lblcustomer</value>
+  </data>
+  <data name="&gt;&gt;lblcustomer.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;lblcustomer.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblcustomer.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>606, 1038</value>
+  </data>
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>169</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <data name="GunaTransfarantPictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EwAACxMBAJqcGAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAPUVSURBVHhe7J0H
+        EAAACxABrSO9dQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAPUVSURBVHhe7J0H
         uBRF9va93EvOOeecc84555wUkCA5KkkBEUEEc8accwRRggETBkRMKEgURTFgXN11//vVd85oQ9+570xX
         dVf3dM/0+zy/h11kqqtqztRb3XW66pwkVDYincjQAJeTRoTKqkT3cx6iITGMWEbcSDxNvEV8QZwkfiGE
         if8Rp4njxH7iNeJh4mpiLtGbqEpwffyiMJ69UdjP3ijsZ2/E/cJ9HY+k6ztuFAdGdoeEwRVfXvcz/5vm
@@ -1170,10 +1922,127 @@
         0CJEUdeiWsA5AayfTOP1M95CYl2NeqttQw6J/+c+9z9Vfd/PtOGAHwAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="GunaTransfarantPictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 31</value>
+  </data>
+  <data name="GunaTransfarantPictureBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="GunaTransfarantPictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 244</value>
+  </data>
+  <data name="GunaTransfarantPictureBox4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="GunaTransfarantPictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="&gt;&gt;GunaTransfarantPictureBox4.Name" xml:space="preserve">
+    <value>GunaTransfarantPictureBox4</value>
+  </data>
+  <data name="&gt;&gt;GunaTransfarantPictureBox4.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaTransfarantPictureBox, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaTransfarantPictureBox4.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel2</value>
+  </data>
+  <data name="&gt;&gt;GunaTransfarantPictureBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblAddServMassageTotPercen.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddServMassageTotPercen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 22.2pt, style=Bold</value>
+  </data>
+  <data name="lblAddServMassageTotPercen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 277</value>
+  </data>
+  <data name="lblAddServMassageTotPercen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblAddServMassageTotPercen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 41</value>
+  </data>
+  <data name="lblAddServMassageTotPercen.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="lblAddServMassageTotPercen.Text" xml:space="preserve">
+    <value>78%</value>
+  </data>
+  <data name="&gt;&gt;lblAddServMassageTotPercen.Name" xml:space="preserve">
+    <value>lblAddServMassageTotPercen</value>
+  </data>
+  <data name="&gt;&gt;lblAddServMassageTotPercen.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;lblAddServMassageTotPercen.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblAddServMassageTotPercen.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GunaLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GunaLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 13.8pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 0</value>
+  </data>
+  <data name="GunaLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 27</value>
+  </data>
+  <data name="GunaLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="GunaLabel6.Text" xml:space="preserve">
+    <value>Massage</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel6.Name" xml:space="preserve">
+    <value>GunaLabel6</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel6.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel6.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel2</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Guna2GradientPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>984, 466</value>
+  </data>
+  <data name="Guna2GradientPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Guna2GradientPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 332</value>
+  </data>
+  <data name="Guna2GradientPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel2.Name" xml:space="preserve">
+    <value>Guna2GradientPanel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="GunaTransfarantPictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        GAAACxgBiam1EAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAK1mSURBVHhe7d0F
+        FQAACxUBgJnYgwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAK1mSURBVHhe7d0F
         eBRn9zdg4i4kgYQEIhBCDHd3d3d3d2tLgeKlFCiUAqUUKQ5FW2hpKaVF6i5v3d3dz3vOtmlDcjY78sxa
         zu+67uv7f2/Z2dmZ7JxnZx4pIZFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolE
         IpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSJgkoZZoGFqI7kAn0UX0CvoUfYW+Q/CPX//538jb
@@ -1917,10 +2786,160 @@
         gg==
 </value>
   </data>
+  <data name="GunaTransfarantPictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 31</value>
+  </data>
+  <data name="GunaTransfarantPictureBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="GunaTransfarantPictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 244</value>
+  </data>
+  <data name="GunaTransfarantPictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="GunaTransfarantPictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="&gt;&gt;GunaTransfarantPictureBox3.Name" xml:space="preserve">
+    <value>GunaTransfarantPictureBox3</value>
+  </data>
+  <data name="&gt;&gt;GunaTransfarantPictureBox3.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaTransfarantPictureBox, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaTransfarantPictureBox3.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;GunaTransfarantPictureBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblAddServMakeupTotPercen.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddServMakeupTotPercen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 22.2pt, style=Bold</value>
+  </data>
+  <data name="lblAddServMakeupTotPercen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 277</value>
+  </data>
+  <data name="lblAddServMakeupTotPercen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblAddServMakeupTotPercen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 41</value>
+  </data>
+  <data name="lblAddServMakeupTotPercen.TabIndex" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="lblAddServMakeupTotPercen.Text" xml:space="preserve">
+    <value>78%</value>
+  </data>
+  <data name="&gt;&gt;lblAddServMakeupTotPercen.Name" xml:space="preserve">
+    <value>lblAddServMakeupTotPercen</value>
+  </data>
+  <data name="&gt;&gt;lblAddServMakeupTotPercen.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;lblAddServMakeupTotPercen.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblAddServMakeupTotPercen.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GunaLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GunaLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 13.8pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 0</value>
+  </data>
+  <data name="GunaLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 27</value>
+  </data>
+  <data name="GunaLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="GunaLabel3.Text" xml:space="preserve">
+    <value>Makeup/Facial</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel3.Name" xml:space="preserve">
+    <value>GunaLabel3</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel3.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel3.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Guna2GradientPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>629, 468</value>
+  </data>
+  <data name="Guna2GradientPanel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Guna2GradientPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 332</value>
+  </data>
+  <data name="Guna2GradientPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>191</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel3.Name" xml:space="preserve">
+    <value>Guna2GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblAddServBeardTotPercen.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddServBeardTotPercen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 22.2pt, style=Bold</value>
+  </data>
+  <data name="lblAddServBeardTotPercen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 280</value>
+  </data>
+  <data name="lblAddServBeardTotPercen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblAddServBeardTotPercen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 41</value>
+  </data>
+  <data name="lblAddServBeardTotPercen.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="lblAddServBeardTotPercen.Text" xml:space="preserve">
+    <value>78%</value>
+  </data>
+  <data name="&gt;&gt;lblAddServBeardTotPercen.Name" xml:space="preserve">
+    <value>lblAddServBeardTotPercen</value>
+  </data>
+  <data name="&gt;&gt;lblAddServBeardTotPercen.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;lblAddServBeardTotPercen.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel4</value>
+  </data>
+  <data name="&gt;&gt;lblAddServBeardTotPercen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="GunaTransfarantPictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3YAAAN2AE05jViAAAAGXRF
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3VAAAN1QE91ljxAAAAGXRF
         WHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAA5btJREFUeF7snQeY3MaRtn/LOclWJrmJSy7D
         crmBmVzG3WWmmDMp5pxzVM4SJVI55xwtBzne+c72nX1n+872OedztiVLVrB1lpzUf30geonBFDANoIEB
         Zrqe531WWu4A3TXV9RXQjcb/K0E7iXgr8TYN4DhvIYzlm/FzMpZ5P/eoqXkrMYt4ivgJ8Qrxb8R5xJn2
@@ -2905,10 +3924,127 @@
         TkSuQmCC
 </value>
   </data>
+  <data name="GunaTransfarantPictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 34</value>
+  </data>
+  <data name="GunaTransfarantPictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="GunaTransfarantPictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 244</value>
+  </data>
+  <data name="GunaTransfarantPictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="GunaTransfarantPictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="&gt;&gt;GunaTransfarantPictureBox2.Name" xml:space="preserve">
+    <value>GunaTransfarantPictureBox2</value>
+  </data>
+  <data name="&gt;&gt;GunaTransfarantPictureBox2.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaTransfarantPictureBox, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaTransfarantPictureBox2.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel4</value>
+  </data>
+  <data name="&gt;&gt;GunaTransfarantPictureBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GunaLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GunaLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 13.8pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 2</value>
+  </data>
+  <data name="GunaLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 27</value>
+  </data>
+  <data name="GunaLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="GunaLabel5.Text" xml:space="preserve">
+    <value>Beard Work</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel5.Name" xml:space="preserve">
+    <value>GunaLabel5</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel5.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel5.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel4</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Guna2GradientPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>984, 120</value>
+  </data>
+  <data name="Guna2GradientPanel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Guna2GradientPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 332</value>
+  </data>
+  <data name="Guna2GradientPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>192</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel4.Name" xml:space="preserve">
+    <value>Guna2GradientPanel4</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel4.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblAddServHairTotPercen.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddServHairTotPercen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 22.2pt, style=Bold</value>
+  </data>
+  <data name="lblAddServHairTotPercen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 280</value>
+  </data>
+  <data name="lblAddServHairTotPercen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblAddServHairTotPercen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 41</value>
+  </data>
+  <data name="lblAddServHairTotPercen.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="lblAddServHairTotPercen.Text" xml:space="preserve">
+    <value>78%</value>
+  </data>
+  <data name="&gt;&gt;lblAddServHairTotPercen.Name" xml:space="preserve">
+    <value>lblAddServHairTotPercen</value>
+  </data>
+  <data name="&gt;&gt;lblAddServHairTotPercen.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;lblAddServHairTotPercen.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblAddServHairTotPercen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="GunaTransfarantPictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAGXRF
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3UAAAN1AHvkboVAAAAGXRF
         WHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAA091JREFUeF7tnQe4FcX5//8xRk2zN+DCvcCl
         9957770IAoIUAelNxK6AIiBFQEWxd6Mxptdfem+md1OMXWNMYmyZ//tddi5z9ry7Z8vsnt2z832ez4PC
         Obs775l5v+/uzs7+vwrUccT7ieM1gO28jzAqlolzMgod55pGjWY0btToa8TLxN+JTzWprp5DnEj/blQo
@@ -3815,5 +4951,200 @@
         PycjE+dkZOLsIRkcN9BYgP82nYuXjBM6R1TMIHZX2eNMZl1FDCZmEWuJHQTu03+eeJp4kXiL+BvxA+KT
         xO3EdcTFxFSiL3Gqvck0yvTnZGTinIxMnFn9v//3/wHbEHwpAAHuaQAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="GunaTransfarantPictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 33</value>
+  </data>
+  <data name="GunaTransfarantPictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="GunaTransfarantPictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 244</value>
+  </data>
+  <data name="GunaTransfarantPictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="GunaTransfarantPictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="&gt;&gt;GunaTransfarantPictureBox1.Name" xml:space="preserve">
+    <value>GunaTransfarantPictureBox1</value>
+  </data>
+  <data name="&gt;&gt;GunaTransfarantPictureBox1.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaTransfarantPictureBox, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaTransfarantPictureBox1.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;GunaTransfarantPictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GunaLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GunaLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 13.8pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 1</value>
+  </data>
+  <data name="GunaLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 27</value>
+  </data>
+  <data name="GunaLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>151</value>
+  </data>
+  <data name="GunaLabel4.Text" xml:space="preserve">
+    <value>Hair Dressing</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel4.Name" xml:space="preserve">
+    <value>GunaLabel4</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel4.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel4.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Guna2GradientPanel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Gill Sans MT, 18pt, style=Bold</value>
+  </data>
+  <data name="Guna2GradientPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>629, 121</value>
+  </data>
+  <data name="Guna2GradientPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Guna2GradientPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 332</value>
+  </data>
+  <data name="Guna2GradientPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel1.Name" xml:space="preserve">
+    <value>Guna2GradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GunaLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GunaLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Algerian, 24pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>847, 15</value>
+  </data>
+  <data name="GunaLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 35</value>
+  </data>
+  <data name="GunaLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>188</value>
+  </data>
+  <data name="GunaLabel2.Text" xml:space="preserve">
+    <value>Service Stats</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel2.Name" xml:space="preserve">
+    <value>GunaLabel2</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel2.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Guna2Separator1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 58</value>
+  </data>
+  <data name="Guna2Separator1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Guna2Separator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1133, 8</value>
+  </data>
+  <data name="Guna2Separator1.TabIndex" type="System.Int32, mscorlib">
+    <value>187</value>
+  </data>
+  <data name="&gt;&gt;Guna2Separator1.Name" xml:space="preserve">
+    <value>Guna2Separator1</value>
+  </data>
+  <data name="&gt;&gt;Guna2Separator1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Separator, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Guna2Separator1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Guna2Separator1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="GunaLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GunaLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 14.2pt, style=Bold</value>
+  </data>
+  <data name="GunaLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>625, 79</value>
+  </data>
+  <data name="GunaLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="GunaLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 27</value>
+  </data>
+  <data name="GunaLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="GunaLabel7.Text" xml:space="preserve">
+    <value>* Most Used Services</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel7.Name" xml:space="preserve">
+    <value>GunaLabel7</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel7.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GunaLabel7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1748, 1038</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>UC_AddSubService</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

@@ -69,20 +69,7 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-38UTEEC\SQLEXPRESS;Initial Catalog=master;Integrated Security"& _ 
-            "=True")>  _
-        Public ReadOnly Property masterConnectionString() As String
-            Get
-                Return CType(Me("masterConnectionString"),String)
-            End Get
-        End Property
-        
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Project"& _ 
-            "s\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataCon"& _ 
-            "nection.mdf;Integrated Security=True")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("server=localhost;username=root;password=;database=harsh;port=3306")>  _
         Public ReadOnly Property DataConnectionConnectionString() As String
             Get
                 Return CType(Me("DataConnectionConnectionString"),String)

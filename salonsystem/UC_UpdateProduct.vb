@@ -1,18 +1,18 @@
-﻿Imports System.Data.SqlClient
+﻿Imports MySql.Data.MySqlClient
 Public Class UC_UpdateProduct
-    Dim con As New SqlConnection
-    Dim cmd As New SqlCommand
+    Dim conn As New MySqlConnection
+    Dim cmd As New MySqlCommand
     Dim isfound As Integer
     Private Sub cmbname_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbproductname.SelectedIndexChanged
         isfound = 1
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("select * from Product where [Product_Name] = @Name")
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("select * from Product where [Product_Name] = @Name")
             cmd.Parameters.AddWithValue("Name", cmbproductname.Text)
-            cmd.Connection = con
-            con.Open()
+            cmd.Connection = conn
+            conn.Open()
             'disableall()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             'getcategory()
             If (rdr.Read() = True) Then
                 txtproductname.Text = rdr("Product_Name")
@@ -26,18 +26,18 @@ Public Class UC_UpdateProduct
                 isfound = 0
                 cmbproductname.Focus()
             End If
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
     End Sub
     Private Sub getname()
         cmbproductname.Items.Clear()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd1 As SqlCommand = New SqlCommand("SELECT * from Product order by Product_Name")
-        cmd1.Connection = con
-        con.Open()
-        Dim rdr As SqlDataReader = cmd1.ExecuteReader()
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd1 As MySqlCommand = New MySqlCommand("SELECT * from Product order by Product_Name")
+        cmd1.Connection = conn
+        conn.Open()
+        Dim rdr As MySqlDataReader = cmd1.ExecuteReader()
         While (rdr.Read() = True)
             cmbproductname.Items.Add(rdr("Product_Name"))
         End While
@@ -46,11 +46,11 @@ Public Class UC_UpdateProduct
     End Sub
     Private Sub getcategory()
         cmbProductCategory.Items.Clear()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd1 As SqlCommand = New SqlCommand("SELECT * from Product order by Product_Category")
-        cmd1.Connection = con
-        con.Open()
-        Dim rdr As SqlDataReader = cmd1.ExecuteReader()
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd1 As MySqlCommand = New MySqlCommand("SELECT * from Product order by Product_Category")
+        cmd1.Connection = conn
+        conn.Open()
+        Dim rdr As MySqlDataReader = cmd1.ExecuteReader()
         While (rdr.Read() = True)
             cmbProductCategory.Items.Add(rdr("Product_Category"))
         End While
@@ -69,12 +69,12 @@ Public Class UC_UpdateProduct
             If txtproductname.Text = "" Or cmbProductCategory.SelectedItem = "" Or txtprice.Text = "" Then
                 MsgBox("Product Name, Product Category or Price Must Require", MsgBoxStyle.Critical)
                 txtproductname.Focus()
-                con.Close()
+                conn.Close()
             Else
-                Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-                Dim cmd As SqlCommand = New SqlCommand("Update Product set Product_Name='" & txtproductname.Text & "',Product_Category='" & cmbProductCategory.SelectedItem & "',Rate = '" & txtprice.Text & "',Description = '" & txtdescription.Text & "' where Product_Name = '" & cmbproductname.SelectedItem & "'")
-                cmd.Connection = con
-                con.Open()
+                Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+                Dim cmd As MySqlCommand = New MySqlCommand("Update Product set Product_Name='" & txtproductname.Text & "',Product_Category='" & cmbProductCategory.SelectedItem & "',Rate = '" & txtprice.Text & "',Description = '" & txtdescription.Text & "' where Product_Name = '" & cmbproductname.SelectedItem & "'")
+                cmd.Connection = conn
+                conn.Open()
 
                 Dim r As Integer
                 r = cmd.ExecuteNonQuery()
@@ -84,7 +84,7 @@ Public Class UC_UpdateProduct
                 Else
                     MsgBox("No Record has been Saved !")
                 End If
-                con.Close()
+                conn.Close()
             End If
         Catch ex As Exception
 

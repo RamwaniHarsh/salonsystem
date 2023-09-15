@@ -1,4 +1,4 @@
-﻿Imports System.Data.SqlClient
+﻿Imports MySql.Data.MySqlClient
 Public Class UC_NewUser
     Private Sub btnAddNewUser_Click(sender As Object, e As EventArgs) Handles btnAddNewUser.Click
         AddUser()
@@ -8,10 +8,10 @@ Public Class UC_NewUser
             If txtNewUserPass.Text = txtconfirmpassword.Text Then
 
 
-                Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-                Dim cmd As SqlCommand = New SqlCommand("insert into Login values ('" & txtNewUserName.Text & "','" & txtconfirmpassword.Text & "','" & cmbsecurityquestion.Text & "','" & txtNewUserSecurAns.Text & "')")
-                cmd.Connection = con
-                con.Open()
+                Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+                Dim cmd As MySqlCommand = New MySqlCommand("insert into Login values ('" & txtNewUserName.Text & "','" & txtconfirmpassword.Text & "','" & cmbsecurityquestion.Text & "','" & txtNewUserSecurAns.Text & "')")
+                cmd.Connection = conn
+                conn.Open()
                 Dim r As Integer
                 r = cmd.ExecuteNonQuery()
                 If r > 0 Then
@@ -19,7 +19,7 @@ Public Class UC_NewUser
                 Else
                     MsgBox("No record has been saved!")
                 End If
-                con.Close()
+                conn.Close()
             Else
                 MsgBox("Password Does Not Matched")
             End If
@@ -58,4 +58,5 @@ Public Class UC_NewUser
             MessageBox.Show("You Can Enter Only Character!")
         End If
     End Sub
+
 End Class

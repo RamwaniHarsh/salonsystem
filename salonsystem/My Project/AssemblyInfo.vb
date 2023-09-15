@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("salonsystem")>
-<Assembly: AssemblyCopyright("Copyright ©  2020")>
+<Assembly: AssemblyCopyright("Copyright Harsh Ramwani ©   2020")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>

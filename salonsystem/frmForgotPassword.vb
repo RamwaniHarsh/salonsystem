@@ -1,8 +1,7 @@
 ﻿Imports System.Data.SqlClient
+Imports MySql.Data.MySqlClient
 Public Class frmForgotPassword
     Dim isfound As Integer
-    Dim con As New SqlConnection
-    Dim cmd As New SqlCommand
     Dim count As Integer
     Dim question As String
     Dim ans As String
@@ -51,11 +50,11 @@ Public Class frmForgotPassword
     End Sub
     Private Sub txtusername_Leave(sender As Object, e As EventArgs) Handles txtusername.Leave
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("select Username from Login where Username = '" & txtusername.Text & "'")
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("select Username from Login where Username = '" & txtusername.Text & "'")
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
 
             If (rdr.Read() = True) Then
                 usrname = rdr("Username")
@@ -70,7 +69,7 @@ Public Class frmForgotPassword
                 cmbsecurityq.Focus()
                 disable()
             End If
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
@@ -92,11 +91,10 @@ Public Class frmForgotPassword
     Private Sub txtsecurityans_Leave(sender As Object, e As EventArgs) Handles txtsecurityans.Leave
 
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("select Answer from Login where Question = '" & cmbsecurityq.Text & "'")
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("select Answer from Login where Question = '" & cmbsecurityq.Text & "'")
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
 
             If (rdr.Read() = True) Then
                 Answer = rdr("Answer")
@@ -113,7 +111,7 @@ Public Class frmForgotPassword
                 cmbsecurityq.Focus()
                 disable()
             End If
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
@@ -121,10 +119,9 @@ Public Class frmForgotPassword
     Private Sub updatepassword()
         Try
             If txtconfirmpassword.Text = txtnewpassword.Text Then
-                Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-                Dim cmd As SqlCommand = New SqlCommand("UPDATE Login Set Password = '" & txtconfirmpassword.Text & "' where Username ='" & txtusername.Text & "'")
-                cmd.Connection = con
-                con.Open()
+                Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+                Dim cmd As MySqlCommand = New MySqlCommand("UPDATE Login Set Password = '" & txtconfirmpassword.Text & "' where Username ='" & txtusername.Text & "'")
+                conn.Open()
                 Dim r As Integer
                 r = cmd.ExecuteNonQuery()
                 If r > 0 Then
@@ -133,7 +130,7 @@ Public Class frmForgotPassword
                 Else
                     MsgBox("Password is Not Changed !")
                 End If
-                con.Close()
+                conn.Close()
             Else
                 MsgBox("Password MustBe Same", MsgBoxStyle.Critical)
             End If
@@ -144,11 +141,10 @@ Public Class frmForgotPassword
     End Sub
     Private Sub getdata()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("select Question from Login where Username = '" & txtusername.Text & "'")
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("select Question from Login where Username = '" & txtusername.Text & "'")
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
 
             If (rdr.Read() = True) Then
                 If txtusername.Text = usrname Then
@@ -160,7 +156,7 @@ Public Class frmForgotPassword
                 isfound = 0
                 cmbsecurityq.Focus()
             End If
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try

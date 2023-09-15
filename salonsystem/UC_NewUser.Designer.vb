@@ -50,9 +50,10 @@ Partial Class UC_NewUser
         Me.GunaLabel8.AutoSize = True
         Me.GunaLabel8.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel8.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel8.Location = New System.Drawing.Point(12, 225)
+        Me.GunaLabel8.Location = New System.Drawing.Point(9, 183)
+        Me.GunaLabel8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel8.Name = "GunaLabel8"
-        Me.GunaLabel8.Size = New System.Drawing.Size(267, 39)
+        Me.GunaLabel8.Size = New System.Drawing.Size(214, 31)
         Me.GunaLabel8.TabIndex = 189
         Me.GunaLabel8.Text = "Confirm Password "
         '
@@ -61,9 +62,10 @@ Partial Class UC_NewUser
         Me.GunaLabel9.AutoSize = True
         Me.GunaLabel9.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel9.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel9.Location = New System.Drawing.Point(297, 223)
+        Me.GunaLabel9.Location = New System.Drawing.Point(223, 181)
+        Me.GunaLabel9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel9.Name = "GunaLabel9"
-        Me.GunaLabel9.Size = New System.Drawing.Size(29, 39)
+        Me.GunaLabel9.Size = New System.Drawing.Size(24, 31)
         Me.GunaLabel9.TabIndex = 188
         Me.GunaLabel9.Text = ":"
         '
@@ -77,11 +79,12 @@ Partial Class UC_NewUser
         Me.txtconfirmpassword.FocusedForeColor = System.Drawing.SystemColors.ControlText
         Me.txtconfirmpassword.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtconfirmpassword.ForeColor = System.Drawing.Color.Black
-        Me.txtconfirmpassword.Location = New System.Drawing.Point(336, 223)
+        Me.txtconfirmpassword.Location = New System.Drawing.Point(252, 181)
+        Me.txtconfirmpassword.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtconfirmpassword.Name = "txtconfirmpassword"
         Me.txtconfirmpassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtconfirmpassword.SelectedText = ""
-        Me.txtconfirmpassword.Size = New System.Drawing.Size(270, 41)
+        Me.txtconfirmpassword.Size = New System.Drawing.Size(202, 35)
         Me.txtconfirmpassword.TabIndex = 187
         '
         'cmbsecurityquestion
@@ -100,10 +103,11 @@ Partial Class UC_NewUser
         Me.cmbsecurityquestion.ItemHeight = 30
         Me.cmbsecurityquestion.Items.AddRange(New Object() {"What is Your Pet Name?", "What is Your Nickname?", "What primary school did you attend?", "In what city or town did your mother and father meet?"})
         Me.cmbsecurityquestion.ItemsAppearance.Parent = Me.cmbsecurityquestion
-        Me.cmbsecurityquestion.Location = New System.Drawing.Point(336, 321)
+        Me.cmbsecurityquestion.Location = New System.Drawing.Point(252, 261)
+        Me.cmbsecurityquestion.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cmbsecurityquestion.Name = "cmbsecurityquestion"
         Me.cmbsecurityquestion.ShadowDecoration.Parent = Me.cmbsecurityquestion
-        Me.cmbsecurityquestion.Size = New System.Drawing.Size(270, 36)
+        Me.cmbsecurityquestion.Size = New System.Drawing.Size(204, 36)
         Me.cmbsecurityquestion.TabIndex = 186
         '
         'GunaLabel7
@@ -111,9 +115,10 @@ Partial Class UC_NewUser
         Me.GunaLabel7.AutoSize = True
         Me.GunaLabel7.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel7.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel7.Location = New System.Drawing.Point(297, 79)
+        Me.GunaLabel7.Location = New System.Drawing.Point(223, 64)
+        Me.GunaLabel7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel7.Name = "GunaLabel7"
-        Me.GunaLabel7.Size = New System.Drawing.Size(29, 39)
+        Me.GunaLabel7.Size = New System.Drawing.Size(24, 31)
         Me.GunaLabel7.TabIndex = 185
         Me.GunaLabel7.Text = ":"
         '
@@ -122,9 +127,10 @@ Partial Class UC_NewUser
         Me.GunaLabel6.AutoSize = True
         Me.GunaLabel6.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel6.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel6.Location = New System.Drawing.Point(296, 321)
+        Me.GunaLabel6.Location = New System.Drawing.Point(222, 261)
+        Me.GunaLabel6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel6.Name = "GunaLabel6"
-        Me.GunaLabel6.Size = New System.Drawing.Size(29, 39)
+        Me.GunaLabel6.Size = New System.Drawing.Size(24, 31)
         Me.GunaLabel6.TabIndex = 184
         Me.GunaLabel6.Text = ":"
         '
@@ -133,9 +139,10 @@ Partial Class UC_NewUser
         Me.GunaLabel5.AutoSize = True
         Me.GunaLabel5.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel5.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel5.Location = New System.Drawing.Point(296, 382)
+        Me.GunaLabel5.Location = New System.Drawing.Point(222, 310)
+        Me.GunaLabel5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel5.Name = "GunaLabel5"
-        Me.GunaLabel5.Size = New System.Drawing.Size(29, 39)
+        Me.GunaLabel5.Size = New System.Drawing.Size(24, 31)
         Me.GunaLabel5.TabIndex = 183
         Me.GunaLabel5.Text = ":"
         '
@@ -146,9 +153,10 @@ Partial Class UC_NewUser
         Me.chkshowpassword.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.chkshowpassword.FillColor = System.Drawing.Color.White
         Me.chkshowpassword.ForeColor = System.Drawing.Color.Black
-        Me.chkshowpassword.Location = New System.Drawing.Point(480, 284)
+        Me.chkshowpassword.Location = New System.Drawing.Point(360, 231)
+        Me.chkshowpassword.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkshowpassword.Name = "chkshowpassword"
-        Me.chkshowpassword.Size = New System.Drawing.Size(126, 20)
+        Me.chkshowpassword.Size = New System.Drawing.Size(111, 20)
         Me.chkshowpassword.TabIndex = 182
         Me.chkshowpassword.Text = "Show Password"
         '
@@ -171,7 +179,8 @@ Partial Class UC_NewUser
         Me.btnNewUserClear.Image = CType(resources.GetObject("btnNewUserClear.Image"), System.Drawing.Image)
         Me.btnNewUserClear.ImageSize = New System.Drawing.Size(80, 80)
         Me.btnNewUserClear.LineColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(170, Byte), Integer))
-        Me.btnNewUserClear.Location = New System.Drawing.Point(324, 465)
+        Me.btnNewUserClear.Location = New System.Drawing.Point(243, 378)
+        Me.btnNewUserClear.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnNewUserClear.Name = "btnNewUserClear"
         Me.btnNewUserClear.OnHoverBaseColor = System.Drawing.Color.Blue
         Me.btnNewUserClear.OnHoverBorderColor = System.Drawing.Color.Black
@@ -179,7 +188,7 @@ Partial Class UC_NewUser
         Me.btnNewUserClear.OnHoverImage = Nothing
         Me.btnNewUserClear.OnHoverLineColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.btnNewUserClear.OnPressedColor = System.Drawing.Color.Blue
-        Me.btnNewUserClear.Size = New System.Drawing.Size(176, 159)
+        Me.btnNewUserClear.Size = New System.Drawing.Size(132, 129)
         Me.btnNewUserClear.TabIndex = 181
         Me.btnNewUserClear.Text = "Clear"
         '
@@ -202,7 +211,8 @@ Partial Class UC_NewUser
         Me.btnAddNewUser.Image = CType(resources.GetObject("btnAddNewUser.Image"), System.Drawing.Image)
         Me.btnAddNewUser.ImageSize = New System.Drawing.Size(80, 80)
         Me.btnAddNewUser.LineColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(170, Byte), Integer))
-        Me.btnAddNewUser.Location = New System.Drawing.Point(82, 465)
+        Me.btnAddNewUser.Location = New System.Drawing.Point(62, 378)
+        Me.btnAddNewUser.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnAddNewUser.Name = "btnAddNewUser"
         Me.btnAddNewUser.OnHoverBaseColor = System.Drawing.Color.Blue
         Me.btnAddNewUser.OnHoverBorderColor = System.Drawing.Color.Black
@@ -210,7 +220,7 @@ Partial Class UC_NewUser
         Me.btnAddNewUser.OnHoverImage = Nothing
         Me.btnAddNewUser.OnHoverLineColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.btnAddNewUser.OnPressedColor = System.Drawing.Color.Blue
-        Me.btnAddNewUser.Size = New System.Drawing.Size(176, 159)
+        Me.btnAddNewUser.Size = New System.Drawing.Size(132, 129)
         Me.btnAddNewUser.TabIndex = 180
         Me.btnAddNewUser.Text = "Add User"
         '
@@ -224,11 +234,12 @@ Partial Class UC_NewUser
         Me.txtNewUserSecurAns.FocusedForeColor = System.Drawing.SystemColors.ControlText
         Me.txtNewUserSecurAns.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNewUserSecurAns.ForeColor = System.Drawing.Color.Black
-        Me.txtNewUserSecurAns.Location = New System.Drawing.Point(336, 380)
+        Me.txtNewUserSecurAns.Location = New System.Drawing.Point(252, 309)
+        Me.txtNewUserSecurAns.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtNewUserSecurAns.Name = "txtNewUserSecurAns"
         Me.txtNewUserSecurAns.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtNewUserSecurAns.SelectedText = ""
-        Me.txtNewUserSecurAns.Size = New System.Drawing.Size(270, 41)
+        Me.txtNewUserSecurAns.Size = New System.Drawing.Size(202, 35)
         Me.txtNewUserSecurAns.TabIndex = 177
         '
         'GunaLabel2
@@ -236,9 +247,10 @@ Partial Class UC_NewUser
         Me.GunaLabel2.AutoSize = True
         Me.GunaLabel2.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel2.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel2.Location = New System.Drawing.Point(12, 382)
+        Me.GunaLabel2.Location = New System.Drawing.Point(9, 310)
+        Me.GunaLabel2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel2.Name = "GunaLabel2"
-        Me.GunaLabel2.Size = New System.Drawing.Size(114, 39)
+        Me.GunaLabel2.Size = New System.Drawing.Size(91, 31)
         Me.GunaLabel2.TabIndex = 179
         Me.GunaLabel2.Text = "Answer"
         '
@@ -247,9 +259,10 @@ Partial Class UC_NewUser
         Me.GunaLabel3.AutoSize = True
         Me.GunaLabel3.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel3.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel3.Location = New System.Drawing.Point(15, 321)
+        Me.GunaLabel3.Location = New System.Drawing.Point(11, 261)
+        Me.GunaLabel3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel3.Name = "GunaLabel3"
-        Me.GunaLabel3.Size = New System.Drawing.Size(275, 39)
+        Me.GunaLabel3.Size = New System.Drawing.Size(215, 31)
         Me.GunaLabel3.TabIndex = 178
         Me.GunaLabel3.Text = "Security Question "
         '
@@ -263,11 +276,12 @@ Partial Class UC_NewUser
         Me.txtNewUserPass.FocusedForeColor = System.Drawing.SystemColors.ControlText
         Me.txtNewUserPass.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNewUserPass.ForeColor = System.Drawing.Color.Black
-        Me.txtNewUserPass.Location = New System.Drawing.Point(336, 147)
+        Me.txtNewUserPass.Location = New System.Drawing.Point(252, 119)
+        Me.txtNewUserPass.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtNewUserPass.Name = "txtNewUserPass"
         Me.txtNewUserPass.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtNewUserPass.SelectedText = ""
-        Me.txtNewUserPass.Size = New System.Drawing.Size(270, 41)
+        Me.txtNewUserPass.Size = New System.Drawing.Size(202, 35)
         Me.txtNewUserPass.TabIndex = 173
         '
         'txtNewUserName
@@ -280,11 +294,12 @@ Partial Class UC_NewUser
         Me.txtNewUserName.FocusedForeColor = System.Drawing.SystemColors.ControlText
         Me.txtNewUserName.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNewUserName.ForeColor = System.Drawing.Color.Black
-        Me.txtNewUserName.Location = New System.Drawing.Point(336, 79)
+        Me.txtNewUserName.Location = New System.Drawing.Point(252, 64)
+        Me.txtNewUserName.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtNewUserName.Name = "txtNewUserName"
         Me.txtNewUserName.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtNewUserName.SelectedText = ""
-        Me.txtNewUserName.Size = New System.Drawing.Size(270, 41)
+        Me.txtNewUserName.Size = New System.Drawing.Size(202, 35)
         Me.txtNewUserName.TabIndex = 172
         '
         'lbllname
@@ -292,9 +307,10 @@ Partial Class UC_NewUser
         Me.lbllname.AutoSize = True
         Me.lbllname.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbllname.ForeColor = System.Drawing.Color.Black
-        Me.lbllname.Location = New System.Drawing.Point(12, 151)
+        Me.lbllname.Location = New System.Drawing.Point(9, 123)
+        Me.lbllname.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbllname.Name = "lbllname"
-        Me.lbllname.Size = New System.Drawing.Size(151, 39)
+        Me.lbllname.Size = New System.Drawing.Size(121, 31)
         Me.lbllname.TabIndex = 176
         Me.lbllname.Text = "Password "
         '
@@ -303,9 +319,10 @@ Partial Class UC_NewUser
         Me.GunaLabel4.AutoSize = True
         Me.GunaLabel4.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel4.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel4.Location = New System.Drawing.Point(297, 149)
+        Me.GunaLabel4.Location = New System.Drawing.Point(223, 121)
+        Me.GunaLabel4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel4.Name = "GunaLabel4"
-        Me.GunaLabel4.Size = New System.Drawing.Size(29, 39)
+        Me.GunaLabel4.Size = New System.Drawing.Size(24, 31)
         Me.GunaLabel4.TabIndex = 175
         Me.GunaLabel4.Text = ":"
         '
@@ -314,9 +331,10 @@ Partial Class UC_NewUser
         Me.lbl.AutoSize = True
         Me.lbl.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl.ForeColor = System.Drawing.Color.Black
-        Me.lbl.Location = New System.Drawing.Point(13, 81)
+        Me.lbl.Location = New System.Drawing.Point(10, 66)
+        Me.lbl.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbl.Name = "lbl"
-        Me.lbl.Size = New System.Drawing.Size(150, 39)
+        Me.lbl.Size = New System.Drawing.Size(117, 31)
         Me.lbl.TabIndex = 174
         Me.lbl.Text = "Username"
         '
@@ -325,9 +343,10 @@ Partial Class UC_NewUser
         Me.Guna2Separator1.FillColor = System.Drawing.Color.Black
         Me.Guna2Separator1.FillStyle = System.Drawing.Drawing2D.DashStyle.Dot
         Me.Guna2Separator1.FillThickness = 8
-        Me.Guna2Separator1.Location = New System.Drawing.Point(-4, 45)
+        Me.Guna2Separator1.Location = New System.Drawing.Point(-3, 37)
+        Me.Guna2Separator1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Guna2Separator1.Name = "Guna2Separator1"
-        Me.Guna2Separator1.Size = New System.Drawing.Size(661, 22)
+        Me.Guna2Separator1.Size = New System.Drawing.Size(496, 18)
         Me.Guna2Separator1.TabIndex = 171
         '
         'GunaLabel1
@@ -335,15 +354,16 @@ Partial Class UC_NewUser
         Me.GunaLabel1.AutoSize = True
         Me.GunaLabel1.Font = New System.Drawing.Font("Algerian", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel1.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel1.Location = New System.Drawing.Point(159, 0)
+        Me.GunaLabel1.Location = New System.Drawing.Point(119, 0)
+        Me.GunaLabel1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel1.Name = "GunaLabel1"
-        Me.GunaLabel1.Size = New System.Drawing.Size(307, 45)
+        Me.GunaLabel1.Size = New System.Drawing.Size(246, 35)
         Me.GunaLabel1.TabIndex = 170
         Me.GunaLabel1.Text = "Add New User"
         '
         'UC_NewUser
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Silver
         Me.Controls.Add(Me.GunaLabel8)
@@ -366,8 +386,9 @@ Partial Class UC_NewUser
         Me.Controls.Add(Me.lbl)
         Me.Controls.Add(Me.Guna2Separator1)
         Me.Controls.Add(Me.GunaLabel1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "UC_NewUser"
-        Me.Size = New System.Drawing.Size(638, 690)
+        Me.Size = New System.Drawing.Size(478, 561)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -116,8 +116,9 @@ Partial Class UC_AddProductStocks
         Me.Panel1.Controls.Add(Me.lblcustomer)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(808, 1003)
+        Me.Panel1.Size = New System.Drawing.Size(606, 1038)
         Me.Panel1.TabIndex = 157
         '
         'lblCurrentStock
@@ -125,9 +126,10 @@ Partial Class UC_AddProductStocks
         Me.lblCurrentStock.AutoSize = True
         Me.lblCurrentStock.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCurrentStock.ForeColor = System.Drawing.Color.Black
-        Me.lblCurrentStock.Location = New System.Drawing.Point(425, 705)
+        Me.lblCurrentStock.Location = New System.Drawing.Point(319, 573)
+        Me.lblCurrentStock.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblCurrentStock.Name = "lblCurrentStock"
-        Me.lblCurrentStock.Size = New System.Drawing.Size(34, 39)
+        Me.lblCurrentStock.Size = New System.Drawing.Size(27, 31)
         Me.lblCurrentStock.TabIndex = 150
         Me.lblCurrentStock.Text = "-"
         '
@@ -146,10 +148,11 @@ Partial Class UC_AddProductStocks
         Me.cmbAddStockProdName.HoverState.Parent = Me.cmbAddStockProdName
         Me.cmbAddStockProdName.ItemHeight = 30
         Me.cmbAddStockProdName.ItemsAppearance.Parent = Me.cmbAddStockProdName
-        Me.cmbAddStockProdName.Location = New System.Drawing.Point(432, 458)
+        Me.cmbAddStockProdName.Location = New System.Drawing.Point(324, 372)
+        Me.cmbAddStockProdName.Margin = New System.Windows.Forms.Padding(2)
         Me.cmbAddStockProdName.Name = "cmbAddStockProdName"
         Me.cmbAddStockProdName.ShadowDecoration.Parent = Me.cmbAddStockProdName
-        Me.cmbAddStockProdName.Size = New System.Drawing.Size(291, 36)
+        Me.cmbAddStockProdName.Size = New System.Drawing.Size(219, 36)
         Me.cmbAddStockProdName.TabIndex = 149
         '
         'dtpAddProdStockDate
@@ -161,7 +164,8 @@ Partial Class UC_AddProductStocks
         Me.dtpAddProdStockDate.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.dtpAddProdStockDate.Font = New System.Drawing.Font("Lucida Sans", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpAddProdStockDate.ForeColor = System.Drawing.Color.Black
-        Me.dtpAddProdStockDate.Location = New System.Drawing.Point(432, 208)
+        Me.dtpAddProdStockDate.Location = New System.Drawing.Point(324, 169)
+        Me.dtpAddProdStockDate.Margin = New System.Windows.Forms.Padding(2)
         Me.dtpAddProdStockDate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         Me.dtpAddProdStockDate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         Me.dtpAddProdStockDate.Name = "dtpAddProdStockDate"
@@ -169,7 +173,7 @@ Partial Class UC_AddProductStocks
         Me.dtpAddProdStockDate.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.dtpAddProdStockDate.OnHoverForeColor = System.Drawing.Color.White
         Me.dtpAddProdStockDate.OnPressedColor = System.Drawing.Color.Black
-        Me.dtpAddProdStockDate.Size = New System.Drawing.Size(270, 39)
+        Me.dtpAddProdStockDate.Size = New System.Drawing.Size(202, 32)
         Me.dtpAddProdStockDate.TabIndex = 148
         Me.dtpAddProdStockDate.Text = "15 July 2020"
         Me.dtpAddProdStockDate.Value = New Date(2020, 7, 15, 0, 0, 0, 0)
@@ -179,9 +183,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel26.AutoSize = True
         Me.GunaLabel26.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel26.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel26.Location = New System.Drawing.Point(651, 592)
+        Me.GunaLabel26.Location = New System.Drawing.Point(488, 481)
+        Me.GunaLabel26.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel26.Name = "GunaLabel26"
-        Me.GunaLabel26.Size = New System.Drawing.Size(72, 39)
+        Me.GunaLabel26.Size = New System.Drawing.Size(58, 31)
         Me.GunaLabel26.TabIndex = 146
         Me.GunaLabel26.Text = "Pcs."
         '
@@ -190,9 +195,10 @@ Partial Class UC_AddProductStocks
         Me.lblAddStockID.AutoSize = True
         Me.lblAddStockID.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblAddStockID.ForeColor = System.Drawing.Color.Black
-        Me.lblAddStockID.Location = New System.Drawing.Point(425, 95)
+        Me.lblAddStockID.Location = New System.Drawing.Point(319, 77)
+        Me.lblAddStockID.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblAddStockID.Name = "lblAddStockID"
-        Me.lblAddStockID.Size = New System.Drawing.Size(34, 39)
+        Me.lblAddStockID.Size = New System.Drawing.Size(27, 31)
         Me.lblAddStockID.TabIndex = 145
         Me.lblAddStockID.Text = "-"
         '
@@ -201,9 +207,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel27.AutoSize = True
         Me.GunaLabel27.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel27.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel27.Location = New System.Drawing.Point(377, 705)
+        Me.GunaLabel27.Location = New System.Drawing.Point(283, 573)
+        Me.GunaLabel27.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel27.Name = "GunaLabel27"
-        Me.GunaLabel27.Size = New System.Drawing.Size(29, 39)
+        Me.GunaLabel27.Size = New System.Drawing.Size(24, 31)
         Me.GunaLabel27.TabIndex = 145
         Me.GunaLabel27.Text = ":"
         '
@@ -212,9 +219,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel5.AutoSize = True
         Me.GunaLabel5.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel5.ForeColor = System.Drawing.Color.Red
-        Me.GunaLabel5.Location = New System.Drawing.Point(190, 594)
+        Me.GunaLabel5.Location = New System.Drawing.Point(142, 483)
+        Me.GunaLabel5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel5.Name = "GunaLabel5"
-        Me.GunaLabel5.Size = New System.Drawing.Size(32, 39)
+        Me.GunaLabel5.Size = New System.Drawing.Size(26, 31)
         Me.GunaLabel5.TabIndex = 145
         Me.GunaLabel5.Text = "*"
         '
@@ -223,9 +231,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel30.AutoSize = True
         Me.GunaLabel30.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel30.ForeColor = System.Drawing.Color.Red
-        Me.GunaLabel30.Location = New System.Drawing.Point(303, 455)
+        Me.GunaLabel30.Location = New System.Drawing.Point(227, 370)
+        Me.GunaLabel30.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel30.Name = "GunaLabel30"
-        Me.GunaLabel30.Size = New System.Drawing.Size(32, 39)
+        Me.GunaLabel30.Size = New System.Drawing.Size(26, 31)
         Me.GunaLabel30.TabIndex = 145
         Me.GunaLabel30.Text = "*"
         '
@@ -234,9 +243,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel4.AutoSize = True
         Me.GunaLabel4.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel4.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel4.Location = New System.Drawing.Point(377, 592)
+        Me.GunaLabel4.Location = New System.Drawing.Point(283, 481)
+        Me.GunaLabel4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel4.Name = "GunaLabel4"
-        Me.GunaLabel4.Size = New System.Drawing.Size(29, 39)
+        Me.GunaLabel4.Size = New System.Drawing.Size(24, 31)
         Me.GunaLabel4.TabIndex = 145
         Me.GunaLabel4.Text = ":"
         '
@@ -245,9 +255,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel24.AutoSize = True
         Me.GunaLabel24.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel24.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel24.Location = New System.Drawing.Point(377, 455)
+        Me.GunaLabel24.Location = New System.Drawing.Point(283, 370)
+        Me.GunaLabel24.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel24.Name = "GunaLabel24"
-        Me.GunaLabel24.Size = New System.Drawing.Size(29, 39)
+        Me.GunaLabel24.Size = New System.Drawing.Size(24, 31)
         Me.GunaLabel24.TabIndex = 145
         Me.GunaLabel24.Text = ":"
         '
@@ -256,9 +267,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel29.AutoSize = True
         Me.GunaLabel29.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel29.ForeColor = System.Drawing.Color.Red
-        Me.GunaLabel29.Location = New System.Drawing.Point(268, 202)
+        Me.GunaLabel29.Location = New System.Drawing.Point(201, 164)
+        Me.GunaLabel29.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel29.Name = "GunaLabel29"
-        Me.GunaLabel29.Size = New System.Drawing.Size(32, 39)
+        Me.GunaLabel29.Size = New System.Drawing.Size(26, 31)
         Me.GunaLabel29.TabIndex = 145
         Me.GunaLabel29.Text = "*"
         '
@@ -267,9 +279,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel28.AutoSize = True
         Me.GunaLabel28.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel28.ForeColor = System.Drawing.Color.Red
-        Me.GunaLabel28.Location = New System.Drawing.Point(303, 336)
+        Me.GunaLabel28.Location = New System.Drawing.Point(227, 273)
+        Me.GunaLabel28.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel28.Name = "GunaLabel28"
-        Me.GunaLabel28.Size = New System.Drawing.Size(32, 39)
+        Me.GunaLabel28.Size = New System.Drawing.Size(26, 31)
         Me.GunaLabel28.TabIndex = 145
         Me.GunaLabel28.Text = "*"
         '
@@ -278,9 +291,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel23.AutoSize = True
         Me.GunaLabel23.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel23.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel23.Location = New System.Drawing.Point(377, 333)
+        Me.GunaLabel23.Location = New System.Drawing.Point(283, 271)
+        Me.GunaLabel23.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel23.Name = "GunaLabel23"
-        Me.GunaLabel23.Size = New System.Drawing.Size(29, 39)
+        Me.GunaLabel23.Size = New System.Drawing.Size(24, 31)
         Me.GunaLabel23.TabIndex = 145
         Me.GunaLabel23.Text = ":"
         '
@@ -289,9 +303,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel22.AutoSize = True
         Me.GunaLabel22.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel22.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel22.Location = New System.Drawing.Point(377, 208)
+        Me.GunaLabel22.Location = New System.Drawing.Point(283, 169)
+        Me.GunaLabel22.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel22.Name = "GunaLabel22"
-        Me.GunaLabel22.Size = New System.Drawing.Size(29, 39)
+        Me.GunaLabel22.Size = New System.Drawing.Size(24, 31)
         Me.GunaLabel22.TabIndex = 145
         Me.GunaLabel22.Text = ":"
         '
@@ -300,9 +315,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel1.AutoSize = True
         Me.GunaLabel1.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel1.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel1.Location = New System.Drawing.Point(377, 95)
+        Me.GunaLabel1.Location = New System.Drawing.Point(283, 77)
+        Me.GunaLabel1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel1.Name = "GunaLabel1"
-        Me.GunaLabel1.Size = New System.Drawing.Size(29, 39)
+        Me.GunaLabel1.Size = New System.Drawing.Size(24, 31)
         Me.GunaLabel1.TabIndex = 145
         Me.GunaLabel1.Text = ":"
         '
@@ -321,10 +337,11 @@ Partial Class UC_AddProductStocks
         Me.cmbAddProdCatStock.HoverState.Parent = Me.cmbAddProdCatStock
         Me.cmbAddProdCatStock.ItemHeight = 30
         Me.cmbAddProdCatStock.ItemsAppearance.Parent = Me.cmbAddProdCatStock
-        Me.cmbAddProdCatStock.Location = New System.Drawing.Point(432, 336)
+        Me.cmbAddProdCatStock.Location = New System.Drawing.Point(324, 273)
+        Me.cmbAddProdCatStock.Margin = New System.Windows.Forms.Padding(2)
         Me.cmbAddProdCatStock.Name = "cmbAddProdCatStock"
         Me.cmbAddProdCatStock.ShadowDecoration.Parent = Me.cmbAddProdCatStock
-        Me.cmbAddProdCatStock.Size = New System.Drawing.Size(291, 36)
+        Me.cmbAddProdCatStock.Size = New System.Drawing.Size(219, 36)
         Me.cmbAddProdCatStock.TabIndex = 144
         '
         'GunaLabel20
@@ -332,9 +349,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel20.AutoSize = True
         Me.GunaLabel20.Font = New System.Drawing.Font("Algerian", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel20.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel20.Location = New System.Drawing.Point(170, 9)
+        Me.GunaLabel20.Location = New System.Drawing.Point(128, 7)
+        Me.GunaLabel20.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel20.Name = "GunaLabel20"
-        Me.GunaLabel20.Size = New System.Drawing.Size(446, 45)
+        Me.GunaLabel20.Size = New System.Drawing.Size(362, 35)
         Me.GunaLabel20.TabIndex = 143
         Me.GunaLabel20.Text = "Add Product Stocks"
         '
@@ -344,9 +362,10 @@ Partial Class UC_AddProductStocks
         Me.Guna2Separator6.FillColor = System.Drawing.Color.Black
         Me.Guna2Separator6.FillStyle = System.Drawing.Drawing2D.DashStyle.Dot
         Me.Guna2Separator6.FillThickness = 8
-        Me.Guna2Separator6.Location = New System.Drawing.Point(-1, 71)
+        Me.Guna2Separator6.Location = New System.Drawing.Point(-1, 58)
+        Me.Guna2Separator6.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2Separator6.Name = "Guna2Separator6"
-        Me.Guna2Separator6.Size = New System.Drawing.Size(834, 10)
+        Me.Guna2Separator6.Size = New System.Drawing.Size(626, 8)
         Me.Guna2Separator6.TabIndex = 142
         '
         'btnAddProdStockClear
@@ -362,14 +381,15 @@ Partial Class UC_AddProductStocks
         Me.btnAddProdStockClear.ForeColor = System.Drawing.Color.Black
         Me.btnAddProdStockClear.Image = Nothing
         Me.btnAddProdStockClear.ImageSize = New System.Drawing.Size(20, 20)
-        Me.btnAddProdStockClear.Location = New System.Drawing.Point(475, 842)
+        Me.btnAddProdStockClear.Location = New System.Drawing.Point(356, 684)
+        Me.btnAddProdStockClear.Margin = New System.Windows.Forms.Padding(2)
         Me.btnAddProdStockClear.Name = "btnAddProdStockClear"
         Me.btnAddProdStockClear.OnHoverBaseColor = System.Drawing.Color.Black
         Me.btnAddProdStockClear.OnHoverBorderColor = System.Drawing.Color.Black
         Me.btnAddProdStockClear.OnHoverForeColor = System.Drawing.Color.WhiteSmoke
         Me.btnAddProdStockClear.OnHoverImage = Nothing
         Me.btnAddProdStockClear.OnPressedColor = System.Drawing.Color.Black
-        Me.btnAddProdStockClear.Size = New System.Drawing.Size(248, 67)
+        Me.btnAddProdStockClear.Size = New System.Drawing.Size(186, 54)
         Me.btnAddProdStockClear.TabIndex = 9
         Me.btnAddProdStockClear.Text = "Clear Data"
         Me.btnAddProdStockClear.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -387,14 +407,15 @@ Partial Class UC_AddProductStocks
         Me.btnAddProductStock.ForeColor = System.Drawing.Color.Black
         Me.btnAddProductStock.Image = Nothing
         Me.btnAddProductStock.ImageSize = New System.Drawing.Size(20, 20)
-        Me.btnAddProductStock.Location = New System.Drawing.Point(73, 842)
+        Me.btnAddProductStock.Location = New System.Drawing.Point(55, 684)
+        Me.btnAddProductStock.Margin = New System.Windows.Forms.Padding(2)
         Me.btnAddProductStock.Name = "btnAddProductStock"
         Me.btnAddProductStock.OnHoverBaseColor = System.Drawing.Color.Black
         Me.btnAddProductStock.OnHoverBorderColor = System.Drawing.Color.Black
         Me.btnAddProductStock.OnHoverForeColor = System.Drawing.Color.WhiteSmoke
         Me.btnAddProductStock.OnHoverImage = Nothing
         Me.btnAddProductStock.OnPressedColor = System.Drawing.Color.Black
-        Me.btnAddProductStock.Size = New System.Drawing.Size(355, 67)
+        Me.btnAddProductStock.Size = New System.Drawing.Size(266, 54)
         Me.btnAddProductStock.TabIndex = 8
         Me.btnAddProductStock.Text = "Add Product Stock"
         Me.btnAddProductStock.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -409,11 +430,12 @@ Partial Class UC_AddProductStocks
         Me.txtAddProdStockQuantity.FocusedForeColor = System.Drawing.SystemColors.ControlText
         Me.txtAddProdStockQuantity.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAddProdStockQuantity.ForeColor = System.Drawing.Color.Black
-        Me.txtAddProdStockQuantity.Location = New System.Drawing.Point(432, 592)
+        Me.txtAddProdStockQuantity.Location = New System.Drawing.Point(324, 481)
+        Me.txtAddProdStockQuantity.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAddProdStockQuantity.Name = "txtAddProdStockQuantity"
         Me.txtAddProdStockQuantity.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtAddProdStockQuantity.SelectedText = ""
-        Me.txtAddProdStockQuantity.Size = New System.Drawing.Size(212, 41)
+        Me.txtAddProdStockQuantity.Size = New System.Drawing.Size(159, 35)
         Me.txtAddProdStockQuantity.TabIndex = 2
         '
         'GunaLabel3
@@ -421,9 +443,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel3.AutoSize = True
         Me.GunaLabel3.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel3.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel3.Location = New System.Drawing.Point(47, 592)
+        Me.GunaLabel3.Location = New System.Drawing.Point(35, 481)
+        Me.GunaLabel3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel3.Name = "GunaLabel3"
-        Me.GunaLabel3.Size = New System.Drawing.Size(137, 39)
+        Me.GunaLabel3.Size = New System.Drawing.Size(106, 31)
         Me.GunaLabel3.TabIndex = 129
         Me.GunaLabel3.Text = "Quantity"
         '
@@ -432,9 +455,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel25.AutoSize = True
         Me.GunaLabel25.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel25.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel25.Location = New System.Drawing.Point(47, 455)
+        Me.GunaLabel25.Location = New System.Drawing.Point(35, 370)
+        Me.GunaLabel25.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel25.Name = "GunaLabel25"
-        Me.GunaLabel25.Size = New System.Drawing.Size(207, 39)
+        Me.GunaLabel25.Size = New System.Drawing.Size(163, 31)
         Me.GunaLabel25.TabIndex = 129
         Me.GunaLabel25.Text = "Product Name"
         '
@@ -443,9 +467,10 @@ Partial Class UC_AddProductStocks
         Me.lbladdress.AutoSize = True
         Me.lbladdress.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbladdress.ForeColor = System.Drawing.Color.Black
-        Me.lbladdress.Location = New System.Drawing.Point(47, 705)
+        Me.lbladdress.Location = New System.Drawing.Point(35, 573)
+        Me.lbladdress.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbladdress.Name = "lbladdress"
-        Me.lbladdress.Size = New System.Drawing.Size(207, 39)
+        Me.lbladdress.Size = New System.Drawing.Size(165, 31)
         Me.lbladdress.TabIndex = 129
         Me.lbladdress.Text = "Current Stock"
         '
@@ -454,9 +479,10 @@ Partial Class UC_AddProductStocks
         Me.lbllname.AutoSize = True
         Me.lbllname.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbllname.ForeColor = System.Drawing.Color.Black
-        Me.lbllname.Location = New System.Drawing.Point(47, 333)
+        Me.lbllname.Location = New System.Drawing.Point(35, 271)
+        Me.lbllname.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbllname.Name = "lbllname"
-        Me.lbllname.Size = New System.Drawing.Size(250, 39)
+        Me.lbllname.Size = New System.Drawing.Size(199, 31)
         Me.lbllname.TabIndex = 125
         Me.lbllname.Text = "Product Category"
         '
@@ -465,9 +491,10 @@ Partial Class UC_AddProductStocks
         Me.lblfname.AutoSize = True
         Me.lblfname.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblfname.ForeColor = System.Drawing.Color.Black
-        Me.lblfname.Location = New System.Drawing.Point(47, 202)
+        Me.lblfname.Location = New System.Drawing.Point(35, 164)
+        Me.lblfname.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblfname.Name = "lblfname"
-        Me.lblfname.Size = New System.Drawing.Size(180, 39)
+        Me.lblfname.Size = New System.Drawing.Size(140, 31)
         Me.lblfname.TabIndex = 124
         Me.lblfname.Text = "Select Date"
         '
@@ -476,9 +503,10 @@ Partial Class UC_AddProductStocks
         Me.lblcustomer.AutoSize = True
         Me.lblcustomer.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblcustomer.ForeColor = System.Drawing.Color.Black
-        Me.lblcustomer.Location = New System.Drawing.Point(47, 95)
+        Me.lblcustomer.Location = New System.Drawing.Point(35, 77)
+        Me.lblcustomer.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblcustomer.Name = "lblcustomer"
-        Me.lblcustomer.Size = New System.Drawing.Size(152, 39)
+        Me.lblcustomer.Size = New System.Drawing.Size(122, 31)
         Me.lblcustomer.TabIndex = 123
         Me.lblcustomer.Text = "Stock ID "
         '
@@ -487,9 +515,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel2.AutoSize = True
         Me.GunaLabel2.Font = New System.Drawing.Font("Algerian", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel2.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel2.Location = New System.Drawing.Point(850, -10)
+        Me.GunaLabel2.Location = New System.Drawing.Point(638, -8)
+        Me.GunaLabel2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel2.Name = "GunaLabel2"
-        Me.GunaLabel2.Size = New System.Drawing.Size(0, 45)
+        Me.GunaLabel2.Size = New System.Drawing.Size(0, 35)
         Me.GunaLabel2.TabIndex = 158
         '
         'GunaLabel6
@@ -497,9 +526,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel6.AutoSize = True
         Me.GunaLabel6.Font = New System.Drawing.Font("Comic Sans MS", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel6.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel6.Location = New System.Drawing.Point(856, 7)
+        Me.GunaLabel6.Location = New System.Drawing.Point(642, 6)
+        Me.GunaLabel6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel6.Name = "GunaLabel6"
-        Me.GunaLabel6.Size = New System.Drawing.Size(449, 45)
+        Me.GunaLabel6.Size = New System.Drawing.Size(372, 38)
         Me.GunaLabel6.TabIndex = 151
         Me.GunaLabel6.Text = "Search By Product Name :"
         '
@@ -513,11 +543,12 @@ Partial Class UC_AddProductStocks
         Me.txtAddViewCurStockSearchByProdName.FocusedForeColor = System.Drawing.SystemColors.ControlText
         Me.txtAddViewCurStockSearchByProdName.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAddViewCurStockSearchByProdName.ForeColor = System.Drawing.Color.Black
-        Me.txtAddViewCurStockSearchByProdName.Location = New System.Drawing.Point(1368, 14)
+        Me.txtAddViewCurStockSearchByProdName.Location = New System.Drawing.Point(1026, 11)
+        Me.txtAddViewCurStockSearchByProdName.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAddViewCurStockSearchByProdName.Name = "txtAddViewCurStockSearchByProdName"
         Me.txtAddViewCurStockSearchByProdName.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtAddViewCurStockSearchByProdName.SelectedText = ""
-        Me.txtAddViewCurStockSearchByProdName.Size = New System.Drawing.Size(362, 41)
+        Me.txtAddViewCurStockSearchByProdName.Size = New System.Drawing.Size(272, 35)
         Me.txtAddViewCurStockSearchByProdName.TabIndex = 151
         '
         'Guna2Separator1
@@ -526,9 +557,10 @@ Partial Class UC_AddProductStocks
         Me.Guna2Separator1.FillColor = System.Drawing.Color.Black
         Me.Guna2Separator1.FillStyle = System.Drawing.Drawing2D.DashStyle.Dot
         Me.Guna2Separator1.FillThickness = 8
-        Me.Guna2Separator1.Location = New System.Drawing.Point(812, 72)
+        Me.Guna2Separator1.Location = New System.Drawing.Point(609, 58)
+        Me.Guna2Separator1.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2Separator1.Name = "Guna2Separator1"
-        Me.Guna2Separator1.Size = New System.Drawing.Size(987, 10)
+        Me.Guna2Separator1.Size = New System.Drawing.Size(740, 8)
         Me.Guna2Separator1.TabIndex = 151
         '
         'dgvqnt5
@@ -562,14 +594,15 @@ Partial Class UC_AddProductStocks
         Me.dgvqnt5.DefaultCellStyle = DataGridViewCellStyle3
         Me.dgvqnt5.EnableHeadersVisualStyles = False
         Me.dgvqnt5.GridColor = System.Drawing.Color.Silver
-        Me.dgvqnt5.Location = New System.Drawing.Point(885, 124)
+        Me.dgvqnt5.Location = New System.Drawing.Point(664, 101)
+        Me.dgvqnt5.Margin = New System.Windows.Forms.Padding(2)
         Me.dgvqnt5.Name = "dgvqnt5"
         Me.dgvqnt5.ReadOnly = True
         Me.dgvqnt5.RowHeadersVisible = False
         Me.dgvqnt5.RowHeadersWidth = 51
         Me.dgvqnt5.RowTemplate.Height = 24
         Me.dgvqnt5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvqnt5.Size = New System.Drawing.Size(822, 224)
+        Me.dgvqnt5.Size = New System.Drawing.Size(616, 182)
         Me.dgvqnt5.TabIndex = 159
         Me.dgvqnt5.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.[Default]
         Me.dgvqnt5.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
@@ -613,9 +646,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel7.AutoSize = True
         Me.GunaLabel7.Font = New System.Drawing.Font("Algerian", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel7.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel7.Location = New System.Drawing.Point(944, 81)
+        Me.GunaLabel7.Location = New System.Drawing.Point(708, 66)
+        Me.GunaLabel7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel7.Name = "GunaLabel7"
-        Me.GunaLabel7.Size = New System.Drawing.Size(654, 36)
+        Me.GunaLabel7.Size = New System.Drawing.Size(544, 30)
         Me.GunaLabel7.TabIndex = 151
         Me.GunaLabel7.Text = "Current Product(s) Stock  (qty > 5)"
         '
@@ -625,9 +659,10 @@ Partial Class UC_AddProductStocks
         Me.Guna2Separator2.FillColor = System.Drawing.Color.Black
         Me.Guna2Separator2.FillStyle = System.Drawing.Drawing2D.DashStyle.DashDot
         Me.Guna2Separator2.FillThickness = 8
-        Me.Guna2Separator2.Location = New System.Drawing.Point(812, 373)
+        Me.Guna2Separator2.Location = New System.Drawing.Point(609, 303)
+        Me.Guna2Separator2.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2Separator2.Name = "Guna2Separator2"
-        Me.Guna2Separator2.Size = New System.Drawing.Size(987, 10)
+        Me.Guna2Separator2.Size = New System.Drawing.Size(740, 8)
         Me.Guna2Separator2.TabIndex = 160
         '
         'GunaLabel8
@@ -635,9 +670,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel8.AutoSize = True
         Me.GunaLabel8.Font = New System.Drawing.Font("Algerian", 18.0!, System.Drawing.FontStyle.Bold)
         Me.GunaLabel8.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel8.Location = New System.Drawing.Point(852, 386)
+        Me.GunaLabel8.Location = New System.Drawing.Point(639, 314)
+        Me.GunaLabel8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel8.Name = "GunaLabel8"
-        Me.GunaLabel8.Size = New System.Drawing.Size(871, 34)
+        Me.GunaLabel8.Size = New System.Drawing.Size(704, 26)
         Me.GunaLabel8.TabIndex = 161
         Me.GunaLabel8.Text = " Product(s) near to out of Stock (Qty Between  1-5)"
         Me.GunaLabel8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -673,14 +709,15 @@ Partial Class UC_AddProductStocks
         Me.dgvqnt1to5.DefaultCellStyle = DataGridViewCellStyle6
         Me.dgvqnt1to5.EnableHeadersVisualStyles = False
         Me.dgvqnt1to5.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.dgvqnt1to5.Location = New System.Drawing.Point(885, 431)
+        Me.dgvqnt1to5.Location = New System.Drawing.Point(664, 350)
+        Me.dgvqnt1to5.Margin = New System.Windows.Forms.Padding(2)
         Me.dgvqnt1to5.Name = "dgvqnt1to5"
         Me.dgvqnt1to5.ReadOnly = True
         Me.dgvqnt1to5.RowHeadersVisible = False
         Me.dgvqnt1to5.RowHeadersWidth = 51
         Me.dgvqnt1to5.RowTemplate.Height = 24
         Me.dgvqnt1to5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvqnt1to5.Size = New System.Drawing.Size(822, 224)
+        Me.dgvqnt1to5.Size = New System.Drawing.Size(616, 182)
         Me.dgvqnt1to5.TabIndex = 162
         Me.dgvqnt1to5.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.[Default]
         Me.dgvqnt1to5.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
@@ -750,14 +787,15 @@ Partial Class UC_AddProductStocks
         Me.dgvqnt0.DefaultCellStyle = DataGridViewCellStyle9
         Me.dgvqnt0.EnableHeadersVisualStyles = False
         Me.dgvqnt0.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.dgvqnt0.Location = New System.Drawing.Point(885, 738)
+        Me.dgvqnt0.Location = New System.Drawing.Point(664, 600)
+        Me.dgvqnt0.Margin = New System.Windows.Forms.Padding(2)
         Me.dgvqnt0.Name = "dgvqnt0"
         Me.dgvqnt0.ReadOnly = True
         Me.dgvqnt0.RowHeadersVisible = False
         Me.dgvqnt0.RowHeadersWidth = 51
         Me.dgvqnt0.RowTemplate.Height = 24
         Me.dgvqnt0.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvqnt0.Size = New System.Drawing.Size(822, 224)
+        Me.dgvqnt0.Size = New System.Drawing.Size(616, 182)
         Me.dgvqnt0.TabIndex = 165
         Me.dgvqnt0.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.[Default]
         Me.dgvqnt0.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
@@ -801,9 +839,10 @@ Partial Class UC_AddProductStocks
         Me.GunaLabel9.AutoSize = True
         Me.GunaLabel9.Font = New System.Drawing.Font("Algerian", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel9.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel9.Location = New System.Drawing.Point(888, 692)
+        Me.GunaLabel9.Location = New System.Drawing.Point(666, 562)
+        Me.GunaLabel9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel9.Name = "GunaLabel9"
-        Me.GunaLabel9.Size = New System.Drawing.Size(780, 36)
+        Me.GunaLabel9.Size = New System.Drawing.Size(650, 30)
         Me.GunaLabel9.TabIndex = 164
         Me.GunaLabel9.Text = " Out of stock Product(s) (Qty equals to 0)"
         Me.GunaLabel9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -814,14 +853,15 @@ Partial Class UC_AddProductStocks
         Me.Guna2Separator3.FillColor = System.Drawing.Color.Black
         Me.Guna2Separator3.FillStyle = System.Drawing.Drawing2D.DashStyle.DashDot
         Me.Guna2Separator3.FillThickness = 8
-        Me.Guna2Separator3.Location = New System.Drawing.Point(812, 680)
+        Me.Guna2Separator3.Location = New System.Drawing.Point(609, 552)
+        Me.Guna2Separator3.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2Separator3.Name = "Guna2Separator3"
-        Me.Guna2Separator3.Size = New System.Drawing.Size(987, 10)
+        Me.Guna2Separator3.Size = New System.Drawing.Size(740, 8)
         Me.Guna2Separator3.TabIndex = 163
         '
         'UC_AddProductStocks
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Silver
         Me.Controls.Add(Me.dgvqnt0)
@@ -837,8 +877,9 @@ Partial Class UC_AddProductStocks
         Me.Controls.Add(Me.GunaLabel6)
         Me.Controls.Add(Me.GunaLabel2)
         Me.Controls.Add(Me.Panel1)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "UC_AddProductStocks"
-        Me.Size = New System.Drawing.Size(1783, 1003)
+        Me.Size = New System.Drawing.Size(1748, 1038)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.dgvqnt5, System.ComponentModel.ISupportInitialize).EndInit()

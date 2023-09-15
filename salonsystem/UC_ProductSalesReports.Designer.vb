@@ -105,7 +105,8 @@ Partial Class UC_ProductSalesReports
         Me.btnClearProdReceipt.Image = CType(resources.GetObject("btnClearProdReceipt.Image"), System.Drawing.Image)
         Me.btnClearProdReceipt.ImageSize = New System.Drawing.Size(50, 50)
         Me.btnClearProdReceipt.LineColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(170, Byte), Integer))
-        Me.btnClearProdReceipt.Location = New System.Drawing.Point(1537, 881)
+        Me.btnClearProdReceipt.Location = New System.Drawing.Point(1271, 710)
+        Me.btnClearProdReceipt.Margin = New System.Windows.Forms.Padding(2)
         Me.btnClearProdReceipt.Name = "btnClearProdReceipt"
         Me.btnClearProdReceipt.OnHoverBaseColor = System.Drawing.Color.Blue
         Me.btnClearProdReceipt.OnHoverBorderColor = System.Drawing.Color.Black
@@ -113,7 +114,7 @@ Partial Class UC_ProductSalesReports
         Me.btnClearProdReceipt.OnHoverImage = Nothing
         Me.btnClearProdReceipt.OnHoverLineColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.btnClearProdReceipt.OnPressedColor = System.Drawing.Color.Blue
-        Me.btnClearProdReceipt.Size = New System.Drawing.Size(176, 116)
+        Me.btnClearProdReceipt.Size = New System.Drawing.Size(132, 94)
         Me.btnClearProdReceipt.TabIndex = 208
         Me.btnClearProdReceipt.Text = "Clear"
         '
@@ -136,7 +137,8 @@ Partial Class UC_ProductSalesReports
         Me.btnPrintProdReceipt.Image = CType(resources.GetObject("btnPrintProdReceipt.Image"), System.Drawing.Image)
         Me.btnPrintProdReceipt.ImageSize = New System.Drawing.Size(60, 60)
         Me.btnPrintProdReceipt.LineColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(170, Byte), Integer))
-        Me.btnPrintProdReceipt.Location = New System.Drawing.Point(1296, 881)
+        Me.btnPrintProdReceipt.Location = New System.Drawing.Point(972, 716)
+        Me.btnPrintProdReceipt.Margin = New System.Windows.Forms.Padding(2)
         Me.btnPrintProdReceipt.Name = "btnPrintProdReceipt"
         Me.btnPrintProdReceipt.OnHoverBaseColor = System.Drawing.Color.Blue
         Me.btnPrintProdReceipt.OnHoverBorderColor = System.Drawing.Color.Black
@@ -144,7 +146,7 @@ Partial Class UC_ProductSalesReports
         Me.btnPrintProdReceipt.OnHoverImage = Nothing
         Me.btnPrintProdReceipt.OnHoverLineColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.btnPrintProdReceipt.OnPressedColor = System.Drawing.Color.Blue
-        Me.btnPrintProdReceipt.Size = New System.Drawing.Size(176, 116)
+        Me.btnPrintProdReceipt.Size = New System.Drawing.Size(132, 94)
         Me.btnPrintProdReceipt.TabIndex = 207
         Me.btnPrintProdReceipt.Text = "Print"
         '
@@ -171,10 +173,11 @@ Partial Class UC_ProductSalesReports
         Me.pnlCusProdReceipt.Controls.Add(Me.GunaLabel6)
         Me.pnlCusProdReceipt.Controls.Add(Me.GunaLabel4)
         Me.pnlCusProdReceipt.Controls.Add(Me.Guna2PictureBox4)
-        Me.pnlCusProdReceipt.Location = New System.Drawing.Point(1276, 99)
+        Me.pnlCusProdReceipt.Location = New System.Drawing.Point(957, 80)
+        Me.pnlCusProdReceipt.Margin = New System.Windows.Forms.Padding(2)
         Me.pnlCusProdReceipt.Name = "pnlCusProdReceipt"
         Me.pnlCusProdReceipt.ShadowDecoration.Parent = Me.pnlCusProdReceipt
-        Me.pnlCusProdReceipt.Size = New System.Drawing.Size(462, 771)
+        Me.pnlCusProdReceipt.Size = New System.Drawing.Size(448, 626)
         Me.pnlCusProdReceipt.TabIndex = 206
         '
         'dgvprintReceipt
@@ -196,7 +199,8 @@ Partial Class UC_ProductSalesReports
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dgvprintReceipt.DefaultCellStyle = DataGridViewCellStyle2
         Me.dgvprintReceipt.GridColor = System.Drawing.SystemColors.AppWorkspace
-        Me.dgvprintReceipt.Location = New System.Drawing.Point(3, 294)
+        Me.dgvprintReceipt.Location = New System.Drawing.Point(2, 239)
+        Me.dgvprintReceipt.Margin = New System.Windows.Forms.Padding(2)
         Me.dgvprintReceipt.Name = "dgvprintReceipt"
         Me.dgvprintReceipt.ReadOnly = True
         DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
@@ -213,7 +217,7 @@ Partial Class UC_ProductSalesReports
         Me.dgvprintReceipt.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.White
         Me.dgvprintReceipt.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black
         Me.dgvprintReceipt.RowTemplate.Height = 24
-        Me.dgvprintReceipt.Size = New System.Drawing.Size(456, 347)
+        Me.dgvprintReceipt.Size = New System.Drawing.Size(444, 282)
         Me.dgvprintReceipt.TabIndex = 199
         '
         'GunaLabel23
@@ -221,9 +225,10 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel23.AutoSize = True
         Me.GunaLabel23.Font = New System.Drawing.Font("Algerian", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel23.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel23.Location = New System.Drawing.Point(91, 685)
+        Me.GunaLabel23.Location = New System.Drawing.Point(125, 556)
+        Me.GunaLabel23.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel23.Name = "GunaLabel23"
-        Me.GunaLabel23.Size = New System.Drawing.Size(273, 72)
+        Me.GunaLabel23.Size = New System.Drawing.Size(225, 60)
         Me.GunaLabel23.TabIndex = 198
         Me.GunaLabel23.Text = "Thank You" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "For Your Visit!!"
         Me.GunaLabel23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -233,9 +238,10 @@ Partial Class UC_ProductSalesReports
         Me.Guna2Separator4.BackColor = System.Drawing.Color.Transparent
         Me.Guna2Separator4.FillColor = System.Drawing.Color.Black
         Me.Guna2Separator4.FillThickness = 3
-        Me.Guna2Separator4.Location = New System.Drawing.Point(2, 672)
+        Me.Guna2Separator4.Location = New System.Drawing.Point(2, 546)
+        Me.Guna2Separator4.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2Separator4.Name = "Guna2Separator4"
-        Me.Guna2Separator4.Size = New System.Drawing.Size(457, 10)
+        Me.Guna2Separator4.Size = New System.Drawing.Size(474, 8)
         Me.Guna2Separator4.TabIndex = 197
         '
         'lblProdReceiptTotalRs
@@ -243,9 +249,10 @@ Partial Class UC_ProductSalesReports
         Me.lblProdReceiptTotalRs.AutoSize = True
         Me.lblProdReceiptTotalRs.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblProdReceiptTotalRs.ForeColor = System.Drawing.Color.Black
-        Me.lblProdReceiptTotalRs.Location = New System.Drawing.Point(367, 644)
+        Me.lblProdReceiptTotalRs.Location = New System.Drawing.Point(378, 523)
+        Me.lblProdReceiptTotalRs.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblProdReceiptTotalRs.Name = "lblProdReceiptTotalRs"
-        Me.lblProdReceiptTotalRs.Size = New System.Drawing.Size(19, 26)
+        Me.lblProdReceiptTotalRs.Size = New System.Drawing.Size(16, 22)
         Me.lblProdReceiptTotalRs.TabIndex = 196
         Me.lblProdReceiptTotalRs.Text = "-"
         '
@@ -254,9 +261,10 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel22.AutoSize = True
         Me.GunaLabel22.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel22.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel22.Location = New System.Drawing.Point(227, 644)
+        Me.GunaLabel22.Location = New System.Drawing.Point(273, 523)
+        Me.GunaLabel22.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel22.Name = "GunaLabel22"
-        Me.GunaLabel22.Size = New System.Drawing.Size(114, 26)
+        Me.GunaLabel22.Size = New System.Drawing.Size(98, 22)
         Me.GunaLabel22.TabIndex = 195
         Me.GunaLabel22.Text = "Total : Rs"
         '
@@ -265,9 +273,10 @@ Partial Class UC_ProductSalesReports
         Me.lblProdReceiptQuantity.AutoSize = True
         Me.lblProdReceiptQuantity.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblProdReceiptQuantity.ForeColor = System.Drawing.Color.Black
-        Me.lblProdReceiptQuantity.Location = New System.Drawing.Point(135, 644)
+        Me.lblProdReceiptQuantity.Location = New System.Drawing.Point(101, 523)
+        Me.lblProdReceiptQuantity.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblProdReceiptQuantity.Name = "lblProdReceiptQuantity"
-        Me.lblProdReceiptQuantity.Size = New System.Drawing.Size(19, 26)
+        Me.lblProdReceiptQuantity.Size = New System.Drawing.Size(16, 22)
         Me.lblProdReceiptQuantity.TabIndex = 194
         Me.lblProdReceiptQuantity.Text = "-"
         '
@@ -276,9 +285,10 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel19.AutoSize = True
         Me.GunaLabel19.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel19.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel19.Location = New System.Drawing.Point(3, 643)
+        Me.GunaLabel19.Location = New System.Drawing.Point(2, 522)
+        Me.GunaLabel19.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel19.Name = "GunaLabel19"
-        Me.GunaLabel19.Size = New System.Drawing.Size(122, 26)
+        Me.GunaLabel19.Size = New System.Drawing.Size(103, 22)
         Me.GunaLabel19.TabIndex = 193
         Me.GunaLabel19.Text = "Quantity : "
         '
@@ -287,9 +297,10 @@ Partial Class UC_ProductSalesReports
         Me.lblProdReceiptCusMob.AutoSize = True
         Me.lblProdReceiptCusMob.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblProdReceiptCusMob.ForeColor = System.Drawing.Color.Black
-        Me.lblProdReceiptCusMob.Location = New System.Drawing.Point(299, 228)
+        Me.lblProdReceiptCusMob.Location = New System.Drawing.Point(347, 155)
+        Me.lblProdReceiptCusMob.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblProdReceiptCusMob.Name = "lblProdReceiptCusMob"
-        Me.lblProdReceiptCusMob.Size = New System.Drawing.Size(19, 26)
+        Me.lblProdReceiptCusMob.Size = New System.Drawing.Size(16, 22)
         Me.lblProdReceiptCusMob.TabIndex = 190
         Me.lblProdReceiptCusMob.Text = "-"
         '
@@ -298,9 +309,10 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel17.AutoSize = True
         Me.GunaLabel17.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel17.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel17.Location = New System.Drawing.Point(178, 230)
+        Me.GunaLabel17.Location = New System.Drawing.Point(257, 157)
+        Me.GunaLabel17.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel17.Name = "GunaLabel17"
-        Me.GunaLabel17.Size = New System.Drawing.Size(106, 26)
+        Me.GunaLabel17.Size = New System.Drawing.Size(87, 22)
         Me.GunaLabel17.TabIndex = 191
         Me.GunaLabel17.Text = "Mob No : "
         '
@@ -309,9 +321,10 @@ Partial Class UC_ProductSalesReports
         Me.lblProdReceiptBillNo.AutoSize = True
         Me.lblProdReceiptBillNo.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblProdReceiptBillNo.ForeColor = System.Drawing.Color.Black
-        Me.lblProdReceiptBillNo.Location = New System.Drawing.Point(106, 228)
+        Me.lblProdReceiptBillNo.Location = New System.Drawing.Point(80, 185)
+        Me.lblProdReceiptBillNo.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblProdReceiptBillNo.Name = "lblProdReceiptBillNo"
-        Me.lblProdReceiptBillNo.Size = New System.Drawing.Size(19, 26)
+        Me.lblProdReceiptBillNo.Size = New System.Drawing.Size(16, 22)
         Me.lblProdReceiptBillNo.TabIndex = 189
         Me.lblProdReceiptBillNo.Text = "-"
         '
@@ -320,9 +333,10 @@ Partial Class UC_ProductSalesReports
         Me.lblProdReceiptCusName.AutoSize = True
         Me.lblProdReceiptCusName.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblProdReceiptCusName.ForeColor = System.Drawing.Color.Black
-        Me.lblProdReceiptCusName.Location = New System.Drawing.Point(147, 265)
+        Me.lblProdReceiptCusName.Location = New System.Drawing.Point(110, 215)
+        Me.lblProdReceiptCusName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblProdReceiptCusName.Name = "lblProdReceiptCusName"
-        Me.lblProdReceiptCusName.Size = New System.Drawing.Size(19, 26)
+        Me.lblProdReceiptCusName.Size = New System.Drawing.Size(16, 22)
         Me.lblProdReceiptCusName.TabIndex = 188
         Me.lblProdReceiptCusName.Text = "-"
         '
@@ -331,9 +345,10 @@ Partial Class UC_ProductSalesReports
         Me.lblProdReceiptBillDate.AutoSize = True
         Me.lblProdReceiptBillDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblProdReceiptBillDate.ForeColor = System.Drawing.Color.Black
-        Me.lblProdReceiptBillDate.Location = New System.Drawing.Point(121, 193)
+        Me.lblProdReceiptBillDate.Location = New System.Drawing.Point(91, 157)
+        Me.lblProdReceiptBillDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblProdReceiptBillDate.Name = "lblProdReceiptBillDate"
-        Me.lblProdReceiptBillDate.Size = New System.Drawing.Size(19, 26)
+        Me.lblProdReceiptBillDate.Size = New System.Drawing.Size(16, 22)
         Me.lblProdReceiptBillDate.TabIndex = 184
         Me.lblProdReceiptBillDate.Text = "-"
         '
@@ -342,9 +357,10 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel8.AutoSize = True
         Me.GunaLabel8.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel8.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel8.Location = New System.Drawing.Point(1, 264)
+        Me.GunaLabel8.Location = New System.Drawing.Point(1, 214)
+        Me.GunaLabel8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel8.Name = "GunaLabel8"
-        Me.GunaLabel8.Size = New System.Drawing.Size(134, 26)
+        Me.GunaLabel8.Size = New System.Drawing.Size(109, 22)
         Me.GunaLabel8.TabIndex = 186
         Me.GunaLabel8.Text = "Cust Name :"
         '
@@ -354,9 +370,10 @@ Partial Class UC_ProductSalesReports
         Me.Guna2Separator3.FillColor = System.Drawing.Color.Black
         Me.Guna2Separator3.FillStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Separator3.FillThickness = 5
-        Me.Guna2Separator3.Location = New System.Drawing.Point(2, 133)
+        Me.Guna2Separator3.Location = New System.Drawing.Point(2, 108)
+        Me.Guna2Separator3.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2Separator3.Name = "Guna2Separator3"
-        Me.Guna2Separator3.Size = New System.Drawing.Size(457, 10)
+        Me.Guna2Separator3.Size = New System.Drawing.Size(444, 10)
         Me.Guna2Separator3.TabIndex = 184
         '
         'GunaLabel11
@@ -364,9 +381,10 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel11.AutoSize = True
         Me.GunaLabel11.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel11.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel11.Location = New System.Drawing.Point(3, 228)
+        Me.GunaLabel11.Location = New System.Drawing.Point(2, 185)
+        Me.GunaLabel11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel11.Name = "GunaLabel11"
-        Me.GunaLabel11.Size = New System.Drawing.Size(88, 26)
+        Me.GunaLabel11.Size = New System.Drawing.Size(72, 22)
         Me.GunaLabel11.TabIndex = 185
         Me.GunaLabel11.Text = "Bill No :"
         '
@@ -375,9 +393,10 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel10.AutoSize = True
         Me.GunaLabel10.Font = New System.Drawing.Font("Gill Sans MT Condensed", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel10.ForeColor = System.Drawing.Color.Firebrick
-        Me.GunaLabel10.Location = New System.Drawing.Point(161, 143)
+        Me.GunaLabel10.Location = New System.Drawing.Point(169, 120)
+        Me.GunaLabel10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel10.Name = "GunaLabel10"
-        Me.GunaLabel10.Size = New System.Drawing.Size(142, 37)
+        Me.GunaLabel10.Size = New System.Drawing.Size(119, 29)
         Me.GunaLabel10.TabIndex = 187
         Me.GunaLabel10.Text = "Print Receipt"
         '
@@ -386,9 +405,10 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel12.AutoSize = True
         Me.GunaLabel12.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel12.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel12.Location = New System.Drawing.Point(3, 193)
+        Me.GunaLabel12.Location = New System.Drawing.Point(2, 157)
+        Me.GunaLabel12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel12.Name = "GunaLabel12"
-        Me.GunaLabel12.Size = New System.Drawing.Size(112, 26)
+        Me.GunaLabel12.Size = New System.Drawing.Size(92, 22)
         Me.GunaLabel12.TabIndex = 184
         Me.GunaLabel12.Text = "Bill Date : "
         '
@@ -397,9 +417,10 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel6.AutoSize = True
         Me.GunaLabel6.Font = New System.Drawing.Font("Algerian", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel6.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel6.Location = New System.Drawing.Point(134, 92)
+        Me.GunaLabel6.Location = New System.Drawing.Point(169, 76)
+        Me.GunaLabel6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel6.Name = "GunaLabel6"
-        Me.GunaLabel6.Size = New System.Drawing.Size(310, 36)
+        Me.GunaLabel6.Size = New System.Drawing.Size(255, 30)
         Me.GunaLabel6.TabIndex = 185
         Me.GunaLabel6.Text = "The Family Salon"
         '
@@ -408,19 +429,21 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel4.AutoSize = True
         Me.GunaLabel4.Font = New System.Drawing.Font("Algerian", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel4.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel4.Location = New System.Drawing.Point(158, 5)
+        Me.GunaLabel4.Location = New System.Drawing.Point(118, 4)
+        Me.GunaLabel4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel4.Name = "GunaLabel4"
-        Me.GunaLabel4.Size = New System.Drawing.Size(279, 89)
+        Me.GunaLabel4.Size = New System.Drawing.Size(332, 71)
         Me.GunaLabel4.TabIndex = 184
-        Me.GunaLabel4.Text = "Milan"
+        Me.GunaLabel4.Text = "Keshava"
         '
         'Guna2PictureBox4
         '
         Me.Guna2PictureBox4.Image = CType(resources.GetObject("Guna2PictureBox4.Image"), System.Drawing.Image)
-        Me.Guna2PictureBox4.Location = New System.Drawing.Point(3, 3)
+        Me.Guna2PictureBox4.Location = New System.Drawing.Point(2, 2)
+        Me.Guna2PictureBox4.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2PictureBox4.Name = "Guna2PictureBox4"
         Me.Guna2PictureBox4.ShadowDecoration.Parent = Me.Guna2PictureBox4
-        Me.Guna2PictureBox4.Size = New System.Drawing.Size(130, 126)
+        Me.Guna2PictureBox4.Size = New System.Drawing.Size(98, 102)
         Me.Guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox4.TabIndex = 184
         Me.Guna2PictureBox4.TabStop = False
@@ -430,9 +453,10 @@ Partial Class UC_ProductSalesReports
         Me.lblCusProdReportBillDate.AutoSize = True
         Me.lblCusProdReportBillDate.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCusProdReportBillDate.ForeColor = System.Drawing.Color.Black
-        Me.lblCusProdReportBillDate.Location = New System.Drawing.Point(238, 233)
+        Me.lblCusProdReportBillDate.Location = New System.Drawing.Point(178, 189)
+        Me.lblCusProdReportBillDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblCusProdReportBillDate.Name = "lblCusProdReportBillDate"
-        Me.lblCusProdReportBillDate.Size = New System.Drawing.Size(34, 39)
+        Me.lblCusProdReportBillDate.Size = New System.Drawing.Size(27, 31)
         Me.lblCusProdReportBillDate.TabIndex = 193
         Me.lblCusProdReportBillDate.Text = "-"
         '
@@ -441,9 +465,10 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel1.AutoSize = True
         Me.GunaLabel1.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel1.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel1.Location = New System.Drawing.Point(19, 233)
+        Me.GunaLabel1.Location = New System.Drawing.Point(14, 189)
+        Me.GunaLabel1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel1.Name = "GunaLabel1"
-        Me.GunaLabel1.Size = New System.Drawing.Size(172, 39)
+        Me.GunaLabel1.Size = New System.Drawing.Size(136, 31)
         Me.GunaLabel1.TabIndex = 192
         Me.GunaLabel1.Text = "Bill Date : "
         '
@@ -460,14 +485,15 @@ Partial Class UC_ProductSalesReports
         Me.btnCusProdBillReportSearch.ForeColor = System.Drawing.Color.Black
         Me.btnCusProdBillReportSearch.Image = Nothing
         Me.btnCusProdBillReportSearch.ImageSize = New System.Drawing.Size(20, 20)
-        Me.btnCusProdBillReportSearch.Location = New System.Drawing.Point(179, 327)
+        Me.btnCusProdBillReportSearch.Location = New System.Drawing.Point(134, 266)
+        Me.btnCusProdBillReportSearch.Margin = New System.Windows.Forms.Padding(2)
         Me.btnCusProdBillReportSearch.Name = "btnCusProdBillReportSearch"
         Me.btnCusProdBillReportSearch.OnHoverBaseColor = System.Drawing.Color.Black
         Me.btnCusProdBillReportSearch.OnHoverBorderColor = System.Drawing.Color.Black
         Me.btnCusProdBillReportSearch.OnHoverForeColor = System.Drawing.Color.WhiteSmoke
         Me.btnCusProdBillReportSearch.OnHoverImage = Nothing
         Me.btnCusProdBillReportSearch.OnPressedColor = System.Drawing.Color.Black
-        Me.btnCusProdBillReportSearch.Size = New System.Drawing.Size(143, 67)
+        Me.btnCusProdBillReportSearch.Size = New System.Drawing.Size(107, 54)
         Me.btnCusProdBillReportSearch.TabIndex = 190
         Me.btnCusProdBillReportSearch.Text = "Search"
         Me.btnCusProdBillReportSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -483,11 +509,12 @@ Partial Class UC_ProductSalesReports
         Me.txtCusProdReportBillNo.FocusedForeColor = System.Drawing.SystemColors.ControlText
         Me.txtCusProdReportBillNo.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCusProdReportBillNo.ForeColor = System.Drawing.Color.Black
-        Me.txtCusProdReportBillNo.Location = New System.Drawing.Point(237, 111)
+        Me.txtCusProdReportBillNo.Location = New System.Drawing.Point(178, 90)
+        Me.txtCusProdReportBillNo.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCusProdReportBillNo.Name = "txtCusProdReportBillNo"
         Me.txtCusProdReportBillNo.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtCusProdReportBillNo.SelectedText = ""
-        Me.txtCusProdReportBillNo.Size = New System.Drawing.Size(202, 41)
+        Me.txtCusProdReportBillNo.Size = New System.Drawing.Size(152, 35)
         Me.txtCusProdReportBillNo.TabIndex = 189
         '
         'lblfname
@@ -495,9 +522,10 @@ Partial Class UC_ProductSalesReports
         Me.lblfname.AutoSize = True
         Me.lblfname.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblfname.ForeColor = System.Drawing.Color.Black
-        Me.lblfname.Location = New System.Drawing.Point(22, 111)
+        Me.lblfname.Location = New System.Drawing.Point(16, 90)
+        Me.lblfname.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblfname.Name = "lblfname"
-        Me.lblfname.Size = New System.Drawing.Size(145, 39)
+        Me.lblfname.Size = New System.Drawing.Size(116, 31)
         Me.lblfname.TabIndex = 191
         Me.lblfname.Text = "Bill No : "
         '
@@ -506,9 +534,10 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel20.AutoSize = True
         Me.GunaLabel20.Font = New System.Drawing.Font("Algerian", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel20.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel20.Location = New System.Drawing.Point(208, 11)
+        Me.GunaLabel20.Location = New System.Drawing.Point(156, 9)
+        Me.GunaLabel20.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel20.Name = "GunaLabel20"
-        Me.GunaLabel20.Size = New System.Drawing.Size(736, 45)
+        Me.GunaLabel20.Size = New System.Drawing.Size(597, 35)
         Me.GunaLabel20.TabIndex = 188
         Me.GunaLabel20.Text = "Customer Product - Sales Report"
         '
@@ -518,9 +547,10 @@ Partial Class UC_ProductSalesReports
         Me.Guna2Separator6.FillColor = System.Drawing.Color.Black
         Me.Guna2Separator6.FillStyle = System.Drawing.Drawing2D.DashStyle.Dot
         Me.Guna2Separator6.FillThickness = 8
-        Me.Guna2Separator6.Location = New System.Drawing.Point(-214, 68)
+        Me.Guna2Separator6.Location = New System.Drawing.Point(-160, 55)
+        Me.Guna2Separator6.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2Separator6.Name = "Guna2Separator6"
-        Me.Guna2Separator6.Size = New System.Drawing.Size(1437, 10)
+        Me.Guna2Separator6.Size = New System.Drawing.Size(1078, 8)
         Me.Guna2Separator6.TabIndex = 187
         '
         'Guna2VSeparator1
@@ -528,9 +558,10 @@ Partial Class UC_ProductSalesReports
         Me.Guna2VSeparator1.FillColor = System.Drawing.Color.Black
         Me.Guna2VSeparator1.FillStyle = System.Drawing.Drawing2D.DashStyle.DashDot
         Me.Guna2VSeparator1.FillThickness = 7
-        Me.Guna2VSeparator1.Location = New System.Drawing.Point(1221, 8)
+        Me.Guna2VSeparator1.Location = New System.Drawing.Point(916, 6)
+        Me.Guna2VSeparator1.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2VSeparator1.Name = "Guna2VSeparator1"
-        Me.Guna2VSeparator1.Size = New System.Drawing.Size(10, 997)
+        Me.Guna2VSeparator1.Size = New System.Drawing.Size(8, 810)
         Me.Guna2VSeparator1.TabIndex = 186
         '
         'Guna2Separator2
@@ -539,18 +570,20 @@ Partial Class UC_ProductSalesReports
         Me.Guna2Separator2.FillColor = System.Drawing.Color.Black
         Me.Guna2Separator2.FillStyle = System.Drawing.Drawing2D.DashStyle.Dot
         Me.Guna2Separator2.FillThickness = 8
-        Me.Guna2Separator2.Location = New System.Drawing.Point(1233, 68)
+        Me.Guna2Separator2.Location = New System.Drawing.Point(925, 55)
+        Me.Guna2Separator2.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2Separator2.Name = "Guna2Separator2"
-        Me.Guna2Separator2.Size = New System.Drawing.Size(553, 10)
+        Me.Guna2Separator2.Size = New System.Drawing.Size(415, 8)
         Me.Guna2Separator2.TabIndex = 205
         '
         'Guna2VSeparator2
         '
         Me.Guna2VSeparator2.FillColor = System.Drawing.Color.Black
         Me.Guna2VSeparator2.FillThickness = 7
-        Me.Guna2VSeparator2.Location = New System.Drawing.Point(484, 81)
+        Me.Guna2VSeparator2.Location = New System.Drawing.Point(363, 66)
+        Me.Guna2VSeparator2.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2VSeparator2.Name = "Guna2VSeparator2"
-        Me.Guna2VSeparator2.Size = New System.Drawing.Size(12, 364)
+        Me.Guna2VSeparator2.Size = New System.Drawing.Size(9, 296)
         Me.Guna2VSeparator2.TabIndex = 194
         '
         'GunaLabel2
@@ -558,9 +591,10 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel2.AutoSize = True
         Me.GunaLabel2.Font = New System.Drawing.Font("Algerian", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel2.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.GunaLabel2.Location = New System.Drawing.Point(1237, 8)
+        Me.GunaLabel2.Location = New System.Drawing.Point(928, 6)
+        Me.GunaLabel2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel2.Name = "GunaLabel2"
-        Me.GunaLabel2.Size = New System.Drawing.Size(494, 45)
+        Me.GunaLabel2.Size = New System.Drawing.Size(400, 35)
         Me.GunaLabel2.TabIndex = 204
         Me.GunaLabel2.Text = "Print Reciept Preview"
         '
@@ -595,14 +629,15 @@ Partial Class UC_ProductSalesReports
         Me.dgvCusServBillReport.DefaultCellStyle = DataGridViewCellStyle6
         Me.dgvCusServBillReport.EnableHeadersVisualStyles = False
         Me.dgvCusServBillReport.GridColor = System.Drawing.Color.Black
-        Me.dgvCusServBillReport.Location = New System.Drawing.Point(0, 452)
+        Me.dgvCusServBillReport.Location = New System.Drawing.Point(0, 367)
+        Me.dgvCusServBillReport.Margin = New System.Windows.Forms.Padding(2)
         Me.dgvCusServBillReport.Name = "dgvCusServBillReport"
         Me.dgvCusServBillReport.ReadOnly = True
         Me.dgvCusServBillReport.RowHeadersVisible = False
         Me.dgvCusServBillReport.RowHeadersWidth = 51
         Me.dgvCusServBillReport.RowTemplate.Height = 24
         Me.dgvCusServBillReport.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvCusServBillReport.Size = New System.Drawing.Size(1217, 551)
+        Me.dgvCusServBillReport.Size = New System.Drawing.Size(913, 448)
         Me.dgvCusServBillReport.TabIndex = 203
         Me.dgvCusServBillReport.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.[Default]
         Me.dgvCusServBillReport.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
@@ -668,9 +703,10 @@ Partial Class UC_ProductSalesReports
         Me.Guna2Separator1.FillColor = System.Drawing.Color.Black
         Me.Guna2Separator1.FillStyle = System.Drawing.Drawing2D.DashStyle.Dot
         Me.Guna2Separator1.FillThickness = 8
-        Me.Guna2Separator1.Location = New System.Drawing.Point(-2, 438)
+        Me.Guna2Separator1.Location = New System.Drawing.Point(-2, 356)
+        Me.Guna2Separator1.Margin = New System.Windows.Forms.Padding(2)
         Me.Guna2Separator1.Name = "Guna2Separator1"
-        Me.Guna2Separator1.Size = New System.Drawing.Size(1225, 10)
+        Me.Guna2Separator1.Size = New System.Drawing.Size(919, 8)
         Me.Guna2Separator1.TabIndex = 195
         '
         'GunaLabel3
@@ -678,9 +714,10 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel3.AutoSize = True
         Me.GunaLabel3.Font = New System.Drawing.Font("Gill Sans MT Condensed", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel3.ForeColor = System.Drawing.Color.Maroon
-        Me.GunaLabel3.Location = New System.Drawing.Point(502, 81)
+        Me.GunaLabel3.Location = New System.Drawing.Point(376, 66)
+        Me.GunaLabel3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel3.Name = "GunaLabel3"
-        Me.GunaLabel3.Size = New System.Drawing.Size(215, 29)
+        Me.GunaLabel3.Size = New System.Drawing.Size(173, 25)
         Me.GunaLabel3.TabIndex = 196
         Me.GunaLabel3.Text = "*Customer Billing Details"
         '
@@ -689,9 +726,10 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel9.AutoSize = True
         Me.GunaLabel9.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel9.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel9.Location = New System.Drawing.Point(517, 273)
+        Me.GunaLabel9.Location = New System.Drawing.Point(388, 222)
+        Me.GunaLabel9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel9.Name = "GunaLabel9"
-        Me.GunaLabel9.Size = New System.Drawing.Size(271, 39)
+        Me.GunaLabel9.Size = New System.Drawing.Size(216, 31)
         Me.GunaLabel9.TabIndex = 201
         Me.GunaLabel9.Text = "Customer Adress :"
         '
@@ -700,9 +738,10 @@ Partial Class UC_ProductSalesReports
         Me.lblCusProdBillCusName.AutoSize = True
         Me.lblCusProdBillCusName.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCusProdBillCusName.ForeColor = System.Drawing.Color.Black
-        Me.lblCusProdBillCusName.Location = New System.Drawing.Point(919, 198)
+        Me.lblCusProdBillCusName.Location = New System.Drawing.Point(689, 161)
+        Me.lblCusProdBillCusName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblCusProdBillCusName.Name = "lblCusProdBillCusName"
-        Me.lblCusProdBillCusName.Size = New System.Drawing.Size(34, 39)
+        Me.lblCusProdBillCusName.Size = New System.Drawing.Size(27, 31)
         Me.lblCusProdBillCusName.TabIndex = 200
         Me.lblCusProdBillCusName.Text = "-"
         '
@@ -711,9 +750,10 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel7.AutoSize = True
         Me.GunaLabel7.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel7.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel7.Location = New System.Drawing.Point(517, 198)
+        Me.GunaLabel7.Location = New System.Drawing.Point(388, 161)
+        Me.GunaLabel7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel7.Name = "GunaLabel7"
-        Me.GunaLabel7.Size = New System.Drawing.Size(255, 39)
+        Me.GunaLabel7.Size = New System.Drawing.Size(201, 31)
         Me.GunaLabel7.TabIndex = 199
         Me.GunaLabel7.Text = "Customer Name :"
         '
@@ -722,9 +762,10 @@ Partial Class UC_ProductSalesReports
         Me.lblCusProdBillCusMobile.AutoSize = True
         Me.lblCusProdBillCusMobile.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCusProdBillCusMobile.ForeColor = System.Drawing.Color.Black
-        Me.lblCusProdBillCusMobile.Location = New System.Drawing.Point(1005, 131)
+        Me.lblCusProdBillCusMobile.Location = New System.Drawing.Point(754, 106)
+        Me.lblCusProdBillCusMobile.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblCusProdBillCusMobile.Name = "lblCusProdBillCusMobile"
-        Me.lblCusProdBillCusMobile.Size = New System.Drawing.Size(34, 39)
+        Me.lblCusProdBillCusMobile.Size = New System.Drawing.Size(27, 31)
         Me.lblCusProdBillCusMobile.TabIndex = 198
         Me.lblCusProdBillCusMobile.Text = "-"
         '
@@ -733,9 +774,10 @@ Partial Class UC_ProductSalesReports
         Me.lblCusProdBillCusAddress.AutoSize = True
         Me.lblCusProdBillCusAddress.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCusProdBillCusAddress.ForeColor = System.Drawing.Color.Black
-        Me.lblCusProdBillCusAddress.Location = New System.Drawing.Point(919, 273)
+        Me.lblCusProdBillCusAddress.Location = New System.Drawing.Point(689, 222)
+        Me.lblCusProdBillCusAddress.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblCusProdBillCusAddress.Name = "lblCusProdBillCusAddress"
-        Me.lblCusProdBillCusAddress.Size = New System.Drawing.Size(34, 39)
+        Me.lblCusProdBillCusAddress.Size = New System.Drawing.Size(27, 31)
         Me.lblCusProdBillCusAddress.TabIndex = 202
         Me.lblCusProdBillCusAddress.Text = "-"
         '
@@ -744,9 +786,10 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel5.AutoSize = True
         Me.GunaLabel5.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel5.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel5.Location = New System.Drawing.Point(517, 131)
+        Me.GunaLabel5.Location = New System.Drawing.Point(388, 106)
+        Me.GunaLabel5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel5.Name = "GunaLabel5"
-        Me.GunaLabel5.Size = New System.Drawing.Size(329, 39)
+        Me.GunaLabel5.Size = New System.Drawing.Size(260, 31)
         Me.GunaLabel5.TabIndex = 197
         Me.GunaLabel5.Text = "Customer Mobile No : "
         '
@@ -755,9 +798,10 @@ Partial Class UC_ProductSalesReports
         Me.GunaLabel13.AutoSize = True
         Me.GunaLabel13.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel13.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel13.Location = New System.Drawing.Point(856, 131)
+        Me.GunaLabel13.Location = New System.Drawing.Point(642, 106)
+        Me.GunaLabel13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.GunaLabel13.Name = "GunaLabel13"
-        Me.GunaLabel13.Size = New System.Drawing.Size(88, 39)
+        Me.GunaLabel13.Size = New System.Drawing.Size(69, 31)
         Me.GunaLabel13.TabIndex = 209
         Me.GunaLabel13.Text = "(+91)"
         '
@@ -776,7 +820,7 @@ Partial Class UC_ProductSalesReports
         '
         'UC_ProductSalesReports
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Silver
         Me.Controls.Add(Me.GunaLabel13)
@@ -803,8 +847,9 @@ Partial Class UC_ProductSalesReports
         Me.Controls.Add(Me.lblCusProdBillCusMobile)
         Me.Controls.Add(Me.lblCusProdBillCusAddress)
         Me.Controls.Add(Me.GunaLabel5)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "UC_ProductSalesReports"
-        Me.Size = New System.Drawing.Size(1783, 1003)
+        Me.Size = New System.Drawing.Size(1411, 995)
         Me.pnlCusProdReceipt.ResumeLayout(False)
         Me.pnlCusProdReceipt.PerformLayout()
         CType(Me.dgvprintReceipt, System.ComponentModel.ISupportInitialize).EndInit()

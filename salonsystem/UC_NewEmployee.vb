@@ -1,8 +1,8 @@
-﻿Imports System.Data.SqlClient
+﻿Imports MySql.Data.MySqlClient
 Public Class UC_NewEmployee
 
-    Dim con As New SqlConnection
-    Dim cmd As New SqlCommand
+    Dim conn As New MySqlConnection
+    Dim cmd As New MySqlCommand
     Private Sub btnadd_Click(sender As Object, e As EventArgs) Handles btnadd.Click
         getdata()
     End Sub
@@ -17,9 +17,9 @@ Public Class UC_NewEmployee
             If lblid.Text = "" Or txtfname.Text = "" Then
                 MsgBox("Id and First Name Must Require", MsgBoxStyle.Critical)
                 txtfname.Focus()
-                con.Close()
+                conn.Close()
             Else
-                Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
+                Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
                 Dim ability As String = ""
                 If chkboxHairAbility.Checked = True Then
                     ability = ability & "Hair"
@@ -47,9 +47,9 @@ Public Class UC_NewEmployee
                     End If
                 End If
 
-                Dim cmd As SqlCommand = New SqlCommand("insert into employee values ('" & lblid.Text & "','" & txtfname.Text & "','" & txtlname.Text & "','" & gender & "','" & dtpDOB.Value.ToString("dd/MM/yyyy") & "','" & txtmobile.Text & "','" & ability & "','" & txtaddress.Text & " ')")
-                cmd.Connection = con
-                con.Open()
+                Dim cmd As MySqlCommand = New MySqlCommand("insert into employee values ('" & lblid.Text & "','" & txtfname.Text & "','" & txtlname.Text & "','" & gender & "','" & dtpDOB.Value.ToString("dd/MM/yyyy") & "','" & txtmobile.Text & "','" & ability & "','" & txtaddress.Text & " ')")
+                cmd.Connection = conn
+                conn.Open()
                 Dim r As Integer
                 r = cmd.ExecuteNonQuery()
                 If r > 0 Then
@@ -65,36 +65,36 @@ Public Class UC_NewEmployee
                 Else
                     MsgBox("No record has been saved!")
                 End If
-                con.Close()
+                conn.Close()
             End If
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
     End Sub
     Private Sub getemployee()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select count(*) from Employee ")
-        cmd.Connection = con
-        con.Open()
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select count(*) from Employee ")
+        cmd.Connection = conn
+        conn.Open()
         Dim r As Integer
         r = cmd.ExecuteScalar
         lblTotalEmp.Text = r
     End Sub
     Private Sub getid()
         Try
-            con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True"
-            If con.State = ConnectionState.Open Then
-                con.Close()
+            conn.ConnectionString = "server=localhost;username=root;password=;database=salonsystem;port=3306"
+            If conn.State = ConnectionState.Open Then
+                conn.Close()
 
             End If
 
-            con.Open()
-            Dim cmd As SqlCommand = New SqlCommand("SELECT MAX(Id) + 1 as Id From Employee", con)
+            conn.Open()
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT MAX(Id) + 1 as Id From Employee", conn)
             lblid.Text = cmd.ExecuteScalar().ToString()
             If lblid.Text = "" Then
                 lblid.Text = 1
             End If
-            con.Close()
+            conn.Close()
 
         Catch ex As Exception
             MsgBox(ex.Message)
@@ -102,12 +102,12 @@ Public Class UC_NewEmployee
     End Sub
     Private Sub gettop3hairwork()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT Top 3 First_Name from employee Where Ability like '%Hair%'")
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT Top 3 First_Name from employee Where Ability like '%Hair%'")
             Dim count As Integer = 1
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While (rdr.Read() And count <= 3)
                 If count = 1 Then
                     lblhairdressingtop1.Text = rdr("First_Name")
@@ -118,7 +118,7 @@ Public Class UC_NewEmployee
                 End If
                 count = count + 1
             End While
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message)
 
@@ -126,12 +126,12 @@ Public Class UC_NewEmployee
     End Sub
     Private Sub gettop3Facialwork()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT Top 3 First_Name from employee Where Ability like '%Facial%'")
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT Top 3 First_Name from employee Where Ability like '%Facial%'")
             Dim count As Integer = 1
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While (rdr.Read() And count <= 3)
                 If count = 1 Then
                     lblFacialtop1.Text = rdr("First_Name")
@@ -142,7 +142,7 @@ Public Class UC_NewEmployee
                 End If
                 count = count + 1
             End While
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message)
 
@@ -150,12 +150,12 @@ Public Class UC_NewEmployee
     End Sub
     Private Sub gettop3Beardwork()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT Top 3 First_Name from employee Where Ability like '%Beard%'")
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT Top 3 First_Name from employee Where Ability like '%Beard%'")
             Dim count As Integer = 1
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While (rdr.Read() And count <= 3)
                 If count = 1 Then
                     lblbeardworktop1.Text = rdr("First_Name")
@@ -166,19 +166,19 @@ Public Class UC_NewEmployee
                 End If
                 count = count + 1
             End While
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message)
         End Try
     End Sub
     Private Sub gettop3Massagework()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT Top 3 First_Name from employee Where Ability like '%Massage%'")
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT Top 3 First_Name from employee Where Ability like '%Massage%'")
             Dim count As Integer = 1
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While (rdr.Read() And count <= 3)
                 If count = 1 Then
                     lblMassagetop1.Text = rdr("First_Name")
@@ -189,7 +189,7 @@ Public Class UC_NewEmployee
                 End If
                 count = count + 1
             End While
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message)
 
@@ -197,10 +197,10 @@ Public Class UC_NewEmployee
     End Sub
     Private Sub test()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            con.Open()
-            Dim cmd As New SqlCommand("Select First_Name , COUNT(id) as CUST_COUNT from Employee group by (First_Name) ORDER BY CUST_COUNT DESC", con)
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            conn.Open()
+            Dim cmd As New MySqlCommand("Select First_Name , COUNT(id) as CUST_COUNT from Employee group by (First_Name) ORDER BY CUST_COUNT DESC", conn)
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             Dim count As Integer = 1
             While (rdr.Read() And count <= 3)
                 If count = 1 Then
@@ -213,7 +213,7 @@ Public Class UC_NewEmployee
                 count = count + 1
             End While
 
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message)
         End Try

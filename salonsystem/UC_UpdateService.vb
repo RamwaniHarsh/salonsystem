@@ -1,8 +1,8 @@
-﻿Imports System.Data.SqlClient
+﻿Imports MySql.Data.MySqlClient
 Public Class UC_UpdateService
     Dim isfound As Integer
-    Dim con As New SqlConnection
-    Dim cmd As New SqlCommand
+    Dim conn As New MySqlConnection
+    Dim cmd As New MySqlCommand
     Dim count As Integer = 0
     Dim cus_name As String
     Dim Bill_No As Integer
@@ -13,31 +13,31 @@ Public Class UC_UpdateService
     Dim totalcustomer As Integer = 0
     Dim service_Name As String
     Private Sub coutcust()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select count(*) from Service_Sales_Master", con)
-        cmd.Connection = con
-        con.Open()
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select count(*) from Service_Sales_Master", conn)
+        cmd.Connection = conn
+        conn.Open()
         Dim r As Integer
         r = cmd.ExecuteScalar
         totalcustomer = r
     End Sub
     Private Sub kacharaseth2()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd1 As SqlCommand = New SqlCommand("SELECT * from Service_Sales_Master", con)
-            cmd1.Connection = con
-            con.Open()
-            Dim rdr1 As SqlDataReader = cmd1.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd1 As MySqlCommand = New MySqlCommand("SELECT * from Service_Sales_Master", conn)
+            cmd1.Connection = conn
+            conn.Open()
+            Dim rdr1 As MySqlDataReader = cmd1.ExecuteReader
             While rdr1.Read
                 Bill_No = rdr1("Bill_No")
                 cus_name = rdr1("Customer_Name")
                 kacharaseth()
             End While
             calculatehaircutper()
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
     End Sub
     Private Sub calculatehaircutper()
@@ -65,38 +65,38 @@ Public Class UC_UpdateService
     Private Sub kacharaseth()
 
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT * from Service_Sales_Details where Bill_No = '" & Bill_No & "'", con)
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT * from Service_Sales_Details where Bill_No = '" & Bill_No & "'", conn)
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 service_Name = rdr("Service_Name")
                 servicecount()
             End While
 
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
 
     End Sub
     Private Sub gettotalservices()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select count(*) from Service_Sales_Master", con)
-        cmd.Connection = con
-        con.Open()
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select count(*) from Service_Sales_Master", conn)
+        cmd.Connection = conn
+        conn.Open()
         Dim r As Integer
         r = cmd.ExecuteScalar
         count = r
     End Sub
     Private Sub getdata()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("Update Services set Service_Name='" & txtservicename.Text & "',Description='" & txtdesc.Text & "' where Service_Name = '" & cmbServiceName.SelectedItem & "'")
-            cmd.Connection = con
-            con.Open()
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("Update Services set Service_Name='" & txtservicename.Text & "',Description='" & txtdesc.Text & "' where Service_Name = '" & cmbServiceName.SelectedItem & "'")
+            cmd.Connection = conn
+            conn.Open()
 
             Dim r As Integer
             r = cmd.ExecuteNonQuery()
@@ -106,7 +106,7 @@ Public Class UC_UpdateService
             Else
                 MsgBox("No Record has been Saved !")
             End If
-            con.Close()
+            conn.Close()
 
         Catch ex As Exception
 
@@ -121,17 +121,17 @@ Public Class UC_UpdateService
         cmbServiceName.Items.Clear()
 
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT Service_Name from Services", con)
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT Service_Name from Services", conn)
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 cmbServiceName.Items.Add(rdr("Service_Name"))
             End While
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
 
     End Sub
@@ -148,13 +148,13 @@ Public Class UC_UpdateService
         isfound = 1
         'disableall()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("select * from Services where [Service_Name] = @name")
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("select * from Services where [Service_Name] = @name")
             cmd.Parameters.AddWithValue("name", cmbServiceName.Text)
-            cmd.Connection = con
-            con.Open()
+            cmd.Connection = conn
+            conn.Open()
             'disableall()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
 
             If (rdr.Read() = True) Then
                 txtservicename.Text = rdr("Service_Name")
@@ -165,7 +165,7 @@ Public Class UC_UpdateService
                 isfound = 0
                 cmbServiceName.Focus()
             End If
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try

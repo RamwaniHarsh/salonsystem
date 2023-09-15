@@ -1,4 +1,4 @@
-﻿Imports System.Data.SqlClient
+﻿Imports MySql.Data.MySqlClient
 Public Class UC_Home
     Dim ddmmyy As String
     Private Sub getYearlySales()
@@ -6,11 +6,11 @@ Public Class UC_Home
         currDate = DateTime.Now.ToString("dd/MM/yyyy")
         Dim yourYear As Integer
         yourYear = Year(currDate)
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select Bill_Date, Product_Quantity ,Product_Price from Product_Sales_Details")
-        cmd.Connection = con
-        con.Open()
-        Dim rdr As SqlDataReader = cmd.ExecuteReader
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select Bill_Date, Product_Quantity ,Product_Price from Product_Sales_Details")
+        cmd.Connection = conn
+        conn.Open()
+        Dim rdr As MySqlDataReader = cmd.ExecuteReader
         Dim total As Double = 0
         While rdr.Read
             Dim Rcds_date As String
@@ -29,11 +29,11 @@ Public Class UC_Home
         currDate = DateTime.Now.ToString("dd/MM/yyyy")
         Dim yourMonth As Integer
         yourMonth = Month(currDate)
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select Bill_Date,Product_Price,Product_Quantity from Product_Sales_Details")
-        cmd.Connection = con
-        con.Open()
-        Dim rdr As SqlDataReader = cmd.ExecuteReader
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select Bill_Date,Product_Price,Product_Quantity from Product_Sales_Details")
+        cmd.Connection = conn
+        conn.Open()
+        Dim rdr As MySqlDataReader = cmd.ExecuteReader
         Dim total As Double = 0
         While rdr.Read
             'lblMonthlySalesReports.Text = rdr("Total").ToString
@@ -65,11 +65,11 @@ Public Class UC_Home
         'MsgBox(DateValue)
         Enddate = startdate.AddDays(6)
         'MsgBox(DateValue)
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select sum(Product_Price * Product Quantity) as Total from Product_Sales_Details where Bill_Date >= '" & startdate & "' and Bill_Date <= '" & Enddate & "'")
-        cmd.Connection = con
-        con.Open()
-        Dim rdr As SqlDataReader = cmd.ExecuteReader
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select sum(Product_Price * Product Quantity) as Total from Product_Sales_Details where Bill_Date >= '" & startdate & "' and Bill_Date <= '" & Enddate & "'")
+        cmd.Connection = conn
+        conn.Open()
+        Dim rdr As MySqlDataReader = cmd.ExecuteReader
         While rdr.Read
 
             If Not IsDBNull(rdr("Total")) Then
@@ -82,12 +82,12 @@ Public Class UC_Home
     End Sub
     Private Sub getdailysales()
         ddmmyy = Date.Now.ToString("dd/MM/yyyy")
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select sum(Product_Price) as Total from Product_Sales_Details where Bill_Date = '" & ddmmyy & "'")
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select sum(Product_Price) as Total from Product_Sales_Details where Bill_Date = '" & ddmmyy & "'")
         Dim total As Double = 0
-        cmd.Connection = con
-        con.Open()
-        Dim rdr As SqlDataReader = cmd.ExecuteReader
+        cmd.Connection = conn
+        conn.Open()
+        Dim rdr As MySqlDataReader = cmd.ExecuteReader
         While rdr.Read
 
             If Not IsDBNull(rdr("Total")) Then
@@ -111,46 +111,46 @@ Public Class UC_Home
         getYearlySales()
     End Sub
     Private Sub totalcustomer()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select count(*) from Customer ")
-        cmd.Connection = con
-        con.Open()
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select count(*) from Customer ")
+        cmd.Connection = conn
+        conn.Open()
         Dim r As Integer
         r = cmd.ExecuteScalar
         lblTotalCusReports.Text = r
     End Sub
     Private Sub totalproducts()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select count(*) from Product")
-        cmd.Connection = con
-        con.Open()
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select count(*) from Product")
+        cmd.Connection = conn
+        conn.Open()
         Dim r As Integer
         r = cmd.ExecuteScalar
         lblTotalProdReports.Text = r
     End Sub
     Private Sub totalproductcategory()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select count(*) from Product_Category")
-        cmd.Connection = con
-        con.Open()
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select count(*) from Product_Category")
+        cmd.Connection = conn
+        conn.Open()
         Dim r As Integer
         r = cmd.ExecuteScalar
         lblProdCatReports.Text = r
     End Sub
     Private Sub totalservices()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select count(*) from Services")
-        cmd.Connection = con
-        con.Open()
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select count(*) from Services")
+        cmd.Connection = conn
+        conn.Open()
         Dim r As Integer
         r = cmd.ExecuteScalar
         lblTotServicesReports.Text = r
     End Sub
     Private Sub totalsubservices()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select count(*) from Sub_Services")
-        cmd.Connection = con
-        con.Open()
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select count(*) from Sub_Services")
+        cmd.Connection = conn
+        conn.Open()
         Dim r As Integer
         r = cmd.ExecuteScalar
         lblTotalSubServicesReports.Text = r

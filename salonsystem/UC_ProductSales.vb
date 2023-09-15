@@ -1,7 +1,7 @@
-﻿Imports System.Data.SqlClient
+﻿Imports MySql.Data.MySqlClient
 Public Class UC_ProductSales
-    Dim con As New SqlConnection
-    Dim cmd As New SqlCommand
+    Dim conn As New MySqlConnection
+    Dim cmd As New MySqlCommand
     Dim count As Integer
     Dim isfound As Integer
     Dim quantity As Integer
@@ -17,21 +17,21 @@ Public Class UC_ProductSales
     Dim address As String
     Private Sub getid()
         Try
-            con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True"
-            If con.State = ConnectionState.Open Then
-                con.Close()
+            conn.ConnectionString = "server=localhost;username=root;password=;database=salonsystem;port=3306"
+            If conn.State = ConnectionState.Open Then
+                conn.Close()
 
             End If
 
-            con.Open()
-            Dim cmd As SqlCommand = New SqlCommand("SELECT MAX(Bill_No) + 1 as Bill_No From Product_Sales_Master", con)
+            conn.Open()
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT MAX(Bill_No) + 1 as Bill_No From Product_Sales_Master", conn)
             lblProdSalesBillNo.Text = cmd.ExecuteScalar().ToString()
             If lblProdSalesBillNo.Text = "" Then
                 lblProdSalesBillNo.Text = 1
 
             End If
 
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
@@ -40,29 +40,29 @@ Public Class UC_ProductSales
         cmbProdSalesSearchCusName.Items.Clear()
 
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT First_Name from Customer order by First_Name")
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT First_Name from Customer order by First_Name")
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 cmbProdSalesSearchCusName.Items.Add(rdr("First_Name"))
             End While
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
     End Sub
     Private Sub getMobileNumber()
         isfound = 1
         Try
             If cmbProdSalesSearchCusName.Text <> "" Then
-                Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-                Dim cmd As SqlCommand = New SqlCommand("select Mobile_Number,Address from Customer where [First_Name] = @Name")
+                Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+                Dim cmd As MySqlCommand = New MySqlCommand("select Mobile_Number,Address from Customer where First_Name = @Name")
                 cmd.Parameters.AddWithValue("Name", cmbProdSalesSearchCusName.Text)
-                cmd.Connection = con
-                con.Open()
-                Dim rdr As SqlDataReader = cmd.ExecuteReader
+                cmd.Connection = conn
+                conn.Open()
+                Dim rdr As MySqlDataReader = cmd.ExecuteReader
 
                 If (rdr.Read() = True) Then
                     txtProdSalesSearchCusMobNo.Text = rdr("Mobile_Number")
@@ -72,7 +72,7 @@ Public Class UC_ProductSales
                     isfound = 0
                     cmbProdSalesSearchCusName.Focus()
                 End If
-                con.Close()
+                conn.Close()
             End If
         Catch ex As Exception
             MsgBox(ex.Message)
@@ -82,17 +82,17 @@ Public Class UC_ProductSales
         cmbProdSalesSelectProdCat.Items.Clear()
 
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT Category_Name from Product_Category order by Category_Name")
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT Category_Name from Product_Category order by Category_Name")
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 cmbProdSalesSelectProdCat.Items.Add(rdr("Category_Name"))
             End While
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
     End Sub
     Private Sub UC_ProductSales_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -121,18 +121,18 @@ Public Class UC_ProductSales
     End Sub
     Private Sub getbillno()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT Bill_No from Product_Sales_Details where Product_Name = '" & cmbProdSalesSelectProdName.Text & "'")
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT Bill_No from Product_Sales_Details where Product_Name = '" & cmbProdSalesSelectProdName.Text & "'")
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 billno = (rdr("Bill_No"))
                 MsgBox(billno)
             End While
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
     End Sub
     Private Sub gettotalqntprev()
@@ -149,14 +149,14 @@ Public Class UC_ProductSales
         Next
         lblProdSalesPrevOrderGrandTot.Text = sum.ToString()
     End Sub
-    Private Sub kacharaseth2()
+    Private Sub Kacharaseth2()
         dtgprevcart.Rows.Clear()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd1 As SqlCommand = New SqlCommand("SELECT * from Product_Sales_Master where Customer_Name = '" & cmbProdSalesSearchCusName.Text & "'", con)
-            cmd1.Connection = con
-            con.Open()
-            Dim rdr1 As SqlDataReader = cmd1.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd1 As MySqlCommand = New MySqlCommand("SELECT * from Product_Sales_Master where Customer_Name = '" & cmbProdSalesSearchCusName.Text & "'", conn)
+            cmd1.Connection = conn
+            conn.Open()
+            Dim rdr1 As MySqlDataReader = cmd1.ExecuteReader
             While rdr1.Read
                 billno = rdr1("Bill_No")
                 billdate = rdr1("Bill_Date")
@@ -166,20 +166,20 @@ Public Class UC_ProductSales
                 kacharaseth()
             End While
 
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
     End Sub
     Private Sub kacharaseth()
         ' dtgprevcart.Rows.Clear()
         Try
             If dtgprevcart.Rows.Count >= -1 Then
-                Dim cmd2 As SqlCommand = New SqlCommand("SELECT * from Product_Sales_Details where Bill_No = '" & billno & "'", con)
-                cmd2.Connection = con
-                con.Open()
-                Dim rdr As SqlDataReader = cmd2.ExecuteReader
+                Dim cmd2 As MySqlCommand = New MySqlCommand("SELECT * from Product_Sales_Details where Bill_No = '" & billno & "'", conn)
+                cmd2.Connection = conn
+                conn.Open()
+                Dim rdr As MySqlDataReader = cmd2.ExecuteReader
                 While rdr.Read
                     lblProdSalesPrevOrderCusName.Text = cusname
                     prodcat = rdr("Product_Category")
@@ -189,7 +189,7 @@ Public Class UC_ProductSales
                     dtgprevcart.Rows.Add(billno, billdate, prodcat, prodname, Qnty1, amount)
                 End While
 
-                con.Close()
+                conn.Close()
                 gettotalamountprev()
                 gettotalqntprev()
             Else
@@ -197,30 +197,30 @@ Public Class UC_ProductSales
             End If
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-                con.Close()
-            End Try
+            conn.Close()
+        End Try
 
     End Sub
     Private Sub cmbProdSalesSearchCusName_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbProdSalesSearchCusName.SelectedIndexChanged
         'getbillno()
         getMobileNumber()
         unhideproductdtails()
-        kacharaseth2()
+        Kacharaseth2()
     End Sub
     Private Sub getproductname()
         cmbProdSalesSelectProdName.Items.Clear()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT Product_Name from Product where Product_Category = '" & cmbProdSalesSelectProdCat.Text & "'")
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT Product_Name from Product where Product_Category = '" & cmbProdSalesSelectProdCat.Text & "'")
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 cmbProdSalesSelectProdName.Items.Add(rdr("Product_Name"))
             End While
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
     End Sub
     Private Sub cmbProdSalesSelectProdCat_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbProdSalesSelectProdCat.SelectedIndexChanged
@@ -242,7 +242,7 @@ Public Class UC_ProductSales
     End Sub
     Private Sub getvalidation()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
             If txtProdSalesEnterQuantity.Text >= quantity Then
                 MsgBox("The Product is out of Stock")
             Else
@@ -252,7 +252,7 @@ Public Class UC_ProductSales
             'MsgBox(quantity)
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
     End Sub
     Private Sub cmbProdSalesSelectProdName_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbProdSalesSelectProdName.SelectedIndexChanged
@@ -262,12 +262,12 @@ Public Class UC_ProductSales
     Dim amount As Integer = 0
     Private Sub getamount()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("select Rate from Product where Product_Name = '" & cmbProdSalesSelectProdName.Text & "'")
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("select Rate from Product where Product_Name = '" & cmbProdSalesSelectProdName.Text & "'")
 
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 amount = rdr("Rate")
                 txtprice.Text = amount
@@ -277,17 +277,17 @@ Public Class UC_ProductSales
             'MsgBox(amount)
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
     End Sub
     Private Sub getQuantity()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("select Quantity from Product_Stock where Product_Name = '" & cmbProdSalesSelectProdName.Text & "'")
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("select Quantity from Product_Stock where Product_Name = '" & cmbProdSalesSelectProdName.Text & "'")
 
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 quantity = rdr("Quantity")
             End While
@@ -295,15 +295,15 @@ Public Class UC_ProductSales
             'MsgBox(quantity)
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
     End Sub
 
     Private Sub getCurrCart()
-        Dim str As String = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True"
-        Dim con As New SqlConnection(str)
+        Dim str As String = "server=localhost;username=root;password=;database=salonsystem;port=3306"
+        Dim conn As New MySqlConnection(str)
         Dim com As String = "Select * from Product_Sales_Details"
-        Dim Adpt As New SqlDataAdapter(com, con)
+        Dim Adpt As New MySqlDataAdapter(com, conn)
         Dim ds As New DataSet()
         Adpt.Fill(ds, "Product_Sales_Details")
         dtgcurrcart.DataSource = ds.Tables(0)
@@ -360,13 +360,13 @@ Public Class UC_ProductSales
     Private Sub getDetails1()
 
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
             Dim i As Integer
             'MsgBox(dtgcurrcart.RowCount - 2)
             For i = 0 To dtgcurrcart.RowCount - 1
-                con.Open()
-                Dim cmd As SqlCommand = New SqlCommand("insert into Product_Sales_Details values ('" & dtgcurrcart.Rows(i).Cells(0).Value & "','" & dtgcurrcart.Rows(i).Cells(1).Value & "','" & dtgcurrcart.Rows(i).Cells(2).Value & "','" & dtgcurrcart.Rows(i).Cells(3).Value & "','" & dtgcurrcart.Rows(i).Cells(4).Value & "','" & dtgcurrcart.Rows(i).Cells(5).Value & "')")
-                cmd.Connection = con
+                conn.Open()
+                Dim cmd As MySqlCommand = New MySqlCommand("insert into Product_Sales_Details values ('" & dtgcurrcart.Rows(i).Cells(0).Value & "','" & dtgcurrcart.Rows(i).Cells(1).Value & "','" & dtgcurrcart.Rows(i).Cells(2).Value & "','" & dtgcurrcart.Rows(i).Cells(3).Value & "','" & dtgcurrcart.Rows(i).Cells(4).Value & "','" & dtgcurrcart.Rows(i).Cells(5).Value & "')")
+                cmd.Connection = conn
                 Dim r As Integer
                 r = cmd.ExecuteNonQuery()
                 If r > 0 Then
@@ -374,21 +374,21 @@ Public Class UC_ProductSales
                 Else
                     MsgBox("No record has been saved!")
                 End If
-                con.Close()
+                conn.Close()
             Next
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
     End Sub
     Private Sub getmaster()
         Try
             Dim tstDate As DateTime = dtpProdsalesBillDate.Text
             Dim dateAsString As String = tstDate
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("insert into Product_Sales_Master values ('" & lblProdSalesBillNo.Text & "','" & dtpProdsalesBillDate.Value.ToString("dd/MM/yyyy") & "','" & txtProdSalesSearchCusMobNo.Text & "','" & cmbProdSalesSearchCusName.Text & "','" & lbladdress.Text & "')")
-            cmd.Connection = con
-            con.Open()
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("insert into Product_Sales_Master values ('" & lblProdSalesBillNo.Text & "','" & dtpProdsalesBillDate.Value.ToString("dd/MM/yyyy") & "','" & txtProdSalesSearchCusMobNo.Text & "','" & cmbProdSalesSearchCusName.Text & "','" & lbladdress.Text & "')")
+            cmd.Connection = conn
+            conn.Open()
             Dim r As Integer
             r = cmd.ExecuteNonQuery()
             If r > 0 Then
@@ -398,7 +398,7 @@ Public Class UC_ProductSales
                 MsgBox("No record has been saved!")
                 flag1 = 0
             End If
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
@@ -440,18 +440,18 @@ Public Class UC_ProductSales
     End Sub
     Private Sub updatequantity()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
             Dim i As Integer
             For i = 0 To dtgcurrcart.RowCount - 1
                 Dim compare_qnt As Integer = dtgcurrcart.Rows(i).Cells(4).Value
                 Dim ans_qnt As Integer
-                con.Open()
+                conn.Open()
                 Try
                     Dim getqnt As Integer
-                    Dim con1 As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-                    Dim cmd_qnt As SqlCommand = New SqlCommand("Select Quantity from Product_Stock where Product_Name = '" & dtgcurrcart.Rows(i).Cells(3).Value & "'", con1)
+                    Dim con1 As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+                    Dim cmd_qnt As MySqlCommand = New MySqlCommand("Select Quantity from Product_Stock where Product_Name = '" & dtgcurrcart.Rows(i).Cells(3).Value & "'", con1)
                     con1.Open()
-                    Dim rdr As SqlDataReader = cmd_qnt.ExecuteReader
+                    Dim rdr As MySqlDataReader = cmd_qnt.ExecuteReader
 
                     While rdr.Read
                         getqnt = rdr("Quantity")
@@ -465,8 +465,8 @@ Public Class UC_ProductSales
                 Catch ex As Exception
                     MsgBox(ex.Message)
                 End Try
-                Dim cmd As SqlCommand = New SqlCommand("Update Product_Stock set Quantity = '" & ans_qnt & "' where Product_Name = '" & dtgcurrcart.Rows(i).Cells(3).Value & "'")
-                cmd.Connection = con
+                Dim cmd As MySqlCommand = New MySqlCommand("Update Product_Stock set Quantity = '" & ans_qnt & "' where Product_Name = '" & dtgcurrcart.Rows(i).Cells(3).Value & "'")
+                cmd.Connection = conn
                 Dim r As Integer
                 r = cmd.ExecuteNonQuery()
                 If r > 0 Then
@@ -474,27 +474,27 @@ Public Class UC_ProductSales
                 Else
                     MsgBox("No record has been Updated!")
                 End If
-                con.Close()
+                conn.Close()
             Next
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
     End Sub
     'Private Sub getqnt()
     '    Try
     '        Dim getqnt As Integer
 
-    '        con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True"
-    '        Dim cmd As SqlCommand = New SqlCommand("Select Quantity from Product_Stock where Product_Name = '" & dtgcurrcart.Rows(i).Cells(2).Value & "'", con)
-    '        Dim rdr As SqlDataReader = cmd.ExecuteReader
+    '        conn.ConnectionString = "server=localhost;username=root;password=;database=salonsystem;port=3306"
+    '        Dim cmd As MySqlCommand = New MySqlCommand("Select Quantity from Product_Stock where Product_Name = '" & dtgcurrcart.Rows(i).Cells(2).Value & "'", conn)
+    '        Dim rdr As MySqlDataReader = cmd.ExecuteReader
 
-    '        con.Open()
+    '        conn.Open()
 
     '        While rdr.Read
     '            getqnt = rdr("Quantity")
     '        End While
-    '        con.Close()
+    '        conn.Close()
     '    Catch ex As Exception
     '        MsgBox(ex.Message)
     '    End Try

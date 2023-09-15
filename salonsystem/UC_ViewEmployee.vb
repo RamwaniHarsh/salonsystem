@@ -1,23 +1,23 @@
-﻿Imports System.Data.SqlClient
+﻿Imports MySql.Data.MySqlClient
 Public Class UC_ViewEmployee
     Private Sub UC_ViewEmployee_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
     Private Sub txtname_TextChanged(sender As Object, e As EventArgs) Handles txtname.TextChanged
-        Dim str As String = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True"
-        Dim con As New SqlConnection(str)
+        Dim str As String = "server=localhost;username=root;password=;database=salonsystem;port=3306"
+        Dim conn As New MySqlConnection(str)
         Dim com As String = "Select * from Employee where First_Name like '" & txtname.Text & "%'"
-        Dim Adpt As New SqlDataAdapter(com, con)
+        Dim Adpt As New MySqlDataAdapter(com, conn)
         Dim ds As New DataSet()
         Adpt.Fill(ds, "Employee")
         GunaDataGridView1.DataSource = ds.Tables(0)
     End Sub
 
     Private Sub txtmobile_TextChanged(sender As Object, e As EventArgs) Handles txtmobile.TextChanged
-        Dim str As String = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True"
-        Dim con As New SqlConnection(str)
+        Dim str As String = "server=localhost;username=root;password=;database=salonsystem;port=3306"
+        Dim conn As New MySqlConnection(str)
         Dim com As String = "Select * from Employee where Mobile_Number like '" & txtmobile.Text & "%'"
-        Dim Adpt As New SqlDataAdapter(com, con)
+        Dim Adpt As New MySqlDataAdapter(com, conn)
         Dim ds As New DataSet()
         Adpt.Fill(ds, "Employee")
         GunaDataGridView1.DataSource = ds.Tables(0)

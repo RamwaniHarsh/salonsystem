@@ -1,9 +1,7 @@
-﻿Imports System.Data.SqlClient
+﻿Imports MySql.Data.MySqlClient
 Public Class UC_NewCustomer
-
-
-    Dim con As New SqlConnection
-    Dim cmd As New SqlCommand
+    Dim conn As New MySqlConnection
+    Dim cmd As New MySqlCommand
     Dim count As Integer
     Dim dtp As String
     Dim myAge As Integer
@@ -48,11 +46,11 @@ Public Class UC_NewCustomer
         countmalecust()
     End Sub
     Private Sub getage()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select Date_of_Birth from Customer")
-        cmd.Connection = con
-        con.Open()
-        Dim rdr As SqlDataReader = cmd.ExecuteReader
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select Date_of_Birth from Customer")
+        cmd.Connection = conn
+        conn.Open()
+        Dim rdr As MySqlDataReader = cmd.ExecuteReader
         While rdr.Read
             dtp = rdr("Date_of_Birth").ToString()
             getcuurentage()
@@ -88,12 +86,12 @@ Public Class UC_NewCustomer
             If txtID.Text = "" Or txtfname.Text = "" Then
                 MsgBox("Id and First Name Must Require", MsgBoxStyle.Critical)
                 txtfname.Focus()
-                con.Close()
+                conn.Close()
             Else
-                Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-                Dim cmd As SqlCommand = New SqlCommand("insert into customer values ('" & txtID.Text & "', '" & txtfname.Text & "','" & txtlname.Text & "','" & gender & "','" & dtpDOB.Value.ToString("dd/MM/yyyy") & "','" & Today.ToString("dd/MM/yyyy") & "','" & txtmobile.Text & "','" & txtaddress.Text & "')")
-                cmd.Connection = con
-                con.Open()
+                Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+                Dim cmd As MySqlCommand = New MySqlCommand("insert into customer values ('" & txtID.Text & "', '" & txtfname.Text & "','" & txtlname.Text & "','" & gender & "','" & dtpDOB.Value.ToString("dd/MM/yyyy") & "','" & Today.ToString("dd/MM/yyyy") & "','" & txtmobile.Text & "','" & txtaddress.Text & "')")
+                cmd.Connection = conn
+                conn.Open()
                 Dim r As Integer
                 r = cmd.ExecuteNonQuery()
                 If r > 0 Then
@@ -108,7 +106,7 @@ Public Class UC_NewCustomer
                 Else
                     MsgBox("No record has been saved!")
                 End If
-                con.Close()
+                conn.Close()
             End If
         Catch ex As Exception
             MsgBox(ex.Message)
@@ -118,21 +116,21 @@ Public Class UC_NewCustomer
         addcustomer()
     End Sub
     Private Sub coutcust()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select count(*) from Customer ")
-        cmd.Connection = con
-        con.Open()
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select count(*) from Customer ")
+        cmd.Connection = conn
+        conn.Open()
         Dim r As Integer
         r = cmd.ExecuteScalar
         lblTotalCustomers.Text = r
         count = r
     End Sub
     Private Sub countfemalecust()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select count(Gender) from Customer where Gender ='Female'")
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select count(Gender) from Customer where Gender ='Female'")
         Dim per As Integer
-        cmd.Connection = con
-        con.Open()
+        cmd.Connection = conn
+        conn.Open()
         Dim b As Integer
         b = cmd.ExecuteScalar
         lblFemaleCustomers.Text = b
@@ -140,11 +138,11 @@ Public Class UC_NewCustomer
         cpbFemaleCustomers.Value = per
     End Sub
     Private Sub countmalecust()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("select count(Gender) from Customer where Gender ='Male'")
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("select count(Gender) from Customer where Gender ='Male'")
         Dim per As Integer
-        cmd.Connection = con
-        con.Open()
+        cmd.Connection = conn
+        conn.Open()
         Dim a As Integer
         a = cmd.ExecuteScalar
         lblMaleCustomers.Text = a
@@ -180,11 +178,11 @@ Public Class UC_NewCustomer
     End Sub
     Private Sub monthcustomerdetails()
 
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("Select Arriving_Date from Customer")
-        cmd.Connection = con
-        con.Open()
-        Dim rdr As SqlDataReader = cmd.ExecuteReader
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("Select Arriving_Date from Customer")
+        cmd.Connection = conn
+        conn.Open()
+        Dim rdr As MySqlDataReader = cmd.ExecuteReader
 
         While rdr.Read
             arr_Date = rdr("Arriving_Date")
@@ -220,21 +218,21 @@ Public Class UC_NewCustomer
     End Sub
     Private Sub getid()
         Try
-            con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True"
-            If con.State = ConnectionState.Open Then
-                con.Close()
+            conn.ConnectionString = "server=localhost;username=root;password=;database=salonsystem;port=3306"
+            If conn.State = ConnectionState.Open Then
+                conn.Close()
 
             End If
 
-            con.Open()
-            Dim cmd As SqlCommand = New SqlCommand("SELECT MAX(Id) + 1 as Id From Customer", con)
+            conn.Open()
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT MAX(Id) + 1 as Id From Customer", conn)
             txtID.Text = cmd.ExecuteScalar().ToString()
             If txtID.Text = "" Then
                 txtID.Text = 1
 
             End If
 
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try

@@ -1,8 +1,8 @@
-﻿Imports System.Data.SqlClient
+﻿Imports MySql.Data.MySqlClient
 Public Class UC_UpdateProductStock
     Dim isfound As Integer
-    Dim con As New SqlConnection
-    Dim cmd As New SqlCommand
+    Dim conn As New MySqlConnection
+    Dim cmd As New MySqlCommand
     Private Sub cmbUpdaProdCatStock_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbUpdaProdCatStock.SelectedIndexChanged
         getProductName()
     End Sub
@@ -10,27 +10,27 @@ Public Class UC_UpdateProductStock
         cmbUpdaStockProdName.Items.Clear()
 
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT Product_Name from Product_Stock where Product_Category = '" & cmbUpdaProdCatStock.SelectedItem & "'")
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT Product_Name from Product_Stock where Product_Category = '" & cmbUpdaProdCatStock.SelectedItem & "'")
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 cmbUpdaStockProdName.Items.Add(rdr("Product_Name"))
             End While
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
     End Sub
     Private Sub getCurrQuantity()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT Quantity from Product_Stock where Product_Name = '" & cmbUpdaStockProdName.SelectedItem & "'")
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT Quantity from Product_Stock where Product_Name = '" & cmbUpdaStockProdName.SelectedItem & "'")
             Dim currStock As Integer
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 currStock = (rdr("Quantity"))
                 If currStock = 0 Then
@@ -41,39 +41,39 @@ Public Class UC_UpdateProductStock
             End While
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
     End Sub
     Private Sub getstockid()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT Stock_Id from Product_Stock Where Product_Name = '" & cmbUpdaStockProdName.SelectedItem & "'")
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT Stock_Id from Product_Stock Where Product_Name = '" & cmbUpdaStockProdName.SelectedItem & "'")
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 lblUpdaStockID.Text = (rdr("Stock_Id"))
             End While
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
     End Sub
     Private Sub getProductCategoryStock()
         cmbUpdaProdCatStock.Items.Clear()
 
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT Category_Name from Product_Category")
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT Category_Name from Product_Category")
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 cmbUpdaProdCatStock.Items.Add(rdr("Category_Name"))
             End While
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
     End Sub
 
@@ -83,13 +83,13 @@ Public Class UC_UpdateProductStock
     End Sub
     Private Sub getproductstock()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT Product_Name,Quantity from Product_Stock")
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT Product_Name,Quantity from Product_Stock")
             Dim currStock As Integer
             Dim product_name As String
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 product_name = rdr("Product_Name")
                 currStock = rdr("Quantity")
@@ -103,7 +103,7 @@ Public Class UC_UpdateProductStock
             End While
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            con.Close()
+            conn.Close()
         End Try
     End Sub
     Private Sub cmbUpdaStockProdName_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbUpdaStockProdName.SelectedIndexChanged
@@ -115,12 +115,12 @@ Public Class UC_UpdateProductStock
             If cmbUpdaProdCatStock.Text = "" Or cmbUpdaStockProdName.Text = "" Or txtUpdaProdStockQuantity.Text = "" Then
                 MsgBox("Product Name, Product Category or Quantity Must Require", MsgBoxStyle.Critical)
                 cmbUpdaStockProdName.Focus()
-                con.Close()
+                conn.Close()
             Else
-                Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-                Dim cmd As SqlCommand = New SqlCommand("Update Product_Stock set date='" & dtpUpdaProdStockDate.Value.ToString("MM/dd/yyyy") & "',Product_Category='" & cmbUpdaProdCatStock.Text & "',Product_Name = '" & cmbUpdaStockProdName.Text & "',Quantity = '" & txtUpdaProdStockQuantity.Text & "' where Product_Name = '" & cmbUpdaStockProdName.Text & "'")
-                cmd.Connection = con
-                con.Open()
+                Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+                Dim cmd As MySqlCommand = New MySqlCommand("Update Product_Stock set date='" & dtpUpdaProdStockDate.Value.ToString("MM/dd/yyyy") & "',Product_Category='" & cmbUpdaProdCatStock.Text & "',Product_Name = '" & cmbUpdaStockProdName.Text & "',Quantity = '" & txtUpdaProdStockQuantity.Text & "' where Product_Name = '" & cmbUpdaStockProdName.Text & "'")
+                cmd.Connection = conn
+                conn.Open()
 
                 Dim r As Integer
                 r = cmd.ExecuteNonQuery()
@@ -132,7 +132,7 @@ Public Class UC_UpdateProductStock
                 Else
                     MsgBox("No Record has been Saved !")
                 End If
-                con.Close()
+                conn.Close()
             End If
         Catch ex As Exception
 
@@ -168,4 +168,5 @@ Public Class UC_UpdateProductStock
     Private Sub btnUpdaProdStockClear_Click(sender As Object, e As EventArgs) Handles btnUpdaProdStockClear.Click
         clearall()
     End Sub
+
 End Class

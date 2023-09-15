@@ -1,4 +1,4 @@
-﻿Imports System.Data.SqlClient
+﻿Imports MySql.Data.MySqlClient
 Public Class UC_ServiceSalesReport
     Dim billno As Integer
     Dim bill_date As String
@@ -18,15 +18,15 @@ Public Class UC_ServiceSalesReport
     End Sub
     Private Sub getaddrees()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT Address from Customer Where Mobile_Number = '" & mobile & "'")
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT Address from Customer Where Mobile_Number = '" & mobile & "'")
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 address = rdr("Address")
             End While
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message)
 
@@ -38,11 +38,11 @@ Public Class UC_ServiceSalesReport
     End Sub
     Private Sub getcustomerdetails()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT * from Service_Sales_Master Where Bill_No = '" & txtCusServReportBillNo.Text & "'")
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT * from Service_Sales_Master Where Bill_No = '" & txtCusServReportBillNo.Text & "'")
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 getaddrees()
                 lblCusServBillCusName.Text = rdr("Customer_Name")
@@ -52,18 +52,18 @@ Public Class UC_ServiceSalesReport
 
             End While
 
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message)
 
         End Try
     End Sub
     Private Sub getbill()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd As SqlCommand = New SqlCommand("SELECT Customer_Name, Mobile_Number from Service_Sales_Master Where Bill_No = '" & txtCusServReportBillNo.Text & "'")
-        cmd.Connection = con
-        con.Open()
-        Dim rdr As SqlDataReader = cmd.ExecuteReader
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd As MySqlCommand = New MySqlCommand("SELECT Customer_Name, Mobile_Number from Service_Sales_Master Where Bill_No = '" & txtCusServReportBillNo.Text & "'")
+        cmd.Connection = conn
+        conn.Open()
+        Dim rdr As MySqlDataReader = cmd.ExecuteReader
         While rdr.Read
             lblServReceiptBillDate.Text = bill_date
             lblServReceiptBillNo.Text = billno
@@ -91,11 +91,11 @@ Public Class UC_ServiceSalesReport
     Private Sub getdata()
         dgvCusServBillReport.Rows.Clear()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            Dim cmd As SqlCommand = New SqlCommand("SELECT * from Service_Sales_Details Where Bill_No = '" & txtCusServReportBillNo.Text & "'")
-            cmd.Connection = con
-            con.Open()
-            Dim rdr As SqlDataReader = cmd.ExecuteReader
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            Dim cmd As MySqlCommand = New MySqlCommand("SELECT * from Service_Sales_Details Where Bill_No = '" & txtCusServReportBillNo.Text & "'")
+            cmd.Connection = conn
+            conn.Open()
+            Dim rdr As MySqlDataReader = cmd.ExecuteReader
             While rdr.Read
                 billno = rdr("Bill_No")
                 bill_date = rdr("Bill_Date")
@@ -107,7 +107,7 @@ Public Class UC_ServiceSalesReport
 
                 dgvCusServBillReport.Rows.Add(Service_Name, Sub_Service_Name, Employee_Name, No_of_Person, Amount, No_of_Person * Amount)
             End While
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message)
 

@@ -1,7 +1,7 @@
-﻿Imports System.Data.SqlClient
+﻿Imports MySql.Data.MySqlClient
 Public Class UC_AddProducts
-    Dim con As New SqlConnection
-    Dim cmd As New SqlCommand
+    Dim conn As New MySqlConnection
+    Dim cmd As New MySqlCommand
     Private Sub btnadd_Click(sender As Object, e As EventArgs) Handles btnadd.Click
         getdata()
     End Sub
@@ -17,12 +17,12 @@ Public Class UC_AddProducts
             If txtproductname.Text = "" Or cmbProductCat.SelectedItem = "" Or txtPrice.Text = "" Then
                 MsgBox("Product Name, Product Category, Price Must Require or Quantity", MsgBoxStyle.Critical)
                 txtproductname.Focus()
-                con.Close()
+                conn.Close()
             Else
-                Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-                Dim cmd As SqlCommand = New SqlCommand("insert into Product values ('" & lblid.Text & "', '" & txtproductname.Text & "','" & cmbProductCat.SelectedItem & "','" & txtPrice.Text & "','" & txtDescription.Text & "')")
-                cmd.Connection = con
-                con.Open()
+                Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+                Dim cmd As MySqlCommand = New MySqlCommand("insert into Product values ('" & lblid.Text & "', '" & txtproductname.Text & "','" & cmbProductCat.SelectedItem & "','" & txtPrice.Text & "','" & txtDescription.Text & "')")
+                cmd.Connection = conn
+                conn.Open()
                 Dim r As Integer
                 r = cmd.ExecuteNonQuery()
                 If r > 0 Then
@@ -32,7 +32,7 @@ Public Class UC_AddProducts
                 Else
                     MsgBox("No record has been saved!")
                 End If
-                con.Close()
+                conn.Close()
             End If
         Catch ex As Exception
             MsgBox(ex.Message)
@@ -54,11 +54,11 @@ Public Class UC_AddProducts
     End Sub
     Private Sub getcategory()
         cmbProductCat.Items.Clear()
-        Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-        Dim cmd1 As SqlCommand = New SqlCommand("SELECT * from Product_Category order by Category_Name")
-        cmd1.Connection = con
-        con.Open()
-        Dim rdr As SqlDataReader = cmd1.ExecuteReader()
+        Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+        Dim cmd1 As MySqlCommand = New MySqlCommand("SELECT * from Product_Category order by Category_Name")
+        cmd1.Connection = conn
+        conn.Open()
+        Dim rdr As MySqlDataReader = cmd1.ExecuteReader()
         While (rdr.Read() = True)
             cmbProductCat.Items.Add(rdr("Category_Name"))
         End While
@@ -67,14 +67,14 @@ Public Class UC_AddProducts
     End Sub
     Private Sub getId()
         Try
-            Dim con As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True")
-            con.Open()
-            Dim cmd As New SqlCommand("SELECT MAX(Id) + 1 as Id FROM product", con)
+            Dim conn As New MySqlConnection("server=localhost;username=root;password=;database=salonsystem;port=3306")
+            conn.Open()
+            Dim cmd As New MySqlCommand("SELECT MAX(Id) + 1 as Id FROM product", conn)
             lblid.Text = cmd.ExecuteScalar().ToString()
             If lblid.Text = "" Then
                 lblid.Text = 1
             End If
-            con.Close()
+            conn.Close()
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try

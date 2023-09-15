@@ -79,14 +79,9 @@ Partial Class UC_AddSubService
         '
         'GunaLabel26
         '
-        Me.GunaLabel26.AutoSize = True
-        Me.GunaLabel26.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.GunaLabel26, "GunaLabel26")
         Me.GunaLabel26.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel26.Location = New System.Drawing.Point(425, 369)
         Me.GunaLabel26.Name = "GunaLabel26"
-        Me.GunaLabel26.Size = New System.Drawing.Size(61, 39)
-        Me.GunaLabel26.TabIndex = 146
-        Me.GunaLabel26.Text = "Rs."
         '
         'Panel1
         '
@@ -115,33 +110,20 @@ Partial Class UC_AddSubService
         Me.Panel1.Controls.Add(Me.lbladdress)
         Me.Panel1.Controls.Add(Me.lblfname)
         Me.Panel1.Controls.Add(Me.lblcustomer)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        resources.ApplyResources(Me.Panel1, "Panel1")
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(808, 1003)
-        Me.Panel1.TabIndex = 169
         '
         'GunaLabel21
         '
-        Me.GunaLabel21.AutoSize = True
-        Me.GunaLabel21.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.GunaLabel21, "GunaLabel21")
         Me.GunaLabel21.ForeColor = System.Drawing.Color.Red
-        Me.GunaLabel21.Location = New System.Drawing.Point(238, 287)
         Me.GunaLabel21.Name = "GunaLabel21"
-        Me.GunaLabel21.Size = New System.Drawing.Size(32, 39)
-        Me.GunaLabel21.TabIndex = 149
-        Me.GunaLabel21.Text = "*"
         '
         'GunaLabel23
         '
-        Me.GunaLabel23.AutoSize = True
-        Me.GunaLabel23.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.GunaLabel23, "GunaLabel23")
         Me.GunaLabel23.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel23.Location = New System.Drawing.Point(377, 293)
         Me.GunaLabel23.Name = "GunaLabel23"
-        Me.GunaLabel23.Size = New System.Drawing.Size(29, 39)
-        Me.GunaLabel23.TabIndex = 150
-        Me.GunaLabel23.Text = ":"
         '
         'cmbservicename
         '
@@ -153,115 +135,66 @@ Partial Class UC_AddSubService
         Me.cmbservicename.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.cmbservicename.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.cmbservicename.FocusedState.Parent = Me.cmbservicename
-        Me.cmbservicename.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        resources.ApplyResources(Me.cmbservicename, "cmbservicename")
         Me.cmbservicename.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.cmbservicename.HoverState.Parent = Me.cmbservicename
-        Me.cmbservicename.ItemHeight = 30
         Me.cmbservicename.ItemsAppearance.Parent = Me.cmbservicename
-        Me.cmbservicename.Location = New System.Drawing.Point(432, 296)
         Me.cmbservicename.Name = "cmbservicename"
         Me.cmbservicename.ShadowDecoration.Parent = Me.cmbservicename
-        Me.cmbservicename.Size = New System.Drawing.Size(291, 36)
-        Me.cmbservicename.TabIndex = 148
         '
         'GunaLabel28
         '
-        Me.GunaLabel28.AutoSize = True
-        Me.GunaLabel28.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.GunaLabel28, "GunaLabel28")
         Me.GunaLabel28.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel28.Location = New System.Drawing.Point(17, 287)
         Me.GunaLabel28.Name = "GunaLabel28"
-        Me.GunaLabel28.Size = New System.Drawing.Size(218, 39)
-        Me.GunaLabel28.TabIndex = 147
-        Me.GunaLabel28.Text = "Service Name "
         '
         'lblid
         '
-        Me.lblid.AutoSize = True
-        Me.lblid.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.lblid, "lblid")
         Me.lblid.ForeColor = System.Drawing.Color.Black
-        Me.lblid.Location = New System.Drawing.Point(425, 119)
         Me.lblid.Name = "lblid"
-        Me.lblid.Size = New System.Drawing.Size(34, 39)
-        Me.lblid.TabIndex = 145
-        Me.lblid.Text = "-"
         '
         'GunaLabel27
         '
-        Me.GunaLabel27.AutoSize = True
-        Me.GunaLabel27.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.GunaLabel27, "GunaLabel27")
         Me.GunaLabel27.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel27.Location = New System.Drawing.Point(377, 442)
         Me.GunaLabel27.Name = "GunaLabel27"
-        Me.GunaLabel27.Size = New System.Drawing.Size(29, 39)
-        Me.GunaLabel27.TabIndex = 145
-        Me.GunaLabel27.Text = ":"
         '
         'GunaLabel30
         '
-        Me.GunaLabel30.AutoSize = True
-        Me.GunaLabel30.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.GunaLabel30, "GunaLabel30")
         Me.GunaLabel30.ForeColor = System.Drawing.Color.Red
-        Me.GunaLabel30.Location = New System.Drawing.Point(106, 369)
         Me.GunaLabel30.Name = "GunaLabel30"
-        Me.GunaLabel30.Size = New System.Drawing.Size(32, 39)
-        Me.GunaLabel30.TabIndex = 145
-        Me.GunaLabel30.Text = "*"
         '
         'GunaLabel24
         '
-        Me.GunaLabel24.AutoSize = True
-        Me.GunaLabel24.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.GunaLabel24, "GunaLabel24")
         Me.GunaLabel24.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel24.Location = New System.Drawing.Point(377, 367)
         Me.GunaLabel24.Name = "GunaLabel24"
-        Me.GunaLabel24.Size = New System.Drawing.Size(29, 39)
-        Me.GunaLabel24.TabIndex = 145
-        Me.GunaLabel24.Text = ":"
         '
         'GunaLabel29
         '
-        Me.GunaLabel29.AutoSize = True
-        Me.GunaLabel29.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.GunaLabel29, "GunaLabel29")
         Me.GunaLabel29.ForeColor = System.Drawing.Color.Red
-        Me.GunaLabel29.Location = New System.Drawing.Point(291, 202)
         Me.GunaLabel29.Name = "GunaLabel29"
-        Me.GunaLabel29.Size = New System.Drawing.Size(32, 39)
-        Me.GunaLabel29.TabIndex = 145
-        Me.GunaLabel29.Text = "*"
         '
         'GunaLabel22
         '
-        Me.GunaLabel22.AutoSize = True
-        Me.GunaLabel22.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.GunaLabel22, "GunaLabel22")
         Me.GunaLabel22.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel22.Location = New System.Drawing.Point(377, 208)
         Me.GunaLabel22.Name = "GunaLabel22"
-        Me.GunaLabel22.Size = New System.Drawing.Size(29, 39)
-        Me.GunaLabel22.TabIndex = 145
-        Me.GunaLabel22.Text = ":"
         '
         'GunaLabel1
         '
-        Me.GunaLabel1.AutoSize = True
-        Me.GunaLabel1.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.GunaLabel1, "GunaLabel1")
         Me.GunaLabel1.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel1.Location = New System.Drawing.Point(377, 119)
         Me.GunaLabel1.Name = "GunaLabel1"
-        Me.GunaLabel1.Size = New System.Drawing.Size(29, 39)
-        Me.GunaLabel1.TabIndex = 145
-        Me.GunaLabel1.Text = ":"
         '
         'GunaLabel20
         '
-        Me.GunaLabel20.AutoSize = True
-        Me.GunaLabel20.Font = New System.Drawing.Font("Algerian", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.GunaLabel20, "GunaLabel20")
         Me.GunaLabel20.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel20.Location = New System.Drawing.Point(213, 17)
         Me.GunaLabel20.Name = "GunaLabel20"
-        Me.GunaLabel20.Size = New System.Drawing.Size(362, 45)
-        Me.GunaLabel20.TabIndex = 143
-        Me.GunaLabel20.Text = "Add Sub Service"
         '
         'Guna2Separator6
         '
@@ -269,10 +202,8 @@ Partial Class UC_AddSubService
         Me.Guna2Separator6.FillColor = System.Drawing.Color.Black
         Me.Guna2Separator6.FillStyle = System.Drawing.Drawing2D.DashStyle.Dot
         Me.Guna2Separator6.FillThickness = 8
-        Me.Guna2Separator6.Location = New System.Drawing.Point(-1, 71)
+        resources.ApplyResources(Me.Guna2Separator6, "Guna2Separator6")
         Me.Guna2Separator6.Name = "Guna2Separator6"
-        Me.Guna2Separator6.Size = New System.Drawing.Size(834, 10)
-        Me.Guna2Separator6.TabIndex = 142
         '
         'btnclear
         '
@@ -283,20 +214,16 @@ Partial Class UC_AddSubService
         Me.btnclear.BorderSize = 2
         Me.btnclear.DialogResult = System.Windows.Forms.DialogResult.None
         Me.btnclear.FocusedColor = System.Drawing.Color.Empty
-        Me.btnclear.Font = New System.Drawing.Font("Algerian", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.btnclear, "btnclear")
         Me.btnclear.ForeColor = System.Drawing.Color.Black
         Me.btnclear.Image = Nothing
         Me.btnclear.ImageSize = New System.Drawing.Size(20, 20)
-        Me.btnclear.Location = New System.Drawing.Point(475, 650)
         Me.btnclear.Name = "btnclear"
         Me.btnclear.OnHoverBaseColor = System.Drawing.Color.Black
         Me.btnclear.OnHoverBorderColor = System.Drawing.Color.Black
         Me.btnclear.OnHoverForeColor = System.Drawing.Color.WhiteSmoke
         Me.btnclear.OnHoverImage = Nothing
         Me.btnclear.OnPressedColor = System.Drawing.Color.Black
-        Me.btnclear.Size = New System.Drawing.Size(248, 67)
-        Me.btnclear.TabIndex = 9
-        Me.btnclear.Text = "Clear Data"
         Me.btnclear.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'btnadd
@@ -308,20 +235,16 @@ Partial Class UC_AddSubService
         Me.btnadd.BorderSize = 2
         Me.btnadd.DialogResult = System.Windows.Forms.DialogResult.None
         Me.btnadd.FocusedColor = System.Drawing.Color.Empty
-        Me.btnadd.Font = New System.Drawing.Font("Algerian", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.btnadd, "btnadd")
         Me.btnadd.ForeColor = System.Drawing.Color.Black
         Me.btnadd.Image = Nothing
         Me.btnadd.ImageSize = New System.Drawing.Size(20, 20)
-        Me.btnadd.Location = New System.Drawing.Point(73, 650)
         Me.btnadd.Name = "btnadd"
         Me.btnadd.OnHoverBaseColor = System.Drawing.Color.Black
         Me.btnadd.OnHoverBorderColor = System.Drawing.Color.Black
         Me.btnadd.OnHoverForeColor = System.Drawing.Color.WhiteSmoke
         Me.btnadd.OnHoverImage = Nothing
         Me.btnadd.OnPressedColor = System.Drawing.Color.Black
-        Me.btnadd.Size = New System.Drawing.Size(316, 67)
-        Me.btnadd.TabIndex = 8
-        Me.btnadd.Text = "Add Sub service"
         Me.btnadd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtDescription
@@ -332,15 +255,12 @@ Partial Class UC_AddSubService
         Me.txtDescription.FocusedBaseColor = System.Drawing.Color.White
         Me.txtDescription.FocusedBorderColor = System.Drawing.Color.Blue
         Me.txtDescription.FocusedForeColor = System.Drawing.SystemColors.ControlText
-        Me.txtDescription.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.txtDescription, "txtDescription")
         Me.txtDescription.ForeColor = System.Drawing.Color.Black
-        Me.txtDescription.Location = New System.Drawing.Point(432, 442)
         Me.txtDescription.Multiline = True
         Me.txtDescription.Name = "txtDescription"
         Me.txtDescription.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtDescription.SelectedText = ""
-        Me.txtDescription.Size = New System.Drawing.Size(291, 148)
-        Me.txtDescription.TabIndex = 7
         '
         'txtsubservicename
         '
@@ -350,14 +270,11 @@ Partial Class UC_AddSubService
         Me.txtsubservicename.FocusedBaseColor = System.Drawing.Color.White
         Me.txtsubservicename.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtsubservicename.FocusedForeColor = System.Drawing.SystemColors.ControlText
-        Me.txtsubservicename.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.txtsubservicename, "txtsubservicename")
         Me.txtsubservicename.ForeColor = System.Drawing.Color.Black
-        Me.txtsubservicename.Location = New System.Drawing.Point(432, 208)
         Me.txtsubservicename.Name = "txtsubservicename"
         Me.txtsubservicename.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtsubservicename.SelectedText = ""
-        Me.txtsubservicename.Size = New System.Drawing.Size(291, 41)
-        Me.txtsubservicename.TabIndex = 2
         '
         'txtPrice
         '
@@ -367,58 +284,35 @@ Partial Class UC_AddSubService
         Me.txtPrice.FocusedBaseColor = System.Drawing.Color.White
         Me.txtPrice.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtPrice.FocusedForeColor = System.Drawing.SystemColors.ControlText
-        Me.txtPrice.Font = New System.Drawing.Font("Lucida Sans Unicode", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.txtPrice, "txtPrice")
         Me.txtPrice.ForeColor = System.Drawing.Color.Black
-        Me.txtPrice.Location = New System.Drawing.Point(492, 369)
         Me.txtPrice.Name = "txtPrice"
         Me.txtPrice.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtPrice.SelectedText = ""
-        Me.txtPrice.Size = New System.Drawing.Size(231, 41)
-        Me.txtPrice.TabIndex = 2
         '
         'GunaLabel25
         '
-        Me.GunaLabel25.AutoSize = True
-        Me.GunaLabel25.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.GunaLabel25, "GunaLabel25")
         Me.GunaLabel25.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel25.Location = New System.Drawing.Point(17, 367)
         Me.GunaLabel25.Name = "GunaLabel25"
-        Me.GunaLabel25.Size = New System.Drawing.Size(83, 39)
-        Me.GunaLabel25.TabIndex = 129
-        Me.GunaLabel25.Text = "Price"
         '
         'lbladdress
         '
-        Me.lbladdress.AutoSize = True
-        Me.lbladdress.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.lbladdress, "lbladdress")
         Me.lbladdress.ForeColor = System.Drawing.Color.Black
-        Me.lbladdress.Location = New System.Drawing.Point(17, 442)
         Me.lbladdress.Name = "lbladdress"
-        Me.lbladdress.Size = New System.Drawing.Size(168, 39)
-        Me.lbladdress.TabIndex = 129
-        Me.lbladdress.Text = "Description"
         '
         'lblfname
         '
-        Me.lblfname.AutoSize = True
-        Me.lblfname.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.lblfname, "lblfname")
         Me.lblfname.ForeColor = System.Drawing.Color.Black
-        Me.lblfname.Location = New System.Drawing.Point(17, 202)
         Me.lblfname.Name = "lblfname"
-        Me.lblfname.Size = New System.Drawing.Size(281, 39)
-        Me.lblfname.TabIndex = 124
-        Me.lblfname.Text = "Sub Service Name "
         '
         'lblcustomer
         '
-        Me.lblcustomer.AutoSize = True
-        Me.lblcustomer.Font = New System.Drawing.Font("Comic Sans MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.lblcustomer, "lblcustomer")
         Me.lblcustomer.ForeColor = System.Drawing.Color.Black
-        Me.lblcustomer.Location = New System.Drawing.Point(17, 119)
         Me.lblcustomer.Name = "lblcustomer"
-        Me.lblcustomer.Size = New System.Drawing.Size(253, 39)
-        Me.lblcustomer.TabIndex = 123
-        Me.lblcustomer.Text = "Sub Services ID "
         '
         'Guna2GradientPanel2
         '
@@ -427,48 +321,31 @@ Partial Class UC_AddSubService
         Me.Guna2GradientPanel2.Controls.Add(Me.GunaLabel6)
         Me.Guna2GradientPanel2.FillColor = System.Drawing.Color.Gray
         Me.Guna2GradientPanel2.FillColor2 = System.Drawing.Color.Purple
-        Me.Guna2GradientPanel2.Location = New System.Drawing.Point(1312, 574)
-        Me.Guna2GradientPanel2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        resources.ApplyResources(Me.Guna2GradientPanel2, "Guna2GradientPanel2")
         Me.Guna2GradientPanel2.Name = "Guna2GradientPanel2"
         Me.Guna2GradientPanel2.ShadowDecoration.Parent = Me.Guna2GradientPanel2
-        Me.Guna2GradientPanel2.Size = New System.Drawing.Size(451, 408)
-        Me.Guna2GradientPanel2.TabIndex = 190
         '
         'GunaTransfarantPictureBox4
         '
         Me.GunaTransfarantPictureBox4.BackColor = System.Drawing.Color.Transparent
         Me.GunaTransfarantPictureBox4.BaseColor = System.Drawing.Color.Black
-        Me.GunaTransfarantPictureBox4.Image = CType(resources.GetObject("GunaTransfarantPictureBox4.Image"), System.Drawing.Image)
-        Me.GunaTransfarantPictureBox4.Location = New System.Drawing.Point(79, 38)
+        resources.ApplyResources(Me.GunaTransfarantPictureBox4, "GunaTransfarantPictureBox4")
         Me.GunaTransfarantPictureBox4.Name = "GunaTransfarantPictureBox4"
-        Me.GunaTransfarantPictureBox4.Size = New System.Drawing.Size(300, 300)
-        Me.GunaTransfarantPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.GunaTransfarantPictureBox4.TabIndex = 155
         Me.GunaTransfarantPictureBox4.TabStop = False
         '
         'lblAddServMassageTotPercen
         '
-        Me.lblAddServMassageTotPercen.AutoSize = True
+        resources.ApplyResources(Me.lblAddServMassageTotPercen, "lblAddServMassageTotPercen")
         Me.lblAddServMassageTotPercen.BackColor = System.Drawing.Color.Transparent
-        Me.lblAddServMassageTotPercen.Font = New System.Drawing.Font("Comic Sans MS", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblAddServMassageTotPercen.ForeColor = System.Drawing.Color.Beige
-        Me.lblAddServMassageTotPercen.Location = New System.Drawing.Point(186, 341)
         Me.lblAddServMassageTotPercen.Name = "lblAddServMassageTotPercen"
-        Me.lblAddServMassageTotPercen.Size = New System.Drawing.Size(100, 53)
-        Me.lblAddServMassageTotPercen.TabIndex = 153
-        Me.lblAddServMassageTotPercen.Text = "78%"
         '
         'GunaLabel6
         '
-        Me.GunaLabel6.AutoSize = True
+        resources.ApplyResources(Me.GunaLabel6, "GunaLabel6")
         Me.GunaLabel6.BackColor = System.Drawing.Color.Transparent
-        Me.GunaLabel6.Font = New System.Drawing.Font("Comic Sans MS", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel6.ForeColor = System.Drawing.Color.White
-        Me.GunaLabel6.Location = New System.Drawing.Point(167, 0)
         Me.GunaLabel6.Name = "GunaLabel6"
-        Me.GunaLabel6.Size = New System.Drawing.Size(112, 35)
-        Me.GunaLabel6.TabIndex = 153
-        Me.GunaLabel6.Text = "Massage"
         '
         'Guna2GradientPanel3
         '
@@ -477,48 +354,31 @@ Partial Class UC_AddSubService
         Me.Guna2GradientPanel3.Controls.Add(Me.GunaLabel3)
         Me.Guna2GradientPanel3.FillColor = System.Drawing.Color.Gray
         Me.Guna2GradientPanel3.FillColor2 = System.Drawing.Color.MidnightBlue
-        Me.Guna2GradientPanel3.Location = New System.Drawing.Point(839, 576)
-        Me.Guna2GradientPanel3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        resources.ApplyResources(Me.Guna2GradientPanel3, "Guna2GradientPanel3")
         Me.Guna2GradientPanel3.Name = "Guna2GradientPanel3"
         Me.Guna2GradientPanel3.ShadowDecoration.Parent = Me.Guna2GradientPanel3
-        Me.Guna2GradientPanel3.Size = New System.Drawing.Size(451, 408)
-        Me.Guna2GradientPanel3.TabIndex = 191
         '
         'GunaTransfarantPictureBox3
         '
         Me.GunaTransfarantPictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.GunaTransfarantPictureBox3.BaseColor = System.Drawing.Color.Black
-        Me.GunaTransfarantPictureBox3.Image = CType(resources.GetObject("GunaTransfarantPictureBox3.Image"), System.Drawing.Image)
-        Me.GunaTransfarantPictureBox3.Location = New System.Drawing.Point(76, 38)
+        resources.ApplyResources(Me.GunaTransfarantPictureBox3, "GunaTransfarantPictureBox3")
         Me.GunaTransfarantPictureBox3.Name = "GunaTransfarantPictureBox3"
-        Me.GunaTransfarantPictureBox3.Size = New System.Drawing.Size(300, 300)
-        Me.GunaTransfarantPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.GunaTransfarantPictureBox3.TabIndex = 154
         Me.GunaTransfarantPictureBox3.TabStop = False
         '
         'lblAddServMakeupTotPercen
         '
-        Me.lblAddServMakeupTotPercen.AutoSize = True
+        resources.ApplyResources(Me.lblAddServMakeupTotPercen, "lblAddServMakeupTotPercen")
         Me.lblAddServMakeupTotPercen.BackColor = System.Drawing.Color.Transparent
-        Me.lblAddServMakeupTotPercen.Font = New System.Drawing.Font("Comic Sans MS", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblAddServMakeupTotPercen.ForeColor = System.Drawing.Color.Black
-        Me.lblAddServMakeupTotPercen.Location = New System.Drawing.Point(164, 341)
         Me.lblAddServMakeupTotPercen.Name = "lblAddServMakeupTotPercen"
-        Me.lblAddServMakeupTotPercen.Size = New System.Drawing.Size(100, 53)
-        Me.lblAddServMakeupTotPercen.TabIndex = 154
-        Me.lblAddServMakeupTotPercen.Text = "78%"
         '
         'GunaLabel3
         '
-        Me.GunaLabel3.AutoSize = True
+        resources.ApplyResources(Me.GunaLabel3, "GunaLabel3")
         Me.GunaLabel3.BackColor = System.Drawing.Color.Transparent
-        Me.GunaLabel3.Font = New System.Drawing.Font("Comic Sans MS", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel3.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel3.Location = New System.Drawing.Point(127, 0)
         Me.GunaLabel3.Name = "GunaLabel3"
-        Me.GunaLabel3.Size = New System.Drawing.Size(179, 35)
-        Me.GunaLabel3.TabIndex = 150
-        Me.GunaLabel3.Text = "Makeup/Facial"
         '
         'Guna2GradientPanel4
         '
@@ -527,48 +387,31 @@ Partial Class UC_AddSubService
         Me.Guna2GradientPanel4.Controls.Add(Me.GunaLabel5)
         Me.Guna2GradientPanel4.FillColor = System.Drawing.Color.Gray
         Me.Guna2GradientPanel4.FillColor2 = System.Drawing.Color.LimeGreen
-        Me.Guna2GradientPanel4.Location = New System.Drawing.Point(1312, 148)
-        Me.Guna2GradientPanel4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        resources.ApplyResources(Me.Guna2GradientPanel4, "Guna2GradientPanel4")
         Me.Guna2GradientPanel4.Name = "Guna2GradientPanel4"
         Me.Guna2GradientPanel4.ShadowDecoration.Parent = Me.Guna2GradientPanel4
-        Me.Guna2GradientPanel4.Size = New System.Drawing.Size(451, 408)
-        Me.Guna2GradientPanel4.TabIndex = 192
         '
         'lblAddServBeardTotPercen
         '
-        Me.lblAddServBeardTotPercen.AutoSize = True
+        resources.ApplyResources(Me.lblAddServBeardTotPercen, "lblAddServBeardTotPercen")
         Me.lblAddServBeardTotPercen.BackColor = System.Drawing.Color.Transparent
-        Me.lblAddServBeardTotPercen.Font = New System.Drawing.Font("Comic Sans MS", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblAddServBeardTotPercen.ForeColor = System.Drawing.Color.Black
-        Me.lblAddServBeardTotPercen.Location = New System.Drawing.Point(186, 345)
         Me.lblAddServBeardTotPercen.Name = "lblAddServBeardTotPercen"
-        Me.lblAddServBeardTotPercen.Size = New System.Drawing.Size(100, 53)
-        Me.lblAddServBeardTotPercen.TabIndex = 153
-        Me.lblAddServBeardTotPercen.Text = "78%"
         '
         'GunaTransfarantPictureBox2
         '
         Me.GunaTransfarantPictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.GunaTransfarantPictureBox2.BaseColor = System.Drawing.Color.Black
-        Me.GunaTransfarantPictureBox2.Image = CType(resources.GetObject("GunaTransfarantPictureBox2.Image"), System.Drawing.Image)
-        Me.GunaTransfarantPictureBox2.Location = New System.Drawing.Point(79, 42)
+        resources.ApplyResources(Me.GunaTransfarantPictureBox2, "GunaTransfarantPictureBox2")
         Me.GunaTransfarantPictureBox2.Name = "GunaTransfarantPictureBox2"
-        Me.GunaTransfarantPictureBox2.Size = New System.Drawing.Size(300, 300)
-        Me.GunaTransfarantPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.GunaTransfarantPictureBox2.TabIndex = 153
         Me.GunaTransfarantPictureBox2.TabStop = False
         '
         'GunaLabel5
         '
-        Me.GunaLabel5.AutoSize = True
+        resources.ApplyResources(Me.GunaLabel5, "GunaLabel5")
         Me.GunaLabel5.BackColor = System.Drawing.Color.Transparent
-        Me.GunaLabel5.Font = New System.Drawing.Font("Comic Sans MS", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel5.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel5.Location = New System.Drawing.Point(156, 3)
         Me.GunaLabel5.Name = "GunaLabel5"
-        Me.GunaLabel5.Size = New System.Drawing.Size(155, 35)
-        Me.GunaLabel5.TabIndex = 152
-        Me.GunaLabel5.Text = "Beard Work"
         '
         'Guna2GradientPanel1
         '
@@ -577,61 +420,38 @@ Partial Class UC_AddSubService
         Me.Guna2GradientPanel1.Controls.Add(Me.GunaLabel4)
         Me.Guna2GradientPanel1.FillColor = System.Drawing.Color.Gray
         Me.Guna2GradientPanel1.FillColor2 = System.Drawing.Color.DarkRed
-        Me.Guna2GradientPanel1.Font = New System.Drawing.Font("Gill Sans MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.Guna2GradientPanel1, "Guna2GradientPanel1")
         Me.Guna2GradientPanel1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Guna2GradientPanel1.Location = New System.Drawing.Point(839, 149)
-        Me.Guna2GradientPanel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Guna2GradientPanel1.Name = "Guna2GradientPanel1"
         Me.Guna2GradientPanel1.ShadowDecoration.Parent = Me.Guna2GradientPanel1
-        Me.Guna2GradientPanel1.Size = New System.Drawing.Size(451, 408)
-        Me.Guna2GradientPanel1.TabIndex = 189
         '
         'lblAddServHairTotPercen
         '
-        Me.lblAddServHairTotPercen.AutoSize = True
+        resources.ApplyResources(Me.lblAddServHairTotPercen, "lblAddServHairTotPercen")
         Me.lblAddServHairTotPercen.BackColor = System.Drawing.Color.Transparent
-        Me.lblAddServHairTotPercen.Font = New System.Drawing.Font("Comic Sans MS", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblAddServHairTotPercen.ForeColor = System.Drawing.Color.Beige
-        Me.lblAddServHairTotPercen.Location = New System.Drawing.Point(164, 344)
         Me.lblAddServHairTotPercen.Name = "lblAddServHairTotPercen"
-        Me.lblAddServHairTotPercen.Size = New System.Drawing.Size(100, 53)
-        Me.lblAddServHairTotPercen.TabIndex = 147
-        Me.lblAddServHairTotPercen.Text = "78%"
         '
         'GunaTransfarantPictureBox1
         '
         Me.GunaTransfarantPictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.GunaTransfarantPictureBox1.BaseColor = System.Drawing.Color.Black
-        Me.GunaTransfarantPictureBox1.Image = CType(resources.GetObject("GunaTransfarantPictureBox1.Image"), System.Drawing.Image)
-        Me.GunaTransfarantPictureBox1.Location = New System.Drawing.Point(76, 41)
+        resources.ApplyResources(Me.GunaTransfarantPictureBox1, "GunaTransfarantPictureBox1")
         Me.GunaTransfarantPictureBox1.Name = "GunaTransfarantPictureBox1"
-        Me.GunaTransfarantPictureBox1.Size = New System.Drawing.Size(300, 300)
-        Me.GunaTransfarantPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.GunaTransfarantPictureBox1.TabIndex = 152
         Me.GunaTransfarantPictureBox1.TabStop = False
         '
         'GunaLabel4
         '
-        Me.GunaLabel4.AutoSize = True
+        resources.ApplyResources(Me.GunaLabel4, "GunaLabel4")
         Me.GunaLabel4.BackColor = System.Drawing.Color.Transparent
-        Me.GunaLabel4.Font = New System.Drawing.Font("Comic Sans MS", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaLabel4.ForeColor = System.Drawing.Color.Transparent
-        Me.GunaLabel4.Location = New System.Drawing.Point(134, 1)
         Me.GunaLabel4.Name = "GunaLabel4"
-        Me.GunaLabel4.Size = New System.Drawing.Size(174, 35)
-        Me.GunaLabel4.TabIndex = 151
-        Me.GunaLabel4.Text = "Hair Dressing"
         '
         'GunaLabel2
         '
-        Me.GunaLabel2.AutoSize = True
-        Me.GunaLabel2.Font = New System.Drawing.Font("Algerian", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        resources.ApplyResources(Me.GunaLabel2, "GunaLabel2")
         Me.GunaLabel2.ForeColor = System.Drawing.Color.Black
-        Me.GunaLabel2.Location = New System.Drawing.Point(1129, 18)
         Me.GunaLabel2.Name = "GunaLabel2"
-        Me.GunaLabel2.Size = New System.Drawing.Size(320, 45)
-        Me.GunaLabel2.TabIndex = 188
-        Me.GunaLabel2.Text = "Service Stats"
         '
         'Guna2Separator1
         '
@@ -639,25 +459,18 @@ Partial Class UC_AddSubService
         Me.Guna2Separator1.FillColor = System.Drawing.Color.Black
         Me.Guna2Separator1.FillStyle = System.Drawing.Drawing2D.DashStyle.Dot
         Me.Guna2Separator1.FillThickness = 8
-        Me.Guna2Separator1.Location = New System.Drawing.Point(560, 72)
+        resources.ApplyResources(Me.Guna2Separator1, "Guna2Separator1")
         Me.Guna2Separator1.Name = "Guna2Separator1"
-        Me.Guna2Separator1.Size = New System.Drawing.Size(1511, 10)
-        Me.Guna2Separator1.TabIndex = 187
         '
         'GunaLabel7
         '
-        Me.GunaLabel7.AutoSize = True
-        Me.GunaLabel7.Font = New System.Drawing.Font("Comic Sans MS", 14.2!, System.Drawing.FontStyle.Bold)
+        resources.ApplyResources(Me.GunaLabel7, "GunaLabel7")
         Me.GunaLabel7.ForeColor = System.Drawing.Color.Red
-        Me.GunaLabel7.Location = New System.Drawing.Point(833, 97)
         Me.GunaLabel7.Name = "GunaLabel7"
-        Me.GunaLabel7.Size = New System.Drawing.Size(270, 35)
-        Me.GunaLabel7.TabIndex = 194
-        Me.GunaLabel7.Text = "* Most Used Services"
         '
         'UC_AddSubService
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Silver
         Me.Controls.Add(Me.GunaLabel7)
@@ -669,7 +482,6 @@ Partial Class UC_AddSubService
         Me.Controls.Add(Me.Guna2Separator1)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "UC_AddSubService"
-        Me.Size = New System.Drawing.Size(1783, 1003)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.Guna2GradientPanel2.ResumeLayout(False)

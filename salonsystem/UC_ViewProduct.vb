@@ -1,19 +1,19 @@
-﻿Imports System.Data.SqlClient
+﻿Imports MySql.Data.MySqlClient
 Public Class UC_ViewProduct
     Private Sub txtname_TextChanged(sender As Object, e As EventArgs) Handles txtname.TextChanged
-        Dim str As String = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True"
-        Dim con As New SqlConnection(str)
+        Dim str As String = "server=localhost;username=root;password=;database=salonsystem;port=3306"
+        Dim conn As New MySqlConnection(str)
         Dim com As String = "Select * from Product where Product_Name like '" & txtname.Text & "%'"
-        Dim Adpt As New SqlDataAdapter(com, con)
+        Dim Adpt As New MySqlDataAdapter(com, conn)
         Dim ds As New DataSet()
         Adpt.Fill(ds, "Product")
         GunaDataGridView1.DataSource = ds.Tables(0)
     End Sub
     Private Sub txtid_TextChanged(sender As Object, e As EventArgs) Handles txtid.TextChanged
-        Dim str As String = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Anomaly Enterprise\Projects\Windows App\.NET\salonsystem_2\salonsystem (2)\salonsystem\salonsystem\DataConnection.mdf;Integrated Security=True"
-        Dim con As New SqlConnection(str)
+        Dim str As String = "server=localhost;username=root;password=;database=salonsystem;port=3306"
+        Dim conn As New MySqlConnection(str)
         Dim com As String = "Select * from Product where Id like '" & txtid.Text & "%'"
-        Dim Adpt As New SqlDataAdapter(com, con)
+        Dim Adpt As New MySqlDataAdapter(com, conn)
         Dim ds As New DataSet()
         Adpt.Fill(ds, "Product")
         GunaDataGridView1.DataSource = ds.Tables(0)
